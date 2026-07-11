@@ -7184,14 +7184,6 @@
       ]
     },
     {
-      "start": 0,
-      "end": 6,
-      "text": "Какова",
-      "labels": [
-        "action"
-      ]
-    },
-    {
       "start": 7,
       "end": 15,
       "text": "загрузка",
@@ -13928,7 +13920,7 @@
       "end": 46,
       "text": "давлению",
       "labels": [
-        "tag"
+        "parameter"
       ]
     }
   ],
@@ -22209,7 +22201,7 @@
       "end": 35,
       "text": "давления",
       "labels": [
-        "unit"
+        "parameter"
       ]
     },
     {

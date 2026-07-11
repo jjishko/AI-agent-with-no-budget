@@ -1,0 +1,6753 @@
+[
+  {
+    "text": "Какая модель уровнемера используется в емкости Е-9 — модель 5300",
+    "id": 1981,
+    "label": [
+      {
+        "start": 13,
+        "end": 23,
+        "text": "уровнемера",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "уровнемер"
+      },
+      {
+        "start": 39,
+        "end": 50,
+        "text": "емкости Е-9",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "емкости Е-9"
+      },
+      {
+        "start": 60,
+        "end": 64,
+        "text": "5300",
+        "labels": [
+          "model"
+        ],
+        "normalized": "5300"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1961,
+    "created_at": "2026-07-08T11:13:23.905820Z",
+    "updated_at": "2026-07-08T11:13:23.905854Z",
+    "lead_time": 9.553
+  },
+  {
+    "text": "Какова загрузка двигателя в процентах",
+    "id": 1650,
+    "label": [
+      {
+        "start": 7,
+        "end": 15,
+        "text": "загрузка",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "загрузка"
+      },
+      {
+        "start": 16,
+        "end": 25,
+        "text": "двигателя",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "двигателя"
+      },
+      {
+        "start": 28,
+        "end": 37,
+        "text": "процентах",
+        "labels": [
+          "unit_of_measure"
+        ],
+        "normalized": "процентах"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1631,
+    "created_at": "2026-07-08T09:19:20.467288Z",
+    "updated_at": "2026-07-08T09:19:27.553828Z",
+    "lead_time": 9.968
+  },
+  {
+    "text": "Каково среднее значение TI-484 за смену",
+    "id": 1324,
+    "label": [
+      {
+        "start": 24,
+        "end": 30,
+        "text": "TI-484",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TI-484"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "text": "за смену",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за смену"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1258,
+    "created_at": "2026-07-07T12:26:47.288749Z",
+    "updated_at": "2026-07-07T15:43:26.946860Z",
+    "lead_time": 12.613999999999999
+  },
+  {
+    "text": "Где используется тег LIC-452",
+    "id": 1135,
+    "label": [
+      {
+        "start": 21,
+        "end": 28,
+        "text": "LIC-452",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "LIC-452"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1113,
+    "created_at": "2026-07-07T10:33:50.123516Z",
+    "updated_at": "2026-07-07T14:38:06.937075Z",
+    "lead_time": 16.582
+  },
+  {
+    "text": "Модель Siemens Sipart PS2 задействована на клапане FIC-734 да или нет",
+    "id": 1969,
+    "label": [
+      {
+        "start": 7,
+        "end": 14,
+        "text": "Siemens",
+        "labels": [
+          "vendor"
+        ],
+        "normalized": "Siemens"
+      },
+      {
+        "start": 15,
+        "end": 25,
+        "text": "Sipart PS2",
+        "labels": [
+          "model"
+        ],
+        "normalized": "Sipart PS-2"
+      },
+      {
+        "start": 51,
+        "end": 58,
+        "text": "FIC-734",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "FIC-734"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1932,
+    "created_at": "2026-07-08T11:03:55.925504Z",
+    "updated_at": "2026-07-08T11:03:55.925551Z",
+    "lead_time": 16.856
+  },
+  {
+    "text": "Покажи регламент по ремонту насоса Н-455",
+    "id": 1117,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Покажи",
+        "labels": [
+          "action"
+        ],
+        "normalized": "показать"
+      },
+      {
+        "start": 7,
+        "end": 16,
+        "text": "регламент",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "регламент"
+      },
+      {
+        "start": 28,
+        "end": 40,
+        "text": "насоса Н-455",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "насоса Н-455"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1095,
+    "created_at": "2026-07-07T10:25:08.599213Z",
+    "updated_at": "2026-07-07T14:35:04.360213Z",
+    "lead_time": 13.55
+  },
+  {
+    "text": "Создай методику калибровки TI-128",
+    "id": 1517,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Создай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Создай"
+      },
+      {
+        "start": 7,
+        "end": 15,
+        "text": "методику",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "методика"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "text": "TI-128",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TI-128"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1525,
+    "created_at": "2026-07-07T17:57:14.385582Z",
+    "updated_at": "2026-07-07T17:57:14.385616Z",
+    "lead_time": 2.917
+  },
+  {
+    "text": "Есть ли журнал регистрации параметров",
+    "id": 1780,
+    "label": [
+      {
+        "start": 8,
+        "end": 14,
+        "text": "журнал",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "журнал"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1765,
+    "created_at": "2026-07-08T10:20:30.931640Z",
+    "updated_at": "2026-07-08T10:20:30.931672Z",
+    "lead_time": 3.149
+  },
+  {
+    "text": "Какая завтра погода в Усинске",
+    "id": 2008,
+    "label": [
+      {
+        "start": 6,
+        "end": 12,
+        "text": "завтра",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "завтра"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2022,
+    "created_at": "2026-07-08T11:25:28.425491Z",
+    "updated_at": "2026-07-08T11:25:32.700013Z",
+    "lead_time": 3.763
+  },
+  {
+    "text": "Сравни показатели за вчера и позавчера 380 против 330 м³",
+    "id": 1280,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      },
+      {
+        "start": 18,
+        "end": 26,
+        "text": "за вчера",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за вчера"
+      },
+      {
+        "start": 29,
+        "end": 38,
+        "text": "позавчера",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "позавчера"
+      },
+      {
+        "start": 39,
+        "end": 42,
+        "text": "380",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "380"
+      },
+      {
+        "start": 50,
+        "end": 53,
+        "text": "330",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "330"
+      },
+      {
+        "start": 54,
+        "end": 56,
+        "text": "м³",
+        "labels": [
+          "unit_of_measure"
+        ],
+        "normalized": "м³"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1381,
+    "created_at": "2026-07-07T16:02:02.995548Z",
+    "updated_at": "2026-07-07T16:02:02.995625Z",
+    "lead_time": 11.54
+  },
+  {
+    "text": "Есть ли данные по коррозионному мониторингу",
+    "id": 1536,
+    "annotator": 1,
+    "annotation_id": 1504,
+    "created_at": "2026-07-07T16:28:36.034528Z",
+    "updated_at": "2026-07-07T16:28:36.034552Z",
+    "lead_time": 5.747
+  },
+  {
+    "text": "Найди периоды с расходом ниже 15 м3/ч более получаса",
+    "id": 1446,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 16,
+        "end": 24,
+        "text": "расходом",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "расход"
+      },
+      {
+        "start": 25,
+        "end": 32,
+        "text": "ниже 15",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "ниже 15"
+      },
+      {
+        "start": 33,
+        "end": 37,
+        "text": "м3/ч",
+        "labels": [
+          "unit_of_measure"
+        ],
+        "normalized": "м3/ч"
+      },
+      {
+        "start": 38,
+        "end": 52,
+        "text": "более получаса",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "более получаса"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1315,
+    "created_at": "2026-07-07T12:46:58.245120Z",
+    "updated_at": "2026-07-07T17:54:30.753496Z",
+    "lead_time": 23.578
+  },
+  {
+    "text": "Рассчитай уставку по минимальному уровню",
+    "id": 1568,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Рассчитай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "рассчитать"
+      },
+      {
+        "start": 10,
+        "end": 17,
+        "text": "уставку",
+        "labels": [
+          "limit"
+        ],
+        "normalized": "уставка"
+      },
+      {
+        "start": 34,
+        "end": 40,
+        "text": "уровню",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "уровень"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1548,
+    "created_at": "2026-07-07T18:03:14.115777Z",
+    "updated_at": "2026-07-08T09:55:42.545855Z",
+    "lead_time": 4.62
+  },
+  {
+    "text": "Выдай историю по FIC-362",
+    "id": 1881,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Выдай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Выдай"
+      },
+      {
+        "start": 17,
+        "end": 24,
+        "text": "FIC-362",
+        "labels": [
+          "model"
+        ],
+        "normalized": "FIC-362"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1861,
+    "created_at": "2026-07-08T10:43:56.874318Z",
+    "updated_at": "2026-07-08T10:43:56.874365Z",
+    "lead_time": 6.027
+  },
+  {
+    "text": "Отличия в границах срабатывания LIC-654 между версиями",
+    "id": 1264,
+    "label": [
+      {
+        "start": 10,
+        "end": 31,
+        "text": "границах срабатывания",
+        "labels": [
+          "limit"
+        ],
+        "normalized": "границах срабатывания"
+      },
+      {
+        "start": 32,
+        "end": 39,
+        "text": "LIC-654",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "LIC-654"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1365,
+    "created_at": "2026-07-07T14:05:51.442487Z",
+    "updated_at": "2026-07-07T15:38:46.502463Z",
+    "lead_time": 49.754
+  },
+  {
+    "text": "Какой тег показывает уровень в промежуточной емкости",
+    "id": 1459,
+    "label": [
+      {
+        "start": 6,
+        "end": 9,
+        "text": "тег",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "тег"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "text": "уровень",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "уровень"
+      },
+      {
+        "start": 45,
+        "end": 52,
+        "text": "емкости",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "емкости"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1472,
+    "created_at": "2026-07-07T16:21:39.375109Z",
+    "updated_at": "2026-07-08T10:22:14.236856Z",
+    "lead_time": 8.704
+  },
+  {
+    "text": "Модель Yokogawa DPharp EJA установлена на PT-622 уточни версию",
+    "id": 1975,
+    "label": [
+      {
+        "start": 7,
+        "end": 15,
+        "text": "Yokogawa",
+        "labels": [
+          "vendor"
+        ],
+        "normalized": "Yokogawa"
+      },
+      {
+        "start": 16,
+        "end": 26,
+        "text": "DPharp EJA",
+        "labels": [
+          "model"
+        ],
+        "normalized": "DPharp EJA"
+      },
+      {
+        "start": 42,
+        "end": 48,
+        "text": "PT-622",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-622"
+      },
+      {
+        "start": 49,
+        "end": 55,
+        "text": "уточни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "уточни"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1955,
+    "created_at": "2026-07-08T11:11:21.415888Z",
+    "updated_at": "2026-07-08T11:11:21.415910Z",
+    "lead_time": 8.712
+  },
+  {
+    "text": "Какой тег измеряет расход орошения",
+    "id": 1783,
+    "label": [
+      {
+        "start": 6,
+        "end": 9,
+        "text": "тег",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "тег"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "text": "расход",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "расход"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1768,
+    "created_at": "2026-07-08T10:20:54.370482Z",
+    "updated_at": "2026-07-08T10:20:54.370515Z",
+    "lead_time": 7.444
+  },
+  {
+    "text": "Что показывает LIC-551 прямо сейчас",
+    "id": 1540,
+    "label": [
+      {
+        "start": 15,
+        "end": 22,
+        "text": "LIC-551",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "LIC-551"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1353,
+    "created_at": "2026-07-07T13:02:53.091096Z",
+    "updated_at": "2026-07-07T16:00:25.082421Z",
+    "lead_time": 9.998000000000001
+  },
+  {
+    "text": "Сопоставь данные",
+    "id": 2068,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Сопоставь",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Сопоставь"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1997,
+    "created_at": "2026-07-08T11:17:40.867251Z",
+    "updated_at": "2026-07-08T11:17:40.867287Z",
+    "lead_time": 1.224
+  },
+  {
+    "text": "Сравни описание пуска в двух ПМИ па ГПЗ-6",
+    "id": 1088,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      },
+      {
+        "start": 24,
+        "end": 28,
+        "text": "двух",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "двух"
+      },
+      {
+        "start": 29,
+        "end": 32,
+        "text": "ПМИ",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "ПМИ"
+      },
+      {
+        "start": 36,
+        "end": 41,
+        "text": "ГПЗ-6",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "ГПЗ-6"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1066,
+    "created_at": "2026-07-06T21:24:22.615597Z",
+    "updated_at": "2026-07-07T14:29:33.478147Z",
+    "lead_time": 58.64
+  },
+  {
+    "text": "Покажи историю изменения LIC-223",
+    "id": 1222,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Покажи",
+        "labels": [
+          "action"
+        ],
+        "normalized": "показать"
+      },
+      {
+        "start": 25,
+        "end": 32,
+        "text": "LIC-223",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "LIC-223"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1155,
+    "created_at": "2026-07-07T11:00:18.223140Z",
+    "updated_at": "2026-07-07T14:55:47.220227Z",
+    "lead_time": 17.227
+  },
+  {
+    "text": "Сколько тонн перекачал агрегат Н-312 за смену было 85",
+    "id": 1601,
+    "label": [
+      {
+        "start": 8,
+        "end": 12,
+        "text": "тонн",
+        "labels": [
+          "unit_of_measure"
+        ],
+        "normalized": "ТОНН"
+      },
+      {
+        "start": 23,
+        "end": 36,
+        "text": "агрегат Н-312",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "агрегат Н-312"
+      },
+      {
+        "start": 37,
+        "end": 45,
+        "text": "за смену",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за смену"
+      },
+      {
+        "start": 51,
+        "end": 53,
+        "text": "85",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "85"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1562,
+    "created_at": "2026-07-07T18:07:09.612588Z",
+    "updated_at": "2026-07-07T18:07:09.612619Z",
+    "lead_time": 11.664
+  },
+  {
+    "text": "Что за параметр",
+    "id": 2031,
+    "annotator": 1,
+    "annotation_id": 1989,
+    "created_at": "2026-07-08T11:17:00.511707Z",
+    "updated_at": "2026-07-08T11:17:00.511741Z",
+    "lead_time": 1.785
+  },
+  {
+    "text": "Найди руководство по монтажу модели FLXA21 на установке",
+    "id": 1996,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 6,
+        "end": 17,
+        "text": "руководство",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "руководство"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "text": "FLXA21",
+        "labels": [
+          "model"
+        ],
+        "normalized": "FLXA-21"
+      },
+      {
+        "start": 46,
+        "end": 55,
+        "text": "установке",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "установке"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2010,
+    "created_at": "2026-07-08T11:21:54.516018Z",
+    "updated_at": "2026-07-08T11:21:54.516051Z",
+    "lead_time": 4.782
+  },
+  {
+    "text": "На PT-823 было 8.2 МПа а стало 7.4 почему",
+    "id": 1765,
+    "label": [
+      {
+        "start": 3,
+        "end": 9,
+        "text": "PT-823",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-823"
+      },
+      {
+        "start": 15,
+        "end": 18,
+        "text": "8.2",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "8.2"
+      },
+      {
+        "start": 19,
+        "end": 22,
+        "text": "МПа",
+        "labels": [
+          "unit_of_measure"
+        ],
+        "normalized": "МПА"
+      },
+      {
+        "start": 31,
+        "end": 34,
+        "text": "7.4",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "7.4"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1750,
+    "created_at": "2026-07-08T10:17:26.921138Z",
+    "updated_at": "2026-07-08T10:17:26.921170Z",
+    "lead_time": 4.174
+  },
+  {
+    "text": "Разраьотай методику",
+    "id": 2059,
+    "label": [
+      {
+        "start": 0,
+        "end": 10,
+        "text": "Разраьотай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Разраьотай"
+      },
+      {
+        "start": 11,
+        "end": 19,
+        "text": "методику",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "методика"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2044,
+    "created_at": "2026-07-08T11:27:24.267965Z",
+    "updated_at": "2026-07-08T11:27:24.267996Z",
+    "lead_time": 3.024
+  },
+  {
+    "text": "Проанализируй периодичность импульсов на PT-438",
+    "id": 1174,
+    "label": [
+      {
+        "start": 0,
+        "end": 13,
+        "text": "Проанализируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Проанализируй"
+      },
+      {
+        "start": 14,
+        "end": 37,
+        "text": "периодичность импульсов",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "периодичность импульсов"
+      },
+      {
+        "start": 41,
+        "end": 47,
+        "text": "PT-438",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-438"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1133,
+    "created_at": "2026-07-07T10:43:24.454685Z",
+    "updated_at": "2026-07-08T09:29:54.100366Z",
+    "lead_time": 15.285
+  },
+  {
+    "text": "Найди PI-982 на общей схеме",
+    "id": 1704,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 6,
+        "end": 12,
+        "text": "PI-982",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PI-982"
+      },
+      {
+        "start": 22,
+        "end": 27,
+        "text": "схеме",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "схеме"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1684,
+    "created_at": "2026-07-08T09:49:10.845193Z",
+    "updated_at": "2026-07-08T09:49:10.845229Z",
+    "lead_time": 2.899
+  },
+  {
+    "text": "Рассчитай разницу между 18.2 и 19.7 па давлению на ГПЗ",
+    "id": 1111,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Рассчитай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "рассчитать"
+      },
+      {
+        "start": 18,
+        "end": 35,
+        "text": "между 18.2 и 19.7",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "между 18.2 и 19.7"
+      },
+      {
+        "start": 39,
+        "end": 47,
+        "text": "давлению",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "давление"
+      },
+      {
+        "start": 51,
+        "end": 54,
+        "text": "ГПЗ",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "ГПЗ"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1089,
+    "created_at": "2026-07-06T21:37:15.188348Z",
+    "updated_at": "2026-07-07T14:33:54.246042Z",
+    "lead_time": 33.781
+  },
+  {
+    "text": "Сравни суточные объемы за среду и четверг 570 против 530",
+    "id": 1685,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      },
+      {
+        "start": 16,
+        "end": 22,
+        "text": "объемы",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "объемы"
+      },
+      {
+        "start": 23,
+        "end": 31,
+        "text": "за среду",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за среду"
+      },
+      {
+        "start": 34,
+        "end": 41,
+        "text": "четверг",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "четверг"
+      },
+      {
+        "start": 42,
+        "end": 45,
+        "text": "570",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "570"
+      },
+      {
+        "start": 53,
+        "end": 56,
+        "text": "530",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "530"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1666,
+    "created_at": "2026-07-08T09:43:01.780378Z",
+    "updated_at": "2026-07-08T09:43:01.780413Z",
+    "lead_time": 12.853
+  },
+  {
+    "text": "Где хранится методика поверки FIC-903",
+    "id": 1118,
+    "label": [
+      {
+        "start": 13,
+        "end": 21,
+        "text": "методика",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "методика"
+      },
+      {
+        "start": 30,
+        "end": 37,
+        "text": "FIC-903",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "FIC-903"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1096,
+    "created_at": "2026-07-07T10:25:25.203658Z",
+    "updated_at": "2026-07-07T14:35:10.142717Z",
+    "lead_time": 17.470000000000002
+  },
+  {
+    "text": "Сделай график перепада на фильтре Ф-3 за неделю",
+    "id": 1170,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сделай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Сделай"
+      },
+      {
+        "start": 14,
+        "end": 22,
+        "text": "перепада",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "перепада"
+      },
+      {
+        "start": 26,
+        "end": 37,
+        "text": "фильтре Ф-3",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "фильтре Ф-3"
+      },
+      {
+        "start": 38,
+        "end": 47,
+        "text": "за неделю",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за неделю"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1129,
+    "created_at": "2026-07-07T10:41:13.404460Z",
+    "updated_at": "2026-07-08T09:21:54.919512Z",
+    "lead_time": 45.245
+  },
+  {
+    "text": "Сравни методики поверки для LIC-480 старой и новой",
+    "id": 1828,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      },
+      {
+        "start": 7,
+        "end": 15,
+        "text": "методики",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "методика"
+      },
+      {
+        "start": 28,
+        "end": 35,
+        "text": "LIC-480",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "LIC-480"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1808,
+    "created_at": "2026-07-08T10:30:45.796482Z",
+    "updated_at": "2026-07-08T10:30:45.796515Z",
+    "lead_time": 2.93
+  },
+  {
+    "text": "Что известно о системе осушки сжатого воздуха",
+    "id": 1779,
+    "label": [
+      {
+        "start": 15,
+        "end": 29,
+        "text": "системе осушки",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "системе осушки"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1764,
+    "created_at": "2026-07-08T10:20:22.680799Z",
+    "updated_at": "2026-07-08T10:20:22.680823Z",
+    "lead_time": 9.217
+  },
+  {
+    "text": "Сравни линии тренда PT-742 и TI-305 за смену",
+    "id": 1333,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "text": "PT-742",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-742"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "text": "TI-305",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TI-305"
+      },
+      {
+        "start": 36,
+        "end": 44,
+        "text": "за смену",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за смену"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1403,
+    "created_at": "2026-07-07T16:06:54.529157Z",
+    "updated_at": "2026-07-07T16:06:54.529192Z",
+    "lead_time": 5.584
+  },
+  {
+    "text": "В чем отличие между старым и новым регламентом",
+    "id": 1666,
+    "label": [
+      {
+        "start": 35,
+        "end": 46,
+        "text": "регламентом",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "регламент"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1647,
+    "created_at": "2026-07-08T09:33:24.049897Z",
+    "updated_at": "2026-07-08T09:33:24.049930Z",
+    "lead_time": 4.296
+  },
+  {
+    "text": "Сколько выдает усредненно PT-387 за последние 5 часов",
+    "id": 1321,
+    "label": [
+      {
+        "start": 26,
+        "end": 32,
+        "text": "PT-387",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-387"
+      },
+      {
+        "start": 33,
+        "end": 53,
+        "text": "за последние 5 часов",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за последние 5 часов"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1255,
+    "created_at": "2026-07-07T12:26:01.226693Z",
+    "updated_at": "2026-07-07T15:43:03.550598Z",
+    "lead_time": 25.521
+  },
+  {
+    "text": "Сравни сроки службы оборудования по разным источникам",
+    "id": 1506,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1347,
+    "created_at": "2026-07-07T12:59:13.330285Z",
+    "updated_at": "2026-07-07T15:59:31.263867Z",
+    "lead_time": 33.787
+  },
+  {
+    "text": "Что паказывает TI-932 сейчас",
+    "id": 1876,
+    "label": [
+      {
+        "start": 15,
+        "end": 21,
+        "text": "TI-932",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TI-932"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1856,
+    "created_at": "2026-07-08T10:43:17.217359Z",
+    "updated_at": "2026-07-08T10:43:17.217391Z",
+    "lead_time": 1.343
+  },
+  {
+    "text": "Какая последовательность операцый по инструкции ЭЛОУ-АВТ-2",
+    "id": 1860,
+    "label": [
+      {
+        "start": 37,
+        "end": 47,
+        "text": "инструкции",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "инструкция"
+      },
+      {
+        "start": 48,
+        "end": 58,
+        "text": "ЭЛОУ-АВТ-2",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "ЭЛОУ-АВТ-2"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1840,
+    "created_at": "2026-07-08T10:39:06.562478Z",
+    "updated_at": "2026-07-08T10:39:06.562510Z",
+    "lead_time": 8.69
+  },
+  {
+    "text": "Сравни частоту замены фильтров по двум установкам",
+    "id": 1425,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      },
+      {
+        "start": 34,
+        "end": 38,
+        "text": "двум",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "двум"
+      },
+      {
+        "start": 39,
+        "end": 49,
+        "text": "установкам",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "установкам"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1294,
+    "created_at": "2026-07-07T12:40:41.860097Z",
+    "updated_at": "2026-07-07T15:50:46.809826Z",
+    "lead_time": 36.67400000000001
+  },
+  {
+    "text": "Покажи технические характеристики фильтра Ф-4",
+    "id": 1128,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Покажи",
+        "labels": [
+          "action"
+        ],
+        "normalized": "показать"
+      },
+      {
+        "start": 34,
+        "end": 45,
+        "text": "фильтра Ф-4",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "фильтра Ф-4"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1106,
+    "created_at": "2026-07-07T10:31:21.077961Z",
+    "updated_at": "2026-07-07T14:36:51.900819Z",
+    "lead_time": 68.349
+  },
+  {
+    "text": "Построй тренд давления па PT-619 за сутки",
+    "id": 1905,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Построй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Построй"
+      },
+      {
+        "start": 14,
+        "end": 22,
+        "text": "давления",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "давление"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "text": "PT-619",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-619"
+      },
+      {
+        "start": 33,
+        "end": 41,
+        "text": "за сутки",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за сутки"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1903,
+    "created_at": "2026-07-08T10:54:06.207653Z",
+    "updated_at": "2026-07-08T10:54:06.207685Z",
+    "lead_time": 3.98
+  },
+  {
+    "text": "Насос Н-904 сильно шумит и вибрирует",
+    "id": 1393,
+    "label": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "Насос Н-904",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "Насос Н-904"
+      },
+      {
+        "start": 12,
+        "end": 24,
+        "text": "сильно шумит",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "сильно шумит"
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "text": "вибрирует",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "вибрирует"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1433,
+    "created_at": "2026-07-07T16:12:13.676239Z",
+    "updated_at": "2026-07-07T16:12:13.676284Z",
+    "lead_time": 6.823
+  },
+  {
+    "text": "Напиши тост за нефтяников",
+    "id": 2020,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Напиши",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Напиши"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1978,
+    "created_at": "2026-07-08T11:16:02.557050Z",
+    "updated_at": "2026-07-08T11:16:02.557083Z",
+    "lead_time": 3.095
+  },
+  {
+    "text": "Нужен график",
+    "id": 2052,
+    "annotator": 1,
+    "annotation_id": 2037,
+    "created_at": "2026-07-08T11:26:43.561180Z",
+    "updated_at": "2026-07-08T11:26:43.561204Z",
+    "lead_time": 0.695
+  },
+  {
+    "text": "Рассчитай КПД насосного агрегата Н-881 за день",
+    "id": 1485,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Рассчитай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "рассчитать"
+      },
+      {
+        "start": 10,
+        "end": 13,
+        "text": "КПД",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "КПД"
+      },
+      {
+        "start": 14,
+        "end": 38,
+        "text": "насосного агрегата Н-881",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "насосного агрегата Н-881"
+      },
+      {
+        "start": 39,
+        "end": 46,
+        "text": "за день",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за день"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1326,
+    "created_at": "2026-07-07T12:50:34.985438Z",
+    "updated_at": "2026-07-07T18:13:14.677466Z",
+    "lead_time": 18.153
+  },
+  {
+    "text": "Что указано в паспорте на теплообменник Т-118",
+    "id": 1946,
+    "label": [
+      {
+        "start": 14,
+        "end": 22,
+        "text": "паспорте",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "паспорт"
+      },
+      {
+        "start": 26,
+        "end": 45,
+        "text": "теплообменник Т-118",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "теплообменник Т-118"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1944,
+    "created_at": "2026-07-08T11:08:54.336536Z",
+    "updated_at": "2026-07-08T11:08:54.336568Z",
+    "lead_time": 2.001
+  },
+  {
+    "text": "Упала производительность воздуходувки",
+    "id": 1316,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Упала",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "упала"
+      },
+      {
+        "start": 6,
+        "end": 24,
+        "text": "производительность",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "производительность"
+      },
+      {
+        "start": 25,
+        "end": 37,
+        "text": "воздуходувки",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "воздуходувки"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1250,
+    "created_at": "2026-07-07T12:24:33.825709Z",
+    "updated_at": "2026-07-08T10:02:38.119881Z",
+    "lead_time": 16.317
+  },
+  {
+    "text": "Где используется оборудование Endress+Hauser",
+    "id": 1295,
+    "label": [
+      {
+        "start": 30,
+        "end": 44,
+        "text": "Endress+Hauser",
+        "labels": [
+          "vendor"
+        ],
+        "normalized": "Endress+Hauser"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1395,
+    "created_at": "2026-07-07T16:05:39.787135Z",
+    "updated_at": "2026-07-07T16:05:39.787166Z",
+    "lead_time": 1.15
+  },
+  {
+    "text": "Скачет температура на входе в печь №8",
+    "id": 1893,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Скачет",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "скачет"
+      },
+      {
+        "start": 7,
+        "end": 18,
+        "text": "температура",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "температура"
+      },
+      {
+        "start": 30,
+        "end": 37,
+        "text": "печь №8",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "печь №8"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1891,
+    "created_at": "2026-07-08T10:50:20.947631Z",
+    "updated_at": "2026-07-08T10:50:20.947663Z",
+    "lead_time": 2.957
+  },
+  {
+    "text": "Выведи историю уровня па УПН-9 за вчера",
+    "id": 1908,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Выведи",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Выведи"
+      },
+      {
+        "start": 15,
+        "end": 21,
+        "text": "уровня",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "уровень"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "text": "УПН-9",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "УПН-9"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "text": "за вчера",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за вчера"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1872,
+    "created_at": "2026-07-08T10:46:44.984228Z",
+    "updated_at": "2026-07-08T10:46:44.984260Z",
+    "lead_time": 9.398
+  },
+  {
+    "text": "Суммируй расходы по четырем измерительным каналам",
+    "id": 1327,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Суммируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Суммируй"
+      },
+      {
+        "start": 9,
+        "end": 16,
+        "text": "расходы",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "расход"
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "text": "четырем",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "четырем"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1261,
+    "created_at": "2026-07-07T12:27:33.517187Z",
+    "updated_at": "2026-07-07T17:53:57.192515Z",
+    "lead_time": 20.385
+  },
+  {
+    "text": "Сопоставь паспортные значения для компрессоров К-1 и К-4",
+    "id": 1259,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Сопоставь",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Сопоставь"
+      },
+      {
+        "start": 10,
+        "end": 20,
+        "text": "паспортные",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "паспорт"
+      },
+      {
+        "start": 34,
+        "end": 50,
+        "text": "компрессоров К-1",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "компрессоров К-1"
+      },
+      {
+        "start": 53,
+        "end": 56,
+        "text": "К-4",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "К-4"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1360,
+    "created_at": "2026-07-07T13:58:20.513134Z",
+    "updated_at": "2026-07-07T13:58:20.513173Z",
+    "lead_time": 24.404
+  },
+  {
+    "text": "Покажи расположение TI-407 на технологической схеме",
+    "id": 1629,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Покажи",
+        "labels": [
+          "action"
+        ],
+        "normalized": "показать"
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "text": "TI-407",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TI-407"
+      },
+      {
+        "start": 46,
+        "end": 51,
+        "text": "схеме",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "схеме"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1610,
+    "created_at": "2026-07-07T18:23:25.329264Z",
+    "updated_at": "2026-07-07T18:23:25.329296Z",
+    "lead_time": 3.661
+  },
+  {
+    "text": "Какая модификация установлена на насосе Н-659",
+    "id": 1288,
+    "label": [
+      {
+        "start": 33,
+        "end": 45,
+        "text": "насосе Н-659",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "насосе Н-659"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1389,
+    "created_at": "2026-07-07T16:04:16.681421Z",
+    "updated_at": "2026-07-07T16:04:16.681461Z",
+    "lead_time": 4.217
+  },
+  {
+    "text": "Создай инструкцыю по переключению на резервный насос",
+    "id": 1101,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Создай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Создай"
+      },
+      {
+        "start": 7,
+        "end": 17,
+        "text": "инструкцыю",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "инструкцыю"
+      },
+      {
+        "start": 37,
+        "end": 52,
+        "text": "резервный насос",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "резервный насос"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1079,
+    "created_at": "2026-07-06T21:30:37.720637Z",
+    "updated_at": "2026-07-07T14:31:20.060988Z",
+    "lead_time": 14.544
+  },
+  {
+    "text": "Найди тег FIC-778 на схеме",
+    "id": 1877,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 10,
+        "end": 17,
+        "text": "FIC-778",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "FIC-778"
+      },
+      {
+        "start": 21,
+        "end": 26,
+        "text": "схеме",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "схеме"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1857,
+    "created_at": "2026-07-08T10:43:22.288538Z",
+    "updated_at": "2026-07-08T10:43:22.288569Z",
+    "lead_time": 1.66
+  },
+  {
+    "text": "Составь алгоритм запуска системы осушки",
+    "id": 1433,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Составь",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Составь"
+      },
+      {
+        "start": 8,
+        "end": 16,
+        "text": "алгоритм",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "алгоритм"
+      },
+      {
+        "start": 25,
+        "end": 39,
+        "text": "системы осушки",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "системы осушки"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1302,
+    "created_at": "2026-07-07T12:42:49.171017Z",
+    "updated_at": "2026-07-08T09:39:15.704596Z",
+    "lead_time": 26.497999999999998
+  },
+  {
+    "text": "Найди среднюю температуру TI-307 за смену",
+    "id": 1486,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 14,
+        "end": 25,
+        "text": "температуру",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "температура"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "text": "TI-307",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TI-307"
+      },
+      {
+        "start": 33,
+        "end": 41,
+        "text": "за смену",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за смену"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1327,
+    "created_at": "2026-07-07T12:50:48.649159Z",
+    "updated_at": "2026-07-07T15:56:25.146938Z",
+    "lead_time": 14.355
+  },
+  {
+    "text": "Где установлен теплообменник Т-291",
+    "id": 1867,
+    "label": [
+      {
+        "start": 15,
+        "end": 34,
+        "text": "теплообменник Т-291",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "теплообменник Т-291"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1847,
+    "created_at": "2026-07-08T10:42:03.617266Z",
+    "updated_at": "2026-07-08T10:42:03.617298Z",
+    "lead_time": 2.175
+  },
+  {
+    "text": "Составь последовательность пуска ГПЗ-8 после ремонта",
+    "id": 1929,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Составь",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Составь"
+      },
+      {
+        "start": 33,
+        "end": 38,
+        "text": "ГПЗ-8",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "ГПЗ-8"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1909,
+    "created_at": "2026-07-08T10:56:50.258318Z",
+    "updated_at": "2026-07-08T10:56:50.258351Z",
+    "lead_time": 17.851
+  },
+  {
+    "text": "Составь контрольный лист пуска центробежного насоса",
+    "id": 1267,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Составь",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Составь"
+      },
+      {
+        "start": 8,
+        "end": 24,
+        "text": "контрольный лист",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "контрольный лист"
+      },
+      {
+        "start": 31,
+        "end": 51,
+        "text": "центробежного насоса",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "центробежного насоса"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1368,
+    "created_at": "2026-07-07T14:07:00.299326Z",
+    "updated_at": "2026-07-07T14:07:00.299358Z",
+    "lead_time": 11.203
+  },
+  {
+    "text": "Создай инструкцию по консервации оборудования",
+    "id": 1349,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Создай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Создай"
+      },
+      {
+        "start": 7,
+        "end": 17,
+        "text": "инструкцию",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "инструкция"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1419,
+    "created_at": "2026-07-07T16:09:34.909195Z",
+    "updated_at": "2026-07-07T16:09:34.909227Z",
+    "lead_time": 2.929
+  },
+  {
+    "text": "Где установлена модель TDLS200 на газоперекачивающем агрегате",
+    "id": 1983,
+    "label": [
+      {
+        "start": 23,
+        "end": 30,
+        "text": "TDLS200",
+        "labels": [
+          "model"
+        ],
+        "normalized": "TDLS-200"
+      },
+      {
+        "start": 34,
+        "end": 61,
+        "text": "газоперекачивающем агрегате",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "газоперекачивающем агрегате"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1963,
+    "created_at": "2026-07-08T11:13:41.031122Z",
+    "updated_at": "2026-07-08T11:13:41.031156Z",
+    "lead_time": 7.788
+  },
+  {
+    "text": "Переведи расход из м³ч в тч для УПН-9",
+    "id": 1069,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Переведи",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Переведи"
+      },
+      {
+        "start": 9,
+        "end": 15,
+        "text": "расход",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "расход"
+      },
+      {
+        "start": 19,
+        "end": 22,
+        "text": "м³ч",
+        "labels": [
+          "unit_of_measure"
+        ],
+        "normalized": "м³ч"
+      },
+      {
+        "start": 25,
+        "end": 27,
+        "text": "тч",
+        "labels": [
+          "unit_of_measure"
+        ],
+        "normalized": "ТЧ"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "text": "УПН-9",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "УПН-9"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1047,
+    "created_at": "2026-07-06T21:06:34.366932Z",
+    "updated_at": "2026-07-07T17:52:28.102124Z",
+    "lead_time": 73.21600000000001
+  },
+  {
+    "text": "Сравни объёмы за понедельник и вторник 440 против 390",
+    "id": 1523,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      },
+      {
+        "start": 7,
+        "end": 13,
+        "text": "объёмы",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "объёмы"
+      },
+      {
+        "start": 14,
+        "end": 28,
+        "text": "за понедельник",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за понедельник"
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "text": "вторник",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "вторник"
+      },
+      {
+        "start": 39,
+        "end": 42,
+        "text": "440",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "440"
+      },
+      {
+        "start": 50,
+        "end": 53,
+        "text": "390",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "390"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1491,
+    "created_at": "2026-07-07T16:25:12.607711Z",
+    "updated_at": "2026-07-07T16:25:12.607757Z",
+    "lead_time": 11.423
+  },
+  {
+    "text": "Посчитай разницу между 16.3 и 15.1 по давлению на компрессоре",
+    "id": 1526,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Посчитай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Посчитай"
+      },
+      {
+        "start": 23,
+        "end": 27,
+        "text": "16.3",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "16.3"
+      },
+      {
+        "start": 30,
+        "end": 34,
+        "text": "15.1",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "15.1"
+      },
+      {
+        "start": 38,
+        "end": 46,
+        "text": "давлению",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "давление"
+      },
+      {
+        "start": 50,
+        "end": 61,
+        "text": "компрессоре",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "компрессоре"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1494,
+    "created_at": "2026-07-07T16:25:48.302442Z",
+    "updated_at": "2026-07-07T16:25:48.302484Z",
+    "lead_time": 9.193
+  },
+  {
+    "text": "Зачем котам вибриссы",
+    "id": 2014,
+    "annotator": 1,
+    "annotation_id": 1972,
+    "created_at": "2026-07-08T11:15:17.747189Z",
+    "updated_at": "2026-07-08T11:15:17.747220Z",
+    "lead_time": 1.604
+  },
+  {
+    "text": "Сравни графики текущего ремонта",
+    "id": 1590,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1551,
+    "created_at": "2026-07-07T18:03:46.128125Z",
+    "updated_at": "2026-07-07T18:03:46.128157Z",
+    "lead_time": 3.333
+  },
+  {
+    "text": "Напиши памятку оператору по PT-817",
+    "id": 1594,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Напиши",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Напиши"
+      },
+      {
+        "start": 7,
+        "end": 14,
+        "text": "памятку",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "памятку"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "text": "PT-817",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-817"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1555,
+    "created_at": "2026-07-07T18:04:27.088093Z",
+    "updated_at": "2026-07-07T18:04:27.088117Z",
+    "lead_time": 4.454
+  },
+  {
+    "text": "Суммируй значения расходов за смену",
+    "id": 1814,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Суммируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Суммируй"
+      },
+      {
+        "start": 18,
+        "end": 26,
+        "text": "расходов",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "расход"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "text": "за смену",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за смену"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1794,
+    "created_at": "2026-07-08T10:27:56.044782Z",
+    "updated_at": "2026-07-08T10:27:56.044815Z",
+    "lead_time": 4.456
+  },
+  {
+    "text": "Найди расхождения в перечне запасных частей",
+    "id": 1505,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "text": "перечне",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "перечне"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1346,
+    "created_at": "2026-07-07T12:57:40.324911Z",
+    "updated_at": "2026-07-08T10:32:28.611272Z",
+    "lead_time": 18.046000000000003
+  },
+  {
+    "text": "Построй график только для значений 35-65 по PT-187",
+    "id": 1609,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Построй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Построй"
+      },
+      {
+        "start": 35,
+        "end": 40,
+        "text": "35-65",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "35-65"
+      },
+      {
+        "start": 44,
+        "end": 50,
+        "text": "PT-187",
+        "labels": [
+          "model"
+        ],
+        "normalized": "PT-187"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1570,
+    "created_at": "2026-07-07T18:09:15.908725Z",
+    "updated_at": "2026-07-07T18:09:15.908747Z",
+    "lead_time": 10.531
+  },
+  {
+    "text": "Сравни описание резервного агрегата в двух инструкциях",
+    "id": 1346,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      },
+      {
+        "start": 16,
+        "end": 35,
+        "text": "резервного агрегата",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "резервного агрегата"
+      },
+      {
+        "start": 38,
+        "end": 42,
+        "text": "двух",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "двух"
+      },
+      {
+        "start": 43,
+        "end": 54,
+        "text": "инструкциях",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "инструкция"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1416,
+    "created_at": "2026-07-07T16:09:12.026163Z",
+    "updated_at": "2026-07-07T16:09:12.026197Z",
+    "lead_time": 11.156
+  },
+  {
+    "text": "Какой тег контролирует температуру в печи",
+    "id": 1297,
+    "label": [
+      {
+        "start": 6,
+        "end": 9,
+        "text": "тег",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "тег"
+      },
+      {
+        "start": 23,
+        "end": 34,
+        "text": "температуру",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "температура"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "text": "печи",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "ПЕЧИ"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1397,
+    "created_at": "2026-07-07T16:05:52.768401Z",
+    "updated_at": "2026-07-08T10:21:54.268335Z",
+    "lead_time": 5.214
+  },
+  {
+    "text": "Визуализируй работу насоса Н-545 па вибрации за день",
+    "id": 1912,
+    "label": [
+      {
+        "start": 0,
+        "end": 12,
+        "text": "Визуализируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Визуализируй"
+      },
+      {
+        "start": 20,
+        "end": 32,
+        "text": "насоса Н-545",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "насоса Н-545"
+      },
+      {
+        "start": 36,
+        "end": 44,
+        "text": "вибрации",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "вибрация"
+      },
+      {
+        "start": 45,
+        "end": 52,
+        "text": "за день",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за день"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1876,
+    "created_at": "2026-07-08T10:47:16.688409Z",
+    "updated_at": "2026-07-08T10:47:20.303332Z",
+    "lead_time": 6.7490000000000006
+  },
+  {
+    "text": "Найди PI-512 на технологической схеме",
+    "id": 1299,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 6,
+        "end": 12,
+        "text": "PI-512",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PI-512"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "text": "схеме",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "схеме"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1233,
+    "created_at": "2026-07-07T12:20:10.467523Z",
+    "updated_at": "2026-07-07T15:39:51.261555Z",
+    "lead_time": 16.031
+  },
+  {
+    "text": "Сгенерируй маршрутный лист обхода оборудования",
+    "id": 1191,
+    "label": [
+      {
+        "start": 0,
+        "end": 10,
+        "text": "Сгенерируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Сгенерируй"
+      },
+      {
+        "start": 11,
+        "end": 26,
+        "text": "маршрутный лист",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "маршрутный лист"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1150,
+    "created_at": "2026-07-07T10:58:27.928303Z",
+    "updated_at": "2026-07-07T14:49:28.892879Z",
+    "lead_time": 17.006999999999998
+  },
+  {
+    "text": "Вычисли потерю напора в штуцере",
+    "id": 1806,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Вычисли",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Вычисли"
+      },
+      {
+        "start": 8,
+        "end": 21,
+        "text": "потерю напора",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "потерю напора"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "text": "штуцере",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "штуцере"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1786,
+    "created_at": "2026-07-08T10:26:49.053525Z",
+    "updated_at": "2026-07-08T10:26:49.053559Z",
+    "lead_time": 32.634
+  },
+  {
+    "text": "Где установлен блок сброса давления",
+    "id": 1694,
+    "label": [
+      {
+        "start": 15,
+        "end": 26,
+        "text": "блок сброса",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "блок сброса"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "text": "давления",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "давление"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1674,
+    "created_at": "2026-07-08T09:46:14.142904Z",
+    "updated_at": "2026-07-08T09:46:14.142937Z",
+    "lead_time": 12.021
+  },
+  {
+    "text": "Расход по FT-551 упал до нуля",
+    "id": 1390,
+    "label": [
+      {
+        "start": 10,
+        "end": 16,
+        "text": "FT-551",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "FT-551"
+      },
+      {
+        "start": 17,
+        "end": 29,
+        "text": "упал до нуля",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "упал до нуля"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1291,
+    "created_at": "2026-07-07T12:39:23.075880Z",
+    "updated_at": "2026-07-07T15:50:16.947495Z",
+    "lead_time": 5.034
+  },
+  {
+    "text": "Покажи раздел про аварийные остановы в ПМИ-2",
+    "id": 1033,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Покажи",
+        "labels": [
+          "action"
+        ],
+        "normalized": "показать"
+      },
+      {
+        "start": 18,
+        "end": 36,
+        "text": "аварийные остановы",
+        "labels": [
+          "limit"
+        ],
+        "normalized": "аварийные остановы"
+      },
+      {
+        "start": 39,
+        "end": 44,
+        "text": "ПМИ-2",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "ПМИ-2"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1026,
+    "created_at": "2026-07-06T20:31:30.056538Z",
+    "updated_at": "2026-07-07T14:13:39.239830Z",
+    "lead_time": 62.23
+  },
+  {
+    "text": "Где применяется модель TDLS200 для измерения сероводорода",
+    "id": 1972,
+    "label": [
+      {
+        "start": 23,
+        "end": 30,
+        "text": "TDLS200",
+        "labels": [
+          "model"
+        ],
+        "normalized": "TDLS-200"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1935,
+    "created_at": "2026-07-08T11:05:12.745910Z",
+    "updated_at": "2026-07-08T11:05:12.745944Z",
+    "lead_time": 6.612
+  },
+  {
+    "text": "Пересчитай расход из кг/ч в т/сутки",
+    "id": 1646,
+    "label": [
+      {
+        "start": 0,
+        "end": 10,
+        "text": "Пересчитай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Пересчитай"
+      },
+      {
+        "start": 11,
+        "end": 17,
+        "text": "расход",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "расход"
+      },
+      {
+        "start": 21,
+        "end": 25,
+        "text": "кг/ч",
+        "labels": [
+          "unit_of_measure"
+        ],
+        "normalized": "кг/ч"
+      },
+      {
+        "start": 28,
+        "end": 35,
+        "text": "т/сутки",
+        "labels": [
+          "unit_of_measure"
+        ],
+        "normalized": "т/сутки"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1628,
+    "created_at": "2026-07-08T09:18:46.947259Z",
+    "updated_at": "2026-07-08T09:18:46.947289Z",
+    "lead_time": 8.702
+  },
+  {
+    "text": "Насос Н-283 сильно нагрелся и остановлен",
+    "id": 1474,
+    "label": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "Насос Н-283",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "Насос Н-283"
+      },
+      {
+        "start": 12,
+        "end": 27,
+        "text": "сильно нагрелся",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "сильно нагрелся"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "text": "остановлен",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "остановлен"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1487,
+    "created_at": "2026-07-07T16:24:27.421293Z",
+    "updated_at": "2026-07-07T16:24:27.421323Z",
+    "lead_time": 4.77
+  },
+  {
+    "text": "Рассчитай потери напора в трубопроводе",
+    "id": 1319,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Рассчитай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "рассчитать"
+      },
+      {
+        "start": 10,
+        "end": 23,
+        "text": "потери напора",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "потери напор"
+      },
+      {
+        "start": 26,
+        "end": 38,
+        "text": "трубопроводе",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "трубопроводе"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1253,
+    "created_at": "2026-07-07T12:25:24.667007Z",
+    "updated_at": "2026-07-08T10:01:05.123400Z",
+    "lead_time": 21.848
+  },
+  {
+    "text": "Сформируй отчет",
+    "id": 2039,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Сформируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Сформируй"
+      },
+      {
+        "start": 10,
+        "end": 15,
+        "text": "отчет",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "отчет"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2024,
+    "created_at": "2026-07-08T11:25:43.817143Z",
+    "updated_at": "2026-07-08T11:25:43.817173Z",
+    "lead_time": 2.336
+  },
+  {
+    "text": "Насос Н-197 греется и издаёт посторонние звуки",
+    "id": 1636,
+    "label": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "Насос Н-197",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "Насос Н-197"
+      },
+      {
+        "start": 12,
+        "end": 19,
+        "text": "греется",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "греется"
+      },
+      {
+        "start": 22,
+        "end": 46,
+        "text": "издаёт посторонние звуки",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "издаёт посторонние звуки"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1619,
+    "created_at": "2026-07-08T09:16:55.783625Z",
+    "updated_at": "2026-07-08T09:16:55.783637Z",
+    "lead_time": 6.148
+  },
+  {
+    "text": "Построй график давления PT-528 за смену",
+    "id": 1572,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Построй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Построй"
+      },
+      {
+        "start": 15,
+        "end": 23,
+        "text": "давления",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "давление"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "text": "PT-528",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-528"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "text": "за смену",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за смену"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1583,
+    "created_at": "2026-07-07T18:15:38.787207Z",
+    "updated_at": "2026-07-07T18:15:38.787267Z",
+    "lead_time": 2.778
+  },
+  {
+    "text": "Давление в колонне К-15 упало ниже нормы",
+    "id": 1886,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Давление",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "давление"
+      },
+      {
+        "start": 11,
+        "end": 23,
+        "text": "колонне К-15",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "колонне К-15"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "text": "ниже нормы",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "ниже нормы"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1866,
+    "created_at": "2026-07-08T10:45:19.047115Z",
+    "updated_at": "2026-07-08T10:45:19.047151Z",
+    "lead_time": 8.368
+  },
+  {
+    "text": "Построй график",
+    "id": 2026,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Построй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Построй"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1984,
+    "created_at": "2026-07-08T11:16:35.748787Z",
+    "updated_at": "2026-07-08T11:16:35.748817Z",
+    "lead_time": 1.035
+  },
+  {
+    "text": "Покажи паспорт на насос Н-382",
+    "id": 1027,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Покажи",
+        "labels": [
+          "action"
+        ],
+        "normalized": "показать"
+      },
+      {
+        "start": 7,
+        "end": 14,
+        "text": "паспорт",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "паспорт"
+      },
+      {
+        "start": 18,
+        "end": 29,
+        "text": "насос Н-382",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "насос Н-382"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1005,
+    "created_at": "2026-07-06T20:07:22.626594Z",
+    "updated_at": "2026-07-06T20:07:22.626628Z",
+    "lead_time": 4.017
+  },
+  {
+    "text": "Скачки давления в коллекторе",
+    "id": 1720,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Скачки",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "скачки"
+      },
+      {
+        "start": 7,
+        "end": 15,
+        "text": "давления",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "давление"
+      },
+      {
+        "start": 18,
+        "end": 28,
+        "text": "коллекторе",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "коллекторе"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1700,
+    "created_at": "2026-07-08T09:57:47.470003Z",
+    "updated_at": "2026-07-08T09:57:47.470025Z",
+    "lead_time": 3.661
+  },
+  {
+    "text": "Сравни точность моделей Rosemount 3051 и Siemens Sipart PS2",
+    "id": 1994,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      },
+      {
+        "start": 24,
+        "end": 33,
+        "text": "Rosemount",
+        "labels": [
+          "vendor"
+        ],
+        "normalized": "Rosemount"
+      },
+      {
+        "start": 34,
+        "end": 38,
+        "text": "3051",
+        "labels": [
+          "model"
+        ],
+        "normalized": "3051"
+      },
+      {
+        "start": 41,
+        "end": 48,
+        "text": "Siemens",
+        "labels": [
+          "vendor"
+        ],
+        "normalized": "Siemens"
+      },
+      {
+        "start": 49,
+        "end": 59,
+        "text": "Sipart PS2",
+        "labels": [
+          "model"
+        ],
+        "normalized": "Sipart PS-2"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2008,
+    "created_at": "2026-07-08T11:19:58.581093Z",
+    "updated_at": "2026-07-08T11:19:58.581125Z",
+    "lead_time": 9.007
+  },
+  {
+    "text": "Найди когда расход падал ниже 35 м³ч больше чем на час",
+    "id": 1942,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 12,
+        "end": 18,
+        "text": "расход",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "расход"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "text": "падал",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "падал"
+      },
+      {
+        "start": 25,
+        "end": 32,
+        "text": "ниже 35",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "ниже 35"
+      },
+      {
+        "start": 33,
+        "end": 36,
+        "text": "м³ч",
+        "labels": [
+          "unit_of_measure"
+        ],
+        "normalized": "м³ч"
+      },
+      {
+        "start": 37,
+        "end": 54,
+        "text": "больше чем на час",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "больше чем на час"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1940,
+    "created_at": "2026-07-08T11:08:07.418879Z",
+    "updated_at": "2026-07-08T11:08:07.418963Z",
+    "lead_time": 18.91
+  },
+  {
+    "text": "Дай текущие показания по PT-745",
+    "id": 1300,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "Дай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Дай"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "text": "PT-745",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-745"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1234,
+    "created_at": "2026-07-07T12:20:22.062188Z",
+    "updated_at": "2026-07-07T15:39:58.720460Z",
+    "lead_time": 10.919
+  },
+  {
+    "text": "Сравни описания пуска в инструкциях для УПН-5 2021 и 2024",
+    "id": 1258,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      },
+      {
+        "start": 24,
+        "end": 35,
+        "text": "инструкциях",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "инструкция"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "text": "УПН-5",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "УПН-5"
+      },
+      {
+        "start": 46,
+        "end": 50,
+        "text": "2021",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "2021"
+      },
+      {
+        "start": 53,
+        "end": 57,
+        "text": "2024",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "2024"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1359,
+    "created_at": "2026-07-07T13:57:50.274458Z",
+    "updated_at": "2026-07-07T15:36:33.779340Z",
+    "lead_time": 29.291
+  },
+  {
+    "text": "Какова загрузка сепаратора С-2 в процентах",
+    "id": 1813,
+    "label": [
+      {
+        "start": 16,
+        "end": 30,
+        "text": "сепаратора С-2",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "сепаратора С-2"
+      },
+      {
+        "start": 33,
+        "end": 42,
+        "text": "процентах",
+        "labels": [
+          "unit_of_measure"
+        ],
+        "normalized": "процентах"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1793,
+    "created_at": "2026-07-08T10:27:48.306385Z",
+    "updated_at": "2026-07-08T10:27:48.306418Z",
+    "lead_time": 6.639
+  },
+  {
+    "text": "Найди разночтения в двух редакциях инструкции для УПН-1",
+    "id": 1338,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 35,
+        "end": 45,
+        "text": "инструкции",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "инструкция"
+      },
+      {
+        "start": 50,
+        "end": 55,
+        "text": "УПН-1",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "УПН-1"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1408,
+    "created_at": "2026-07-07T16:07:36.081897Z",
+    "updated_at": "2026-07-07T16:07:36.081931Z",
+    "lead_time": 7.007
+  },
+  {
+    "text": "Что известно про систему регенерации газа",
+    "id": 1374,
+    "label": [
+      {
+        "start": 17,
+        "end": 41,
+        "text": "систему регенерации газа",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "систему регенерации газа"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1275,
+    "created_at": "2026-07-07T12:34:19.774804Z",
+    "updated_at": "2026-07-08T09:36:49.359768Z",
+    "lead_time": 27.063
+  },
+  {
+    "text": "Что за тег 794 упоминался рядом с PT-312",
+    "id": 1140,
+    "label": [
+      {
+        "start": 7,
+        "end": 14,
+        "text": "тег 794",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "тег 794"
+      },
+      {
+        "start": 34,
+        "end": 40,
+        "text": "PT-312",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-312"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1118,
+    "created_at": "2026-07-07T10:36:16.263905Z",
+    "updated_at": "2026-07-08T10:21:33.382031Z",
+    "lead_time": 69.859
+  },
+  {
+    "text": "Рассчитай параметры настройки для ПИД-регулятора",
+    "id": 1406,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Рассчитай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "рассчитать"
+      },
+      {
+        "start": 34,
+        "end": 48,
+        "text": "ПИД-регулятора",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "ПИД-регулятора"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1446,
+    "created_at": "2026-07-07T16:14:58.101378Z",
+    "updated_at": "2026-07-08T10:16:13.163840Z",
+    "lead_time": 11.156
+  },
+  {
+    "text": "Вычисли медиану TI-281 за прошедшие сутки",
+    "id": 1405,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Вычисли",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Вычисли"
+      },
+      {
+        "start": 16,
+        "end": 22,
+        "text": "TI-281",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TI-281"
+      },
+      {
+        "start": 23,
+        "end": 41,
+        "text": "за прошедшие сутки",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за прошедшие сутки"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1445,
+    "created_at": "2026-07-07T16:14:44.290731Z",
+    "updated_at": "2026-07-07T16:14:44.290766Z",
+    "lead_time": 4.942
+  },
+  {
+    "text": "Сгенерируй список обхода дренажной системы",
+    "id": 1515,
+    "label": [
+      {
+        "start": 0,
+        "end": 10,
+        "text": "Сгенерируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Сгенерируй"
+      },
+      {
+        "start": 11,
+        "end": 17,
+        "text": "список",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "список"
+      },
+      {
+        "start": 25,
+        "end": 42,
+        "text": "дренажной системы",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "дренажной системы"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1523,
+    "created_at": "2026-07-07T17:57:00.906575Z",
+    "updated_at": "2026-07-08T09:37:53.339390Z",
+    "lead_time": 15.763000000000002
+  },
+  {
+    "text": "Проанализируй цикличность скачков на PT-644",
+    "id": 1083,
+    "label": [
+      {
+        "start": 0,
+        "end": 13,
+        "text": "Проанализируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Проанализируй"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "text": "PT-644",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-644"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1061,
+    "created_at": "2026-07-06T21:19:43.603802Z",
+    "updated_at": "2026-07-07T14:28:36.706215Z",
+    "lead_time": 13.099
+  },
+  {
+    "text": "Что делать при утечке в теплообменнике",
+    "id": 1560,
+    "label": [
+      {
+        "start": 15,
+        "end": 21,
+        "text": "утечке",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "утечке"
+      },
+      {
+        "start": 24,
+        "end": 38,
+        "text": "теплообменнике",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "теплообменнике"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1540,
+    "created_at": "2026-07-07T18:00:51.656022Z",
+    "updated_at": "2026-07-07T18:00:51.656059Z",
+    "lead_time": 4.674
+  },
+  {
+    "text": "Сделай график изменения давления PT-258 за дежурство",
+    "id": 1410,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сделай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Сделай"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "text": "давления",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "давление"
+      },
+      {
+        "start": 33,
+        "end": 39,
+        "text": "PT-258",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-258"
+      },
+      {
+        "start": 40,
+        "end": 52,
+        "text": "за дежурство",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за дежурство"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1450,
+    "created_at": "2026-07-07T16:15:41.489042Z",
+    "updated_at": "2026-07-07T16:15:41.489103Z",
+    "lead_time": 6.911
+  },
+  {
+    "text": "Вычисли сумму расходов по трем тегам за смену",
+    "id": 1074,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Вычисли",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Вычисли"
+      },
+      {
+        "start": 14,
+        "end": 22,
+        "text": "расходов",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "расход"
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "text": "трем",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "трем"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "text": "тегам",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "тегам"
+      },
+      {
+        "start": 37,
+        "end": 45,
+        "text": "за смену",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за смену"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1052,
+    "created_at": "2026-07-06T21:10:40.805111Z",
+    "updated_at": "2026-07-08T10:21:24.785028Z",
+    "lead_time": 52.111000000000004
+  },
+  {
+    "text": "Упала производительность ГПЗ-8 что делать",
+    "id": 1064,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Упала",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "упала"
+      },
+      {
+        "start": 6,
+        "end": 24,
+        "text": "производительность",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "производительность"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "text": "ГПЗ-8",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "ГПЗ-8"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1042,
+    "created_at": "2026-07-06T21:04:07.438524Z",
+    "updated_at": "2026-07-08T10:02:08.701411Z",
+    "lead_time": 37.598
+  },
+  {
+    "text": "Найди инструкцию по резервному насосу дренажной системы",
+    "id": 1034,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 6,
+        "end": 16,
+        "text": "инструкцию",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "инструкция"
+      },
+      {
+        "start": 20,
+        "end": 37,
+        "text": "резервному насосу",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "резервному насосу"
+      },
+      {
+        "start": 38,
+        "end": 55,
+        "text": "дренажной системы",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "дренажной системы"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1011,
+    "created_at": "2026-07-06T20:16:07.008266Z",
+    "updated_at": "2026-07-08T09:35:52.006346Z",
+    "lead_time": 249.732
+  },
+  {
+    "text": "Какой объем перекачал насос Н-656 за смену было 400",
+    "id": 1196,
+    "label": [
+      {
+        "start": 6,
+        "end": 11,
+        "text": "объем",
+        "labels": [
+          "unit_of_measure"
+        ],
+        "normalized": "объем"
+      },
+      {
+        "start": 22,
+        "end": 33,
+        "text": "насос Н-656",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "насос Н-656"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "text": "за смену",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за смену"
+      },
+      {
+        "start": 48,
+        "end": 51,
+        "text": "400",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "400"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1192,
+    "created_at": "2026-07-07T12:04:25.673058Z",
+    "updated_at": "2026-07-07T14:51:32.694806Z",
+    "lead_time": 47.962
+  },
+  {
+    "text": "Где закреплен датчик с обозначением TI-459",
+    "id": 1787,
+    "label": [
+      {
+        "start": 36,
+        "end": 42,
+        "text": "TI-459",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TI-459"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1772,
+    "created_at": "2026-07-08T10:23:23.000499Z",
+    "updated_at": "2026-07-08T10:23:23.000531Z",
+    "lead_time": 3.893
+  },
+  {
+    "text": "Где размещен датчик с маркировкой TI-889",
+    "id": 1139,
+    "label": [
+      {
+        "start": 34,
+        "end": 40,
+        "text": "TI-889",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TI-889"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1117,
+    "created_at": "2026-07-07T10:35:13.459423Z",
+    "updated_at": "2026-07-07T14:38:33.156970Z",
+    "lead_time": 13.814
+  },
+  {
+    "text": "Создай план замены теплообменника Т-882",
+    "id": 1927,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Создай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Создай"
+      },
+      {
+        "start": 7,
+        "end": 11,
+        "text": "план",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "план"
+      },
+      {
+        "start": 19,
+        "end": 39,
+        "text": "теплообменника Т-882",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "теплообменника Т-882"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1907,
+    "created_at": "2026-07-08T10:56:19.209102Z",
+    "updated_at": "2026-07-08T10:56:19.209135Z",
+    "lead_time": 4.299
+  },
+  {
+    "text": "Создай инструкцию по консервации теплообменника",
+    "id": 1754,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Создай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Создай"
+      },
+      {
+        "start": 7,
+        "end": 17,
+        "text": "инструкцию",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "инструкция"
+      },
+      {
+        "start": 33,
+        "end": 47,
+        "text": "теплообменника",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "теплообменника"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1735,
+    "created_at": "2026-07-08T10:11:17.669829Z",
+    "updated_at": "2026-07-08T10:11:17.669875Z",
+    "lead_time": 6.895
+  },
+  {
+    "text": "Вычисли параметры настройки по уровню",
+    "id": 1649,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Вычисли",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Вычисли"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "text": "уровню",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "уровень"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1630,
+    "created_at": "2026-07-08T09:19:10.318947Z",
+    "updated_at": "2026-07-08T09:19:10.318980Z",
+    "lead_time": 5.632
+  },
+  {
+    "text": "Найди отличия в паспортах на насосы Н-220 и Н-881",
+    "id": 1826,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 16,
+        "end": 25,
+        "text": "паспортах",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "паспорт"
+      },
+      {
+        "start": 29,
+        "end": 41,
+        "text": "насосы Н-220",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "насосы Н-220"
+      },
+      {
+        "start": 44,
+        "end": 49,
+        "text": "Н-881",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "Н-881"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1806,
+    "created_at": "2026-07-08T10:30:19.823051Z",
+    "updated_at": "2026-07-08T10:30:19.823083Z",
+    "lead_time": 5.029
+  },
+  {
+    "text": "Покажи график температуры TI-446 за последнюю смену",
+    "id": 1906,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Покажи",
+        "labels": [
+          "action"
+        ],
+        "normalized": "показать"
+      },
+      {
+        "start": 14,
+        "end": 25,
+        "text": "температуры",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "температура"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "text": "TI-446",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TI-446"
+      },
+      {
+        "start": 33,
+        "end": 51,
+        "text": "за последнюю смену",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за последнюю смену"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1904,
+    "created_at": "2026-07-08T10:55:27.176581Z",
+    "updated_at": "2026-07-08T10:55:27.176613Z",
+    "lead_time": 5.726
+  },
+  {
+    "text": "Сравни версии прошивки для модели Rosemount 3051 на насосе Н-778",
+    "id": 2005,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "text": "Rosemount",
+        "labels": [
+          "vendor"
+        ],
+        "normalized": "Rosemount"
+      },
+      {
+        "start": 44,
+        "end": 48,
+        "text": "3051",
+        "labels": [
+          "model"
+        ],
+        "normalized": "3051"
+      },
+      {
+        "start": 52,
+        "end": 64,
+        "text": "насосе Н-778",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "насосе Н-778"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2019,
+    "created_at": "2026-07-08T11:25:13.629531Z",
+    "updated_at": "2026-07-08T11:25:13.629561Z",
+    "lead_time": 4.112
+  },
+  {
+    "text": "Не открывается клапан на линии отдувки",
+    "id": 1634,
+    "label": [
+      {
+        "start": 0,
+        "end": 14,
+        "text": "Не открывается",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "не открывается"
+      },
+      {
+        "start": 15,
+        "end": 21,
+        "text": "клапан",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "клапан"
+      },
+      {
+        "start": 25,
+        "end": 38,
+        "text": "линии отдувки",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "линии отдувки"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1617,
+    "created_at": "2026-07-08T09:16:29.709470Z",
+    "updated_at": "2026-07-08T09:27:31.117524Z",
+    "lead_time": 27.34
+  },
+  {
+    "text": "Построй график перепада на теплообменнике Т-778 за неделю",
+    "id": 1909,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Построй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Построй"
+      },
+      {
+        "start": 27,
+        "end": 47,
+        "text": "теплообменнике Т-778",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "теплообменнике Т-778"
+      },
+      {
+        "start": 48,
+        "end": 57,
+        "text": "за неделю",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за неделю"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1873,
+    "created_at": "2026-07-08T10:46:53.797910Z",
+    "updated_at": "2026-07-08T10:46:53.797943Z",
+    "lead_time": 5.532
+  },
+  {
+    "text": "Сформируй отчет по колонне К-1 за дежурство",
+    "id": 1580,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Сформируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Сформируй"
+      },
+      {
+        "start": 10,
+        "end": 15,
+        "text": "отчет",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "отчет"
+      },
+      {
+        "start": 19,
+        "end": 30,
+        "text": "колонне К-1",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "колонне К-1"
+      },
+      {
+        "start": 31,
+        "end": 43,
+        "text": "за дежурство",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за дежурство"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1591,
+    "created_at": "2026-07-07T18:17:45.242717Z",
+    "updated_at": "2026-07-07T18:17:45.242749Z",
+    "lead_time": 4.376
+  },
+  {
+    "text": "Найди руководство по эксплуатации системы пожаротушения",
+    "id": 1124,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 6,
+        "end": 17,
+        "text": "руководство",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "руководство"
+      },
+      {
+        "start": 34,
+        "end": 55,
+        "text": "системы пожаротушения",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "системы пожаротушения"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1102,
+    "created_at": "2026-07-07T10:28:53.667752Z",
+    "updated_at": "2026-07-08T09:35:56.212536Z",
+    "lead_time": 38.217
+  },
+  {
+    "text": "Найди модель 3051S в регламенте по настройке и проверке",
+    "id": 1980,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 13,
+        "end": 18,
+        "text": "3051S",
+        "labels": [
+          "model"
+        ],
+        "normalized": "3051S"
+      },
+      {
+        "start": 21,
+        "end": 31,
+        "text": "регламенте",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "регламент"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1960,
+    "created_at": "2026-07-08T11:13:10.389537Z",
+    "updated_at": "2026-07-08T11:13:10.389570Z",
+    "lead_time": 7.948
+  },
+  {
+    "text": "Определи загрузку",
+    "id": 2062,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Определи",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Определи"
+      },
+      {
+        "start": 9,
+        "end": 17,
+        "text": "загрузку",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "загрузку"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2047,
+    "created_at": "2026-07-08T11:27:36.196201Z",
+    "updated_at": "2026-07-08T11:27:36.196232Z",
+    "lead_time": 1.596
+  },
+  {
+    "text": "Покажи инструкцию по калибровке модели Rosemount 8705 для расходомера",
+    "id": 1964,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Покажи",
+        "labels": [
+          "action"
+        ],
+        "normalized": "показать"
+      },
+      {
+        "start": 7,
+        "end": 17,
+        "text": "инструкцию",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "инструкция"
+      },
+      {
+        "start": 39,
+        "end": 48,
+        "text": "Rosemount",
+        "labels": [
+          "vendor"
+        ],
+        "normalized": "Rosemount"
+      },
+      {
+        "start": 49,
+        "end": 53,
+        "text": "8705",
+        "labels": [
+          "model"
+        ],
+        "normalized": "8705"
+      },
+      {
+        "start": 58,
+        "end": 69,
+        "text": "расходомера",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "расходомер"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1927,
+    "created_at": "2026-07-08T11:02:03.967753Z",
+    "updated_at": "2026-07-08T11:06:53.803900Z",
+    "lead_time": 20.644
+  },
+  {
+    "text": "Покажи отклонения уровня LIC-883 за сутки",
+    "id": 1739,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Покажи",
+        "labels": [
+          "action"
+        ],
+        "normalized": "показать"
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "text": "уровня",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "уровень"
+      },
+      {
+        "start": 25,
+        "end": 32,
+        "text": "LIC-883",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "LIC-883"
+      },
+      {
+        "start": 33,
+        "end": 41,
+        "text": "за сутки",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за сутки"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1721,
+    "created_at": "2026-07-08T10:07:06.116376Z",
+    "updated_at": "2026-07-08T10:07:06.116408Z",
+    "lead_time": 3.379
+  },
+  {
+    "text": "Найди инструкцыю по эксплуатации компрессора КМ-101",
+    "id": 1115,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 6,
+        "end": 16,
+        "text": "инструкцыю",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "инструкцыю"
+      },
+      {
+        "start": 33,
+        "end": 51,
+        "text": "компрессора КМ-101",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "компрессора КМ-101"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1093,
+    "created_at": "2026-07-06T21:39:16.733922Z",
+    "updated_at": "2026-07-07T14:34:46.148872Z",
+    "lead_time": 25.754
+  },
+  {
+    "text": "Рассчитай усредненное значение за дежурство по FT-638",
+    "id": 1399,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Рассчитай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "рассчитать"
+      },
+      {
+        "start": 31,
+        "end": 43,
+        "text": "за дежурство",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за дежурство"
+      },
+      {
+        "start": 47,
+        "end": 53,
+        "text": "FT-638",
+        "labels": [
+          "model"
+        ],
+        "normalized": "FT-638"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1439,
+    "created_at": "2026-07-07T16:13:35.960530Z",
+    "updated_at": "2026-07-07T16:13:35.960554Z",
+    "lead_time": 7.821
+  },
+  {
+    "text": "Что за номер 836 упоминался рядом с PT-557",
+    "id": 1544,
+    "label": [
+      {
+        "start": 13,
+        "end": 16,
+        "text": "836",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "836"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "text": "PT-557",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-557"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1509,
+    "created_at": "2026-07-07T16:29:14.987177Z",
+    "updated_at": "2026-07-07T16:29:14.987218Z",
+    "lead_time": 2.614
+  },
+  {
+    "text": "Посчитай эфективность работы колонны К-11 за смену",
+    "id": 1900,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Посчитай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Посчитай"
+      },
+      {
+        "start": 9,
+        "end": 28,
+        "text": "эфективность работы",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "эфективность работы"
+      },
+      {
+        "start": 29,
+        "end": 41,
+        "text": "колонны К-11",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "колонны К-11"
+      },
+      {
+        "start": 42,
+        "end": 50,
+        "text": "за смену",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за смену"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1898,
+    "created_at": "2026-07-08T10:51:49.161959Z",
+    "updated_at": "2026-07-08T10:51:49.161991Z",
+    "lead_time": 5.105
+  },
+  {
+    "text": "Где расположен датчик с меткой TI-621",
+    "id": 1463,
+    "label": [
+      {
+        "start": 31,
+        "end": 37,
+        "text": "TI-621",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TI-621"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1476,
+    "created_at": "2026-07-07T16:22:17.446387Z",
+    "updated_at": "2026-07-07T16:22:17.446423Z",
+    "lead_time": 1.891
+  },
+  {
+    "text": "Вычисли обьем перекачки за сутки по насосу Н-763",
+    "id": 1067,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Вычисли",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Вычисли"
+      },
+      {
+        "start": 8,
+        "end": 13,
+        "text": "обьем",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "обьем"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "text": "за сутки",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за сутки"
+      },
+      {
+        "start": 36,
+        "end": 48,
+        "text": "насосу Н-763",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "насосу Н-763"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1045,
+    "created_at": "2026-07-06T21:05:04.104039Z",
+    "updated_at": "2026-07-07T14:24:23.032217Z",
+    "lead_time": 21.619999999999997
+  },
+  {
+    "text": "Найди инструкцыю по эксплуатации теплообменника Т-752",
+    "id": 1855,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 6,
+        "end": 16,
+        "text": "инструкцыю",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "инструкцыю"
+      },
+      {
+        "start": 33,
+        "end": 53,
+        "text": "теплообменника Т-752",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "теплообменника Т-752"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1835,
+    "created_at": "2026-07-08T10:38:12.023687Z",
+    "updated_at": "2026-07-08T10:38:12.023719Z",
+    "lead_time": 3.044
+  },
+  {
+    "text": "Почему FT-703 показывает расход выше максимального",
+    "id": 1151,
+    "label": [
+      {
+        "start": 7,
+        "end": 13,
+        "text": "FT-703",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "FT-703"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "text": "расход",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "расход"
+      },
+      {
+        "start": 32,
+        "end": 50,
+        "text": "выше максимального",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "выше максимального"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1177,
+    "created_at": "2026-07-07T11:57:37.325503Z",
+    "updated_at": "2026-07-07T17:52:49.454709Z",
+    "lead_time": 16.500999999999998
+  },
+  {
+    "text": "Проанализируй пульсации на PI-871",
+    "id": 1498,
+    "label": [
+      {
+        "start": 0,
+        "end": 13,
+        "text": "Проанализируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Проанализируй"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "text": "PI-871",
+        "labels": [
+          "model"
+        ],
+        "normalized": "PI-871"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1339,
+    "created_at": "2026-07-07T12:54:24.367632Z",
+    "updated_at": "2026-07-07T15:58:05.231615Z",
+    "lead_time": 10.185
+  },
+  {
+    "text": "Какой вендор паставил колонну К-2",
+    "id": 1041,
+    "label": [
+      {
+        "start": 22,
+        "end": 33,
+        "text": "колонну К-2",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "колонну К-2"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1018,
+    "created_at": "2026-07-06T20:17:40.150674Z",
+    "updated_at": "2026-07-07T14:15:20.748998Z",
+    "lead_time": 23.812
+  },
+  {
+    "text": "Сопоставь графики PT-111 и FT-234 за смену",
+    "id": 1414,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Сопоставь",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Сопоставь"
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "text": "PT-111",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-111"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "text": "FT-234",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "FT-234"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "text": "за смену",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за смену"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1454,
+    "created_at": "2026-07-07T16:16:30.739419Z",
+    "updated_at": "2026-07-07T16:16:30.739455Z",
+    "lead_time": 2.849
+  },
+  {
+    "text": "Упала эффективность работы циклонного сепаратора",
+    "id": 1478,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Упала",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "упала"
+      },
+      {
+        "start": 6,
+        "end": 19,
+        "text": "эффективность",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "эффективность"
+      },
+      {
+        "start": 27,
+        "end": 48,
+        "text": "циклонного сепаратора",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "циклонного сепаратора"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1516,
+    "created_at": "2026-07-07T17:50:23.123366Z",
+    "updated_at": "2026-07-08T09:58:28.029832Z",
+    "lead_time": 12.286999999999999
+  },
+  {
+    "text": "Покажи распаложение TI-838 на установке",
+    "id": 1883,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Покажи",
+        "labels": [
+          "action"
+        ],
+        "normalized": "показать"
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "text": "TI-838",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TI-838"
+      },
+      {
+        "start": 30,
+        "end": 39,
+        "text": "установке",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "установке"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1863,
+    "created_at": "2026-07-08T10:44:45.057002Z",
+    "updated_at": "2026-07-08T10:44:45.057034Z",
+    "lead_time": 3.216
+  },
+  {
+    "text": "Покажи схему подключения сигнализатора уровня",
+    "id": 1615,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Покажи",
+        "labels": [
+          "action"
+        ],
+        "normalized": "показать"
+      },
+      {
+        "start": 7,
+        "end": 12,
+        "text": "схему",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "схему"
+      },
+      {
+        "start": 25,
+        "end": 38,
+        "text": "сигнализатора",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "сигнализатора"
+      },
+      {
+        "start": 39,
+        "end": 45,
+        "text": "уровня",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "уровень"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1576,
+    "created_at": "2026-07-07T18:10:22.620134Z",
+    "updated_at": "2026-07-08T09:55:50.951117Z",
+    "lead_time": 6.896
+  },
+  {
+    "text": "Сравни описание режимов в регламенте УПН-1 2020 и 2024",
+    "id": 1663,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "text": "регламенте",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "регламент"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "text": "УПН-1",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "УПН-1"
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "text": "2020",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "2020"
+      },
+      {
+        "start": 50,
+        "end": 54,
+        "text": "2024",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "2024"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1644,
+    "created_at": "2026-07-08T09:32:32.866760Z",
+    "updated_at": "2026-07-08T09:32:32.866792Z",
+    "lead_time": 14.806
+  },
+  {
+    "text": "Дай расход за последние 3 часа там значения 75-95 скачут",
+    "id": 1521,
+    "label": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "Дай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Дай"
+      },
+      {
+        "start": 4,
+        "end": 10,
+        "text": "расход",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "расход"
+      },
+      {
+        "start": 11,
+        "end": 30,
+        "text": "за последние 3 часа",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за последние 3 часа"
+      },
+      {
+        "start": 44,
+        "end": 49,
+        "text": "75-95",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "75-95"
+      },
+      {
+        "start": 50,
+        "end": 56,
+        "text": "скачут",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "скачут"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1529,
+    "created_at": "2026-07-07T17:58:17.543415Z",
+    "updated_at": "2026-07-07T17:58:17.543449Z",
+    "lead_time": 16.986
+  },
+  {
+    "text": "Отобрази тренд",
+    "id": 2038,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Отобрази",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Отобрази"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1996,
+    "created_at": "2026-07-08T11:17:35.989209Z",
+    "updated_at": "2026-07-08T11:17:35.989242Z",
+    "lead_time": 0.962
+  },
+  {
+    "text": "Напиши инструкцию по переходу на основной насос",
+    "id": 1273,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Напиши",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Напиши"
+      },
+      {
+        "start": 7,
+        "end": 17,
+        "text": "инструкцию",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "инструкция"
+      },
+      {
+        "start": 33,
+        "end": 47,
+        "text": "основной насос",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "основной насос"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1374,
+    "created_at": "2026-07-07T14:09:05.051885Z",
+    "updated_at": "2026-07-07T14:09:05.051916Z",
+    "lead_time": 10.887
+  },
+  {
+    "text": "Сформируй выборку по колонне К-9 за последние 6 часов",
+    "id": 1175,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Сформируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Сформируй"
+      },
+      {
+        "start": 21,
+        "end": 32,
+        "text": "колонне К-9",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "колонне К-9"
+      },
+      {
+        "start": 33,
+        "end": 53,
+        "text": "за последние 6 часов",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за последние 6 часов"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1134,
+    "created_at": "2026-07-07T10:43:40.915227Z",
+    "updated_at": "2026-07-07T14:45:15.426680Z",
+    "lead_time": 16.101
+  },
+  {
+    "text": "Проинтегрируй показания трех расходомеров за смену",
+    "id": 1408,
+    "label": [
+      {
+        "start": 0,
+        "end": 13,
+        "text": "Проинтегрируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Проинтегрируй"
+      },
+      {
+        "start": 24,
+        "end": 28,
+        "text": "трех",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "трех"
+      },
+      {
+        "start": 42,
+        "end": 50,
+        "text": "за смену",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за смену"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1448,
+    "created_at": "2026-07-07T16:15:14.955558Z",
+    "updated_at": "2026-07-07T16:15:14.955590Z",
+    "lead_time": 6.008
+  },
+  {
+    "text": "Почему колеблется уровень на LIC-832",
+    "id": 1145,
+    "label": [
+      {
+        "start": 7,
+        "end": 17,
+        "text": "колеблется",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "колеблется"
+      },
+      {
+        "start": 18,
+        "end": 25,
+        "text": "уровень",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "уровень"
+      },
+      {
+        "start": 29,
+        "end": 36,
+        "text": "LIC-832",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "LIC-832"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1123,
+    "created_at": "2026-07-07T10:37:49.340338Z",
+    "updated_at": "2026-07-07T18:12:23.639774Z",
+    "lead_time": 34.312000000000005
+  },
+  {
+    "text": "Что за модель стоит на насосе Н-785",
+    "id": 1207,
+    "label": [
+      {
+        "start": 23,
+        "end": 35,
+        "text": "насосе Н-785",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "насосе Н-785"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1203,
+    "created_at": "2026-07-07T12:08:39.822078Z",
+    "updated_at": "2026-07-07T14:53:14.174656Z",
+    "lead_time": 9.549
+  },
+  {
+    "text": "Уточни временной интервал",
+    "id": 2072,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Уточни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Уточни"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2001,
+    "created_at": "2026-07-08T11:18:05.120599Z",
+    "updated_at": "2026-07-08T11:18:05.120629Z",
+    "lead_time": 4.242
+  },
+  {
+    "text": "Выдай описание работы сепаратора С-1",
+    "id": 1119,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Выдай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Выдай"
+      },
+      {
+        "start": 22,
+        "end": 36,
+        "text": "сепаратора С-1",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "сепаратора С-1"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1097,
+    "created_at": "2026-07-07T10:25:45.071741Z",
+    "updated_at": "2026-07-07T14:35:17.263014Z",
+    "lead_time": 27.658
+  },
+  {
+    "text": "Выдай все TI-453 за сутки выше 50 градусов",
+    "id": 1605,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Выдай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Выдай"
+      },
+      {
+        "start": 10,
+        "end": 16,
+        "text": "TI-453",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TI-453"
+      },
+      {
+        "start": 17,
+        "end": 25,
+        "text": "за сутки",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за сутки"
+      },
+      {
+        "start": 26,
+        "end": 33,
+        "text": "выше 50",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "выше 50"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "text": "градусов",
+        "labels": [
+          "unit_of_measure"
+        ],
+        "normalized": "градусов"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1566,
+    "created_at": "2026-07-07T18:08:16.267626Z",
+    "updated_at": "2026-07-07T18:08:16.267659Z",
+    "lead_time": 7.987
+  },
+  {
+    "text": "Сравни перечень проверок при сдаче смены",
+    "id": 1834,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      },
+      {
+        "start": 7,
+        "end": 15,
+        "text": "перечень",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "перечень"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1814,
+    "created_at": "2026-07-08T10:32:12.843164Z",
+    "updated_at": "2026-07-08T10:32:17.806090Z",
+    "lead_time": 8.911999999999999
+  },
+  {
+    "text": "Не управляется клапан-регулятор на продуктопроводе",
+    "id": 1391,
+    "label": [
+      {
+        "start": 0,
+        "end": 14,
+        "text": "Не управляется",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "не управляется"
+      },
+      {
+        "start": 15,
+        "end": 31,
+        "text": "клапан-регулятор",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "клапан-регулятор"
+      },
+      {
+        "start": 35,
+        "end": 50,
+        "text": "продуктопроводе",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "продуктопроводе"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1431,
+    "created_at": "2026-07-07T16:11:46.687111Z",
+    "updated_at": "2026-07-08T10:01:16.472807Z",
+    "lead_time": 44.797
+  },
+  {
+    "text": "Какая модель преобразователя давления установлена на линии УПН-5",
+    "id": 1967,
+    "label": [
+      {
+        "start": 13,
+        "end": 28,
+        "text": "преобразователя",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "преобразователя"
+      },
+      {
+        "start": 29,
+        "end": 37,
+        "text": "давления",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "давление"
+      },
+      {
+        "start": 59,
+        "end": 64,
+        "text": "УПН-5",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "УПН-5"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1930,
+    "created_at": "2026-07-08T11:02:38.194754Z",
+    "updated_at": "2026-07-08T11:02:38.194794Z",
+    "lead_time": 10.605
+  },
+  {
+    "text": "Какой производитель поставил компрессор К-2",
+    "id": 1131,
+    "label": [
+      {
+        "start": 29,
+        "end": 43,
+        "text": "компрессор К-2",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "компрессор К-2"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1109,
+    "created_at": "2026-07-07T10:32:24.083626Z",
+    "updated_at": "2026-07-07T14:37:12.015773Z",
+    "lead_time": 24.458000000000002
+  },
+  {
+    "text": "Сравни две версии",
+    "id": 2041,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      },
+      {
+        "start": 7,
+        "end": 10,
+        "text": "две",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "две"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2026,
+    "created_at": "2026-07-08T11:25:52.021995Z",
+    "updated_at": "2026-07-08T11:25:52.022027Z",
+    "lead_time": 1.268
+  },
+  {
+    "text": "Что показывает дополнительный манометр",
+    "id": 1792,
+    "label": [
+      {
+        "start": 15,
+        "end": 38,
+        "text": "дополнительный манометр",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "дополнительный манометр"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1749,
+    "created_at": "2026-07-08T10:15:08.552084Z",
+    "updated_at": "2026-07-08T10:15:08.552116Z",
+    "lead_time": 4.69
+  },
+  {
+    "text": "Сколько выходов за 65% у FIC-562 за смену",
+    "id": 1444,
+    "label": [
+      {
+        "start": 16,
+        "end": 21,
+        "text": "за 65",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "за 65"
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "text": "%",
+        "labels": [
+          "unit_of_measure"
+        ],
+        "normalized": "%"
+      },
+      {
+        "start": 25,
+        "end": 32,
+        "text": "FIC-562",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "FIC-562"
+      },
+      {
+        "start": 33,
+        "end": 41,
+        "text": "за смену",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за смену"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1313,
+    "created_at": "2026-07-07T12:46:17.103233Z",
+    "updated_at": "2026-07-07T15:54:21.370687Z",
+    "lead_time": 25.888
+  },
+  {
+    "text": "Что за тег 512 рядом с PT-736 упоминался",
+    "id": 1050,
+    "label": [
+      {
+        "start": 7,
+        "end": 14,
+        "text": "тег 512",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "тег 512"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "text": "PT-736",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-736"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1028,
+    "created_at": "2026-07-06T20:39:01.390737Z",
+    "updated_at": "2026-07-08T10:21:14.625873Z",
+    "lead_time": 39.802
+  },
+  {
+    "text": "Что предпринять при отказе автоматики",
+    "id": 1398,
+    "label": [
+      {
+        "start": 20,
+        "end": 26,
+        "text": "отказе",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "отказе"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1438,
+    "created_at": "2026-07-07T16:13:24.801894Z",
+    "updated_at": "2026-07-07T16:13:24.801931Z",
+    "lead_time": 11.93
+  },
+  {
+    "text": "Проанализируй поведение FIC-607 за 6 часов",
+    "id": 1573,
+    "label": [
+      {
+        "start": 0,
+        "end": 13,
+        "text": "Проанализируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Проанализируй"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "text": "FIC-607",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "FIC-607"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "text": "за 6 часов",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за 6 часов"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1584,
+    "created_at": "2026-07-07T18:15:50.757489Z",
+    "updated_at": "2026-07-07T18:15:50.757543Z",
+    "lead_time": 8.042
+  },
+  {
+    "text": "Отличия в порогах срабатывания LIC-208 между документами",
+    "id": 1345,
+    "label": [
+      {
+        "start": 10,
+        "end": 30,
+        "text": "порогах срабатывания",
+        "labels": [
+          "limit"
+        ],
+        "normalized": "порогх срабатывания"
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "text": "LIC-208",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "LIC-208"
+      },
+      {
+        "start": 45,
+        "end": 56,
+        "text": "документами",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "документами"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1415,
+    "created_at": "2026-07-07T16:08:57.292439Z",
+    "updated_at": "2026-07-07T16:08:57.292472Z",
+    "lead_time": 8.406
+  },
+  {
+    "text": "Почему скачет расход па FIC-607",
+    "id": 1885,
+    "label": [
+      {
+        "start": 7,
+        "end": 13,
+        "text": "скачет",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "скачет"
+      },
+      {
+        "start": 14,
+        "end": 20,
+        "text": "расход",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "расход"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "text": "FIC-607",
+        "labels": [
+          "model"
+        ],
+        "normalized": "FIC-607"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1865,
+    "created_at": "2026-07-08T10:45:07.421248Z",
+    "updated_at": "2026-07-08T10:45:07.421271Z",
+    "lead_time": 12.088
+  },
+  {
+    "text": "Сгенерируй обходной лист резервуарного парка",
+    "id": 1840,
+    "label": [
+      {
+        "start": 0,
+        "end": 10,
+        "text": "Сгенерируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Сгенерируй"
+      },
+      {
+        "start": 11,
+        "end": 24,
+        "text": "обходной лист",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "обходной лист"
+      },
+      {
+        "start": 25,
+        "end": 44,
+        "text": "резервуарного парка",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "резервуарного парка"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1820,
+    "created_at": "2026-07-08T10:34:37.966721Z",
+    "updated_at": "2026-07-08T10:34:37.966754Z",
+    "lead_time": 13.766
+  },
+  {
+    "text": "Теплообменник Т-351 не может выйти на параметры",
+    "id": 1395,
+    "label": [
+      {
+        "start": 0,
+        "end": 19,
+        "text": "Теплообменник Т-351",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "Теплообменник Т-351"
+      },
+      {
+        "start": 20,
+        "end": 47,
+        "text": "не может выйти на параметры",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "не может выйти на параметры"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1435,
+    "created_at": "2026-07-07T16:12:35.635101Z",
+    "updated_at": "2026-07-07T16:12:35.635137Z",
+    "lead_time": 8.819
+  },
+  {
+    "text": "Покажи характиристики насоса Н-707",
+    "id": 1868,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Покажи",
+        "labels": [
+          "action"
+        ],
+        "normalized": "показать"
+      },
+      {
+        "start": 22,
+        "end": 34,
+        "text": "насоса Н-707",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "насоса Н-707"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1848,
+    "created_at": "2026-07-08T10:42:13.561079Z",
+    "updated_at": "2026-07-08T10:42:13.561119Z",
+    "lead_time": 5.755
+  },
+  {
+    "text": "Почему TE-441 фиксирует перегрев",
+    "id": 1394,
+    "label": [
+      {
+        "start": 7,
+        "end": 13,
+        "text": "TE-441",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TE-441"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "text": "перегрев",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "перегрев"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1434,
+    "created_at": "2026-07-07T16:12:23.206033Z",
+    "updated_at": "2026-07-07T16:12:23.206057Z",
+    "lead_time": 5.601
+  },
+  {
+    "text": "Создай методику поверки TI-456",
+    "id": 1274,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Создай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Создай"
+      },
+      {
+        "start": 7,
+        "end": 15,
+        "text": "методику",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "методика"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "text": "TI-456",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TI-456"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1375,
+    "created_at": "2026-07-07T14:09:34.212610Z",
+    "updated_at": "2026-07-07T14:09:34.212642Z",
+    "lead_time": 21.509
+  },
+  {
+    "text": "Где применяется оборудование Metso",
+    "id": 1134,
+    "label": [
+      {
+        "start": 29,
+        "end": 34,
+        "text": "Metso",
+        "labels": [
+          "vendor"
+        ],
+        "normalized": "Metso"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1112,
+    "created_at": "2026-07-07T10:33:30.091313Z",
+    "updated_at": "2026-07-07T14:37:59.817969Z",
+    "lead_time": 27.499000000000002
+  },
+  {
+    "text": "Сравни показатели",
+    "id": 2063,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2048,
+    "created_at": "2026-07-08T11:27:40.965250Z",
+    "updated_at": "2026-07-08T11:27:40.965278Z",
+    "lead_time": 1.698
+  },
+  {
+    "text": "Суммируй значения по четырем измерительным приборам",
+    "id": 1732,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Суммируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Суммируй"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "text": "четырем",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "четырем"
+      },
+      {
+        "start": 29,
+        "end": 51,
+        "text": "измерительным приборам",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "измерительным приборам"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1712,
+    "created_at": "2026-07-08T10:04:24.616584Z",
+    "updated_at": "2026-07-08T10:04:24.616617Z",
+    "lead_time": 8.477
+  },
+  {
+    "text": "На PT-058 было 5.3 МПа а стало 4.7 почему",
+    "id": 1603,
+    "label": [
+      {
+        "start": 3,
+        "end": 9,
+        "text": "PT-058",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-058"
+      },
+      {
+        "start": 15,
+        "end": 18,
+        "text": "5.3",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "5.3"
+      },
+      {
+        "start": 19,
+        "end": 22,
+        "text": "МПа",
+        "labels": [
+          "unit_of_measure"
+        ],
+        "normalized": "МПА"
+      },
+      {
+        "start": 31,
+        "end": 34,
+        "text": "4.7",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "4.7"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1564,
+    "created_at": "2026-07-07T18:07:43.706538Z",
+    "updated_at": "2026-07-07T18:07:43.706567Z",
+    "lead_time": 4.232
+  },
+  {
+    "text": "Проанализируй работу FIC-765 за 4 часа",
+    "id": 1735,
+    "label": [
+      {
+        "start": 0,
+        "end": 13,
+        "text": "Проанализируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Проанализируй"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "text": "FIC-765",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "FIC-765"
+      },
+      {
+        "start": 29,
+        "end": 38,
+        "text": "за 4 часа",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за 4 часа"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1717,
+    "created_at": "2026-07-08T10:06:27.253738Z",
+    "updated_at": "2026-07-08T10:06:27.253772Z",
+    "lead_time": 8.016
+  },
+  {
+    "text": "Выдай историю температуры TE-551 за вчера",
+    "id": 1736,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Выдай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Выдай"
+      },
+      {
+        "start": 14,
+        "end": 25,
+        "text": "температуры",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "температура"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "text": "TE-551",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TE-551"
+      },
+      {
+        "start": 33,
+        "end": 41,
+        "text": "за вчера",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за вчера"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1718,
+    "created_at": "2026-07-08T10:06:40.138255Z",
+    "updated_at": "2026-07-08T10:06:40.138289Z",
+    "lead_time": 9.292
+  },
+  {
+    "text": "Сформируй план мониторинга вибрации",
+    "id": 1519,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Сформируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Сформируй"
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "text": "план",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "план"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1527,
+    "created_at": "2026-07-07T17:57:42.559677Z",
+    "updated_at": "2026-07-07T17:57:42.559714Z",
+    "lead_time": 2.629
+  },
+  {
+    "text": "Найди расхождения в графиках ремонтов",
+    "id": 1343,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1413,
+    "created_at": "2026-07-07T16:08:35.497265Z",
+    "updated_at": "2026-07-07T16:08:35.497295Z",
+    "lead_time": 2.108
+  },
+  {
+    "text": "Сформируй план ежесменнова контроля по FIC-449",
+    "id": 1934,
+    "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Сформируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Сформируй"
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "text": "план",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "план"
+      },
+      {
+        "start": 39,
+        "end": 46,
+        "text": "FIC-449",
+        "labels": [
+          "model"
+        ],
+        "normalized": "FIC-449"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1914,
+    "created_at": "2026-07-08T10:57:37.423151Z",
+    "updated_at": "2026-07-08T10:57:37.423183Z",
+    "lead_time": 5.628
+  },
+  {
+    "text": "Какая модель электропривода смонтирована на задвижке ЭЛОУ-АВТ-7",
+    "id": 1973,
+    "label": [
+      {
+        "start": 13,
+        "end": 27,
+        "text": "электропривода",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "электропривода"
+      },
+      {
+        "start": 44,
+        "end": 52,
+        "text": "задвижке",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "задвижке"
+      },
+      {
+        "start": 53,
+        "end": 63,
+        "text": "ЭЛОУ-АВТ-7",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "ЭЛОУ-АВТ-7"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1936,
+    "created_at": "2026-07-08T11:05:31.399290Z",
+    "updated_at": "2026-07-08T11:05:31.399334Z",
+    "lead_time": 15.047
+  },
+  {
+    "text": "Вычисли средний часовой расход за дежурство по FT-903",
+    "id": 1561,
+    "label": [
+      {
+        "start": 0,
+        "end": 7,
+        "text": "Вычисли",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Вычисли"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "text": "расход",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "расход"
+      },
+      {
+        "start": 31,
+        "end": 43,
+        "text": "за дежурство",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за дежурство"
+      },
+      {
+        "start": 47,
+        "end": 53,
+        "text": "FT-903",
+        "labels": [
+          "model"
+        ],
+        "normalized": "FT-903"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1541,
+    "created_at": "2026-07-07T18:01:08.940495Z",
+    "updated_at": "2026-07-07T18:01:08.940535Z",
+    "lead_time": 13.784
+  },
+  {
+    "text": "Создай методику проверки TI-765",
+    "id": 1193,
+    "label": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "Создай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Создай"
+      },
+      {
+        "start": 7,
+        "end": 15,
+        "text": "методику",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "методика"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "text": "TI-765",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "TI-765"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1152,
+    "created_at": "2026-07-07T10:59:08.494755Z",
+    "updated_at": "2026-07-07T14:49:50.987015Z",
+    "lead_time": 19.898
+  },
+  {
+    "text": "Найди расхождения в разделах по экологии",
+    "id": 1424,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "text": "разделах",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "разделах"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1293,
+    "created_at": "2026-07-07T12:40:10.555311Z",
+    "updated_at": "2026-07-07T15:50:30.050933Z",
+    "lead_time": 13.162
+  },
+  {
+    "text": "Посчитай коэффициент полезного действия насоса Н-765",
+    "id": 1323,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Посчитай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Посчитай"
+      },
+      {
+        "start": 9,
+        "end": 39,
+        "text": "коэффициент полезного действия",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "коэффициент полезного действия"
+      },
+      {
+        "start": 40,
+        "end": 52,
+        "text": "насоса Н-765",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "насоса Н-765"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1257,
+    "created_at": "2026-07-07T12:26:35.019123Z",
+    "updated_at": "2026-07-07T18:12:52.092420Z",
+    "lead_time": 16.675
+  },
+  {
+    "text": "Температура в реакторе Р-5 резко выросла",
+    "id": 1146,
+    "label": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "Температура",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "температура"
+      },
+      {
+        "start": 14,
+        "end": 26,
+        "text": "реакторе Р-5",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "реакторе Р-5"
+      },
+      {
+        "start": 27,
+        "end": 40,
+        "text": "резко выросла",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "резко выросла"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1172,
+    "created_at": "2026-07-07T11:55:55.648024Z",
+    "updated_at": "2026-07-07T11:55:55.648056Z",
+    "lead_time": 51.429
+  },
+  {
+    "text": "Сколько часов отработал насос Н-335 за последние двое суток около 45",
+    "id": 1286,
+    "label": [
+      {
+        "start": 24,
+        "end": 35,
+        "text": "насос Н-335",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "насос Н-335"
+      },
+      {
+        "start": 36,
+        "end": 59,
+        "text": "за последние двое суток",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за последние двое суток"
+      },
+      {
+        "start": 60,
+        "end": 68,
+        "text": "около 45",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "около 45"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1387,
+    "created_at": "2026-07-07T16:03:58.904932Z",
+    "updated_at": "2026-07-07T16:03:58.904967Z",
+    "lead_time": 9.704
+  },
+  {
+    "text": "Давление на выходе компрессора упало ниже допустимого",
+    "id": 1147,
+    "label": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "Давление",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "давление"
+      },
+      {
+        "start": 19,
+        "end": 30,
+        "text": "компрессора",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "компрессора"
+      },
+      {
+        "start": 37,
+        "end": 53,
+        "text": "ниже допустимого",
+        "labels": [
+          "symptom"
+        ],
+        "normalized": "ниже допустимого"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1173,
+    "created_at": "2026-07-07T11:56:36.229743Z",
+    "updated_at": "2026-07-07T14:40:03.682491Z",
+    "lead_time": 44.296
+  },
+  {
+    "text": "Найои расхождения",
+    "id": 2067,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Найои",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Найои"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 2052,
+    "created_at": "2026-07-08T11:27:59.160749Z",
+    "updated_at": "2026-07-08T11:27:59.160778Z",
+    "lead_time": 1.609
+  }
+]
