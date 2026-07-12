@@ -25,7 +25,7 @@ class NERNormalizer:
     def _normalize_equipment(self, text: str) -> str:
         """Нормализация оборудования"""
         equipment_types = {
-            r'насос[а-я]*': 'насос',
+            r'насос[а-я]?': 'насос',
             r'теплообменник[а-я]*': 'теплообменник',
             r'колонн[а-я]*': 'колонна',
             r'печ[а-я]*': 'печь',
@@ -45,14 +45,14 @@ class NERNormalizer:
             r'регулятор[а-я]*': 'регулятор',
             r'колл?ектор[а-я]*': 'коллектор',
             r'резервн[а-я]*': 'резервный',
+            r'агрегат[а-я]*': 'агрегат',
         }
 
-        result = text
         for pattern, normalized_type in equipment_types.items():
             if re.search(pattern, text, re.IGNORECASE):
-                result = re.sub(pattern, normalized_type, text, flags=re.IGNORECASE)
+                text = re.sub(pattern, normalized_type, text, flags=re.IGNORECASE)
                 # Добавляем дефис между буквами и цифрами
-                result = re.sub(r'([A-Z]{1,3})\s*(\d{1,4})', r'\1-\2', result, flags=re.IGNORECASE)
+                text = re.sub(r'([A-Z]{1,3})\s*(\d{1,4})', r'\1-\2', text, flags=re.IGNORECASE)
                 break
 
         return text
@@ -279,7 +279,7 @@ class NERNormalizer:
         normalized_label = label.copy()
 
         # Нормализуем текст в зависимости от типа
-        if 'labels' in normalized_label and isinstance(normalized_label['labels'], list):
+        if 'labels' in normalized_label and normalized_label['labels']:
             entity_type = normalized_label['labels'][0]
             original_text = normalized_label.get('text', '')
 

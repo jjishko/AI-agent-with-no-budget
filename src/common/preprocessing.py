@@ -1,16 +1,10 @@
-import json
 import random
 from pathlib import Path
 from collections import defaultdict
-from normalizer import NERNormalizer
+from src.common.normalizer import NERNormalizer
+from src.common.misc import load_data, save_data
 
 OUTPUT_DIR = "../../data/processed"
-
-
-def load_data(file_path):
-    with open(file_path, 'r', encoding='utf-8') as f:
-        return json.load(f)
-
 
 def get_entity_type_combo(item):
     types = set()
@@ -22,7 +16,7 @@ def get_entity_type_combo(item):
     return tuple(sorted(types))
 
 
-def stratified_split(data, train_ratio=0.8, seed=42):
+def entity_stratified_split(data, train_ratio=0.8, seed=42):
     random.seed(seed)
 
     # Группируем по комбинации типов
@@ -91,11 +85,7 @@ def entity_comparation(train_data, test_data):
         print(f"{entity_type:<20} {train_c:<10} {test_c:<10} {total:<10}")
 
 
-def save_data(data, file_path):
-    with open(file_path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
-def NER_prerocessing(verbose=False):
+def ner_prerocessing(verbose=False):
     input_file = "../../data/annotated/NER_annotated.json"
     train_file = "NER_train.json"
     test_file = "NER_test.json"
@@ -109,7 +99,7 @@ def NER_prerocessing(verbose=False):
     normalized_data = normalizer.normalize_dataset(data)
 
     # 3. Стратифицированное разделение
-    train_data, test_data = stratified_split(normalized_data, train_ratio)
+    train_data, test_data = entity_stratified_split(normalized_data, train_ratio)
 
     # 4. Сохраняем результаты
     train_path = Path(OUTPUT_DIR) / train_file
@@ -134,4 +124,4 @@ def NER_prerocessing(verbose=False):
 
 
 if __name__ == "__main__":
-    NER_prerocessing(verbose=True)
+    ner_prerocessing(verbose=True)

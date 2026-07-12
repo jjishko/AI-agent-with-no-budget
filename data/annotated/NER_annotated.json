@@ -13212,8 +13212,17 @@
       "end": 38,
       "text": "двум",
       "labels": [
-        "time_range"
+        "quantity"
       ]
+    },
+    {
+      "start": 22,
+      "end": 30,
+      "text": "фильтров",
+      "labels": [
+        "equipment"
+      ],
+      "normalized": "фильтр"
     },
     {
       "start": 39,

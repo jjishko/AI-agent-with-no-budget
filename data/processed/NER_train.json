@@ -67,42 +67,24 @@
     "lead_time": 2.789
   },
   {
-    "text": "Выдай регламент работы печи №6",
-    "id": 1859,
+    "text": "Какой фильм посмотреть после вахты",
+    "id": 2013,
     "label": [
       {
-        "start": 0,
-        "end": 5,
-        "text": "Выдай",
-        "labels": [
-          "action"
-        ],
-        "normalized": "Выдай"
-      },
-      {
-        "start": 6,
-        "end": 15,
-        "text": "регламент",
-        "labels": [
-          "document_type"
-        ],
-        "normalized": "регламент"
-      },
-      {
         "start": 23,
-        "end": 30,
-        "text": "печи №6",
+        "end": 34,
+        "text": "после вахты",
         "labels": [
-          "unit"
+          "time_range"
         ],
-        "normalized": "печи №6"
+        "normalized": "после вахты"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1839,
-    "created_at": "2026-07-08T10:38:54.442796Z",
-    "updated_at": "2026-07-08T10:38:54.442827Z",
-    "lead_time": 4.041
+    "annotation_id": 1971,
+    "created_at": "2026-07-08T11:15:12.794075Z",
+    "updated_at": "2026-07-08T11:15:12.794109Z",
+    "lead_time": 4.443
   },
   {
     "text": "Что показывает резервный датчик давления",
@@ -172,42 +154,42 @@
     "lead_time": 11.013
   },
   {
-    "text": "Покажи калибровочные данные для модели Rosemount 8705",
-    "id": 1979,
+    "text": "Есть ли сертификат на модель TDLS200 для газоанализатора",
+    "id": 1965,
     "label": [
       {
-        "start": 0,
-        "end": 6,
-        "text": "Покажи",
+        "start": 8,
+        "end": 18,
+        "text": "сертификат",
         "labels": [
-          "action"
+          "document_type"
         ],
-        "normalized": "показать"
+        "normalized": "сертификат"
       },
       {
-        "start": 39,
-        "end": 48,
-        "text": "Rosemount",
-        "labels": [
-          "vendor"
-        ],
-        "normalized": "Rosemount"
-      },
-      {
-        "start": 49,
-        "end": 53,
-        "text": "8705",
+        "start": 29,
+        "end": 36,
+        "text": "TDLS200",
         "labels": [
           "model"
         ],
-        "normalized": "8705"
+        "normalized": "TDLS-200"
+      },
+      {
+        "start": 41,
+        "end": 56,
+        "text": "газоанализатора",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "газоанализатора"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1959,
-    "created_at": "2026-07-08T11:12:58.044552Z",
-    "updated_at": "2026-07-08T11:12:58.044589Z",
-    "lead_time": 5.728
+    "annotation_id": 1928,
+    "created_at": "2026-07-08T11:02:13.163045Z",
+    "updated_at": "2026-07-08T11:02:13.163074Z",
+    "lead_time": 5.672
   },
   {
     "text": "Вычисли параметры защиты по высокому давлению",
@@ -305,7 +287,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "блоку подготовки газа"
+        "normalized": "блок подготовки газа"
       }
     ],
     "annotator": 1,
@@ -695,33 +677,42 @@
     "lead_time": 35.213
   },
   {
-    "text": "Какая модель регулятора установлена на линии",
-    "id": 1531,
+    "text": "Сформируй подборку данных по печи №4 за смену",
+    "id": 1499,
     "label": [
       {
-        "start": 13,
-        "end": 23,
-        "text": "регулятора",
+        "start": 0,
+        "end": 9,
+        "text": "Сформируй",
         "labels": [
-          "equipment"
+          "action"
         ],
-        "normalized": "регулятора"
+        "normalized": "Сформируй"
       },
       {
-        "start": 39,
-        "end": 44,
-        "text": "линии",
+        "start": 29,
+        "end": 36,
+        "text": "печи №4",
         "labels": [
           "unit"
         ],
-        "normalized": "линии"
+        "normalized": "печи №4"
+      },
+      {
+        "start": 37,
+        "end": 45,
+        "text": "за смену",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за смену"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1499,
-    "created_at": "2026-07-07T16:27:22.066372Z",
-    "updated_at": "2026-07-08T10:17:03.167481Z",
-    "lead_time": 7.182
+    "annotation_id": 1340,
+    "created_at": "2026-07-07T12:54:50.301280Z",
+    "updated_at": "2026-07-07T15:58:13.064129Z",
+    "lead_time": 26.134999999999998
   },
   {
     "text": "Выполни расчет",
@@ -1041,42 +1032,42 @@
     "lead_time": 29.383
   },
   {
-    "text": "Что за модель контроллера подключена к FIC-987 — модель PAC8000",
-    "id": 2002,
+    "text": "Модель TDLS200 эксплуатируется на блоке осушки газа с 2022 года",
+    "id": 2000,
     "label": [
       {
-        "start": 14,
-        "end": 25,
-        "text": "контроллера",
-        "labels": [
-          "tag"
-        ],
-        "normalized": "контроллер"
-      },
-      {
-        "start": 39,
-        "end": 46,
-        "text": "FIC-987",
-        "labels": [
-          "tag"
-        ],
-        "normalized": "FIC-987"
-      },
-      {
-        "start": 56,
-        "end": 63,
-        "text": "PAC8000",
+        "start": 7,
+        "end": 14,
+        "text": "TDLS200",
         "labels": [
           "model"
         ],
-        "normalized": "PAC-8000"
+        "normalized": "TDLS-200"
+      },
+      {
+        "start": 34,
+        "end": 51,
+        "text": "блоке осушки газа",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "блок осушки газа"
+      },
+      {
+        "start": 52,
+        "end": 63,
+        "text": "с 2022 года",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "с 2022 года"
       }
     ],
     "annotator": 1,
-    "annotation_id": 2016,
-    "created_at": "2026-07-08T11:24:47.284191Z",
-    "updated_at": "2026-07-08T11:24:47.284231Z",
-    "lead_time": 12.556
+    "annotation_id": 2014,
+    "created_at": "2026-07-08T11:24:15.774002Z",
+    "updated_at": "2026-07-08T11:24:15.774034Z",
+    "lead_time": 19.597
   },
   {
     "text": "Расход по FT-428 резко обвалился",
@@ -1252,7 +1243,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "теплообменников Т-551"
+        "normalized": "теплообменник Т-551"
       },
       {
         "start": 61,
@@ -1301,7 +1292,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Теплообменник Т-426"
+        "normalized": "теплообменник Т-426"
       },
       {
         "start": 20,
@@ -1482,7 +1473,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-055"
+        "normalized": "насос Н-055"
       }
     ],
     "annotator": 1,
@@ -1521,51 +1512,42 @@
     "lead_time": 9.628
   },
   {
-    "text": "Температура на TI-719 растет после включения насоса",
-    "id": 1887,
+    "text": "Есть ли в паспорте на FLXA21 данные по вибрацыи",
+    "id": 1862,
     "label": [
       {
-        "start": 0,
-        "end": 11,
-        "text": "Температура",
+        "start": 10,
+        "end": 18,
+        "text": "паспорте",
         "labels": [
-          "parameter"
+          "document_type"
         ],
-        "normalized": "температура"
-      },
-      {
-        "start": 15,
-        "end": 21,
-        "text": "TI-719",
-        "labels": [
-          "tag"
-        ],
-        "normalized": "TI-719"
+        "normalized": "паспорт"
       },
       {
         "start": 22,
         "end": 28,
-        "text": "растет",
+        "text": "FLXA21",
         "labels": [
-          "symptom"
+          "model"
         ],
-        "normalized": "растет"
+        "normalized": "FLXA-21"
       },
       {
-        "start": 45,
-        "end": 51,
-        "text": "насоса",
+        "start": 39,
+        "end": 47,
+        "text": "вибрацыи",
         "labels": [
-          "equipment"
+          "parameter"
         ],
-        "normalized": "насоса"
+        "normalized": "вибрацыи"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1867,
-    "created_at": "2026-07-08T10:45:40.833675Z",
-    "updated_at": "2026-07-08T10:45:40.833721Z",
-    "lead_time": 6.665
+    "annotation_id": 1842,
+    "created_at": "2026-07-08T10:41:16.510078Z",
+    "updated_at": "2026-07-08T10:41:16.510124Z",
+    "lead_time": 6.389
   },
   {
     "text": "Где задействован датчик с индексом TI-109",
@@ -1824,7 +1806,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосу Н-490"
+        "normalized": "насос Н-490"
       }
     ],
     "annotator": 1,
@@ -1882,7 +1864,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "агрегат Н-892"
+        "normalized": "насосный агрегат Н-892"
       },
       {
         "start": 38,
@@ -1987,7 +1969,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-333"
+        "normalized": "насос Н-333"
       }
     ],
     "annotator": 1,
@@ -2179,7 +2161,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "дожимной насосной"
+        "normalized": "дожимной насосой"
       }
     ],
     "annotator": 1,
@@ -2313,7 +2295,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "центробежного компрессора"
+        "normalized": "центробежного компрессор"
       }
     ],
     "annotator": 1,
@@ -2343,60 +2325,33 @@
     "lead_time": 40.612
   },
   {
-    "text": "Найди инструкцию по настройке модели Rosemount 8705 для расходомера",
-    "id": 2001,
+    "text": "Что за модель стоит на резервном насосе Н-103 — модель 3051S",
+    "id": 1963,
     "label": [
       {
-        "start": 0,
-        "end": 5,
-        "text": "Найди",
+        "start": 23,
+        "end": 45,
+        "text": "резервном насосе Н-103",
         "labels": [
-          "action"
+          "equipment"
         ],
-        "normalized": "найти"
+        "normalized": "резервном насос Н-103"
       },
       {
-        "start": 6,
-        "end": 16,
-        "text": "инструкцию",
-        "labels": [
-          "document_type"
-        ],
-        "normalized": "инструкция"
-      },
-      {
-        "start": 37,
-        "end": 46,
-        "text": "Rosemount",
-        "labels": [
-          "vendor"
-        ],
-        "normalized": "Rosemount"
-      },
-      {
-        "start": 47,
-        "end": 51,
-        "text": "8705",
+        "start": 55,
+        "end": 60,
+        "text": "3051S",
         "labels": [
           "model"
         ],
-        "normalized": "8705"
-      },
-      {
-        "start": 56,
-        "end": 67,
-        "text": "расходомера",
-        "labels": [
-          "tag"
-        ],
-        "normalized": "расходомер"
+        "normalized": "3051S"
       }
     ],
     "annotator": 1,
-    "annotation_id": 2015,
-    "created_at": "2026-07-08T11:24:31.386696Z",
-    "updated_at": "2026-07-08T11:24:31.386729Z",
-    "lead_time": 11.297
+    "annotation_id": 1926,
+    "created_at": "2026-07-08T11:00:30.472702Z",
+    "updated_at": "2026-07-08T11:00:30.472785Z",
+    "lead_time": 19.312
   },
   {
     "text": "Найди инструкцию по продувке трубопроводов",
@@ -2427,7 +2382,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "трубопроводов"
+        "normalized": "трубопровод"
       }
     ],
     "annotator": 1,
@@ -2465,7 +2420,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонны К-13"
+        "normalized": "колонна К-13"
       }
     ],
     "annotator": 1,
@@ -2550,7 +2505,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "емкости Е-11"
+        "normalized": "емкость Е-11"
       }
     ],
     "annotator": 1,
@@ -2648,7 +2603,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "электродвигателя"
+        "normalized": "электродвигатель"
       }
     ],
     "annotator": 1,
@@ -2810,24 +2765,24 @@
     "lead_time": 2.064
   },
   {
-    "text": "Какой фильм посмотреть после вахты",
-    "id": 2013,
+    "text": "Сколько стоят евро сегодня",
+    "id": 2009,
     "label": [
       {
-        "start": 23,
-        "end": 34,
-        "text": "после вахты",
+        "start": 19,
+        "end": 26,
+        "text": "сегодня",
         "labels": [
           "time_range"
         ],
-        "normalized": "после вахты"
+        "normalized": "сегодня"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1971,
-    "created_at": "2026-07-08T11:15:12.794075Z",
-    "updated_at": "2026-07-08T11:15:12.794109Z",
-    "lead_time": 4.443
+    "annotation_id": 1968,
+    "created_at": "2026-07-08T11:14:44.714625Z",
+    "updated_at": "2026-07-08T11:14:44.714648Z",
+    "lead_time": 5.73
   },
   {
     "text": "Напиши памятку оператору по работе с LIT-785",
@@ -2878,7 +2833,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Насос Н-729"
+        "normalized": "насос Н-729"
       },
       {
         "start": 12,
@@ -3155,7 +3110,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "сепараторе"
+        "normalized": "сепаратор"
       }
     ],
     "annotator": 1,
@@ -3280,7 +3235,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "сепаратора С-14"
+        "normalized": "сепаратор С-14"
       }
     ],
     "annotator": 1,
@@ -3327,7 +3282,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "теплообменники Т-112"
+        "normalized": "теплообменник Т-112"
       },
       {
         "start": 46,
@@ -3448,7 +3403,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "компрессоров К-5"
+        "normalized": "компрессор К-5"
       },
       {
         "start": 54,
@@ -3515,7 +3470,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-778"
+        "normalized": "насос Н-778"
       },
       {
         "start": 41,
@@ -3553,7 +3508,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "агрегат Н-581"
+        "normalized": "насосный агрегат Н-581"
       },
       {
         "start": 43,
@@ -3638,7 +3593,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "агрегат"
+        "normalized": "насосный агрегат"
       }
     ],
     "annotator": 1,
@@ -3696,7 +3651,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "фильтре Ф-8"
+        "normalized": "фильтр Ф-8"
       },
       {
         "start": 39,
@@ -3800,51 +3755,51 @@
     "lead_time": 62.342
   },
   {
-    "text": "Найди модель измерительного блока в схеме подключения PT-372",
-    "id": 1989,
+    "text": "Модель Rosemount 3051S используется для измерения расхода на FIC-561",
+    "id": 1988,
     "label": [
       {
-        "start": 0,
-        "end": 5,
-        "text": "Найди",
+        "start": 7,
+        "end": 16,
+        "text": "Rosemount",
         "labels": [
-          "action"
+          "vendor"
         ],
-        "normalized": "найти"
+        "normalized": "Rosemount"
       },
       {
-        "start": 13,
-        "end": 33,
-        "text": "измерительного блока",
+        "start": 17,
+        "end": 22,
+        "text": "3051S",
         "labels": [
-          "equipment"
+          "model"
         ],
-        "normalized": "измерительного блока"
+        "normalized": "3051S"
       },
       {
-        "start": 36,
-        "end": 41,
-        "text": "схеме",
+        "start": 50,
+        "end": 57,
+        "text": "расхода",
         "labels": [
-          "document_type"
+          "parameter"
         ],
-        "normalized": "схеме"
+        "normalized": "расход"
       },
       {
-        "start": 54,
-        "end": 60,
-        "text": "PT-372",
+        "start": 61,
+        "end": 68,
+        "text": "FIC-561",
         "labels": [
           "tag"
         ],
-        "normalized": "PT-372"
+        "normalized": "FIC-561"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1967,
-    "created_at": "2026-07-08T11:14:34.697231Z",
-    "updated_at": "2026-07-08T11:14:34.697264Z",
-    "lead_time": 8.626
+    "annotation_id": 1966,
+    "created_at": "2026-07-08T11:14:21.857626Z",
+    "updated_at": "2026-07-08T11:14:21.857700Z",
+    "lead_time": 5.475
   },
   {
     "text": "Рассчитай параметры регулятора по давлению",
@@ -3866,7 +3821,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "регулятора"
+        "normalized": "регулятор"
       },
       {
         "start": 34,
@@ -4114,7 +4069,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосного агрегата Н-884"
+        "normalized": "насосого агрегата Н-884"
       },
       {
         "start": 38,
@@ -4172,7 +4127,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "ректификационной колонне"
+        "normalized": "ректификационной колонна"
       },
       {
         "start": 36,
@@ -4324,7 +4279,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "трубопровода"
+        "normalized": "трубопровод"
       }
     ],
     "annotator": 1,
@@ -4658,51 +4613,33 @@
     "lead_time": 6.495
   },
   {
-    "text": "Проинтегрируй показания трех каналов за период",
-    "id": 1651,
+    "text": "Сравни две версии",
+    "id": 2041,
     "label": [
       {
         "start": 0,
-        "end": 13,
-        "text": "Проинтегрируй",
+        "end": 6,
+        "text": "Сравни",
         "labels": [
           "action"
         ],
-        "normalized": "Проинтегрируй"
+        "normalized": "сравнить"
       },
       {
-        "start": 24,
-        "end": 28,
-        "text": "трех",
+        "start": 7,
+        "end": 10,
+        "text": "две",
         "labels": [
           "quantity"
         ],
-        "normalized": "трех"
-      },
-      {
-        "start": 29,
-        "end": 36,
-        "text": "каналов",
-        "labels": [
-          "equipment"
-        ],
-        "normalized": "каналов"
-      },
-      {
-        "start": 37,
-        "end": 46,
-        "text": "за период",
-        "labels": [
-          "time_range"
-        ],
-        "normalized": "за период"
+        "normalized": "две"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1632,
-    "created_at": "2026-07-08T09:19:51.572637Z",
-    "updated_at": "2026-07-08T09:19:51.572662Z",
-    "lead_time": 19.625
+    "annotation_id": 2026,
+    "created_at": "2026-07-08T11:25:52.021995Z",
+    "updated_at": "2026-07-08T11:25:52.022027Z",
+    "lead_time": 1.268
   },
   {
     "text": "Найди несоответствия в паспортных данных на насосы Н-118 и Н-803",
@@ -4733,7 +4670,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосы Н-118"
+        "normalized": "насос Н-118"
       },
       {
         "start": 59,
@@ -4878,7 +4815,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Насос Н-826"
+        "normalized": "насос Н-826"
       },
       {
         "start": 12,
@@ -5032,7 +4969,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "реакторе Р-2"
+        "normalized": "реактор Р-2"
       },
       {
         "start": 27,
@@ -5211,7 +5148,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонны К-8"
+        "normalized": "колонна К-8"
       }
     ],
     "annotator": 1,
@@ -5394,7 +5331,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонне К-5"
+        "normalized": "колонна К-5"
       },
       {
         "start": 37,
@@ -5413,33 +5350,51 @@
     "lead_time": 4.146
   },
   {
-    "text": "Какая модель преобразователя частоты стоит на насосе Н-659",
-    "id": 1987,
+    "text": "Сформируй регламент контроля расхода по FT-787",
+    "id": 1681,
     "label": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Сформируй",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Сформируй"
+      },
+      {
+        "start": 10,
+        "end": 19,
+        "text": "регламент",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "регламент"
+      },
       {
         "start": 29,
         "end": 36,
-        "text": "частоты",
+        "text": "расхода",
         "labels": [
           "parameter"
         ],
-        "normalized": "частота"
+        "normalized": "расход"
       },
       {
-        "start": 46,
-        "end": 58,
-        "text": "насосе Н-659",
+        "start": 40,
+        "end": 46,
+        "text": "FT-787",
         "labels": [
-          "equipment"
+          "model"
         ],
-        "normalized": "насосе Н-659"
+        "normalized": "FT-787"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1459,
-    "created_at": "2026-07-07T16:18:06.619157Z",
-    "updated_at": "2026-07-07T16:18:06.619190Z",
-    "lead_time": 17.799
+    "annotation_id": 1662,
+    "created_at": "2026-07-08T09:42:03.602227Z",
+    "updated_at": "2026-07-08T09:42:03.602259Z",
+    "lead_time": 19.161
   },
   {
     "text": "Почему TE-771 дает сбой в сигнале",
@@ -5490,7 +5445,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-772"
+        "normalized": "насос Н-772"
       },
       {
         "start": 37,
@@ -5547,33 +5502,51 @@
     "lead_time": 28.265
   },
   {
-    "text": "Что за модель стоит на резервном насосе Н-103 — модель 3051S",
-    "id": 1963,
+    "text": "Найди описание модели Siemens Sipart PS2 для позиционера",
+    "id": 1962,
     "label": [
       {
-        "start": 23,
-        "end": 45,
-        "text": "резервном насосе Н-103",
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
         "labels": [
-          "equipment"
+          "action"
         ],
-        "normalized": "резервном насосе Н-103"
+        "normalized": "найти"
       },
       {
-        "start": 55,
-        "end": 60,
-        "text": "3051S",
+        "start": 22,
+        "end": 29,
+        "text": "Siemens",
+        "labels": [
+          "vendor"
+        ],
+        "normalized": "Siemens"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "text": "Sipart PS2",
         "labels": [
           "model"
         ],
-        "normalized": "3051S"
+        "normalized": "Sipart PS-2"
+      },
+      {
+        "start": 45,
+        "end": 56,
+        "text": "позиционера",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "позиционера"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1926,
-    "created_at": "2026-07-08T11:00:30.472702Z",
-    "updated_at": "2026-07-08T11:00:30.472785Z",
-    "lead_time": 19.312
+    "annotation_id": 1925,
+    "created_at": "2026-07-08T10:59:58.620943Z",
+    "updated_at": "2026-07-08T11:23:47.594857Z",
+    "lead_time": 29.343
   },
   {
     "text": "Отличия в уставках LIC-432 между версиями",
@@ -5682,7 +5655,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонну К-9"
+        "normalized": "колонна К-9"
       }
     ],
     "annotator": 1,
@@ -5692,51 +5665,33 @@
     "lead_time": 71.337
   },
   {
-    "text": "Найди данные по ремонту модели Rosemount 3051S с тегом PT-921",
-    "id": 1968,
+    "text": "Где используется модель FLXA21 на установке осушки газа",
+    "id": 1960,
     "label": [
       {
-        "start": 0,
-        "end": 5,
-        "text": "Найди",
-        "labels": [
-          "action"
-        ],
-        "normalized": "найти"
-      },
-      {
-        "start": 31,
-        "end": 40,
-        "text": "Rosemount",
-        "labels": [
-          "vendor"
-        ],
-        "normalized": "Rosemount"
-      },
-      {
-        "start": 41,
-        "end": 46,
-        "text": "3051S",
+        "start": 24,
+        "end": 30,
+        "text": "FLXA21",
         "labels": [
           "model"
         ],
-        "normalized": "3051S"
+        "normalized": "FLXA-21"
       },
       {
-        "start": 55,
-        "end": 61,
-        "text": "PT-921",
+        "start": 34,
+        "end": 50,
+        "text": "установке осушки",
         "labels": [
-          "tag"
+          "unit"
         ],
-        "normalized": "PT-921"
+        "normalized": "установке осушки"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1931,
-    "created_at": "2026-07-08T11:02:50.978998Z",
-    "updated_at": "2026-07-08T11:07:11.132256Z",
-    "lead_time": 12.806000000000001
+    "annotation_id": 1923,
+    "created_at": "2026-07-08T10:59:39.905493Z",
+    "updated_at": "2026-07-08T10:59:39.905515Z",
+    "lead_time": 3.722
   },
   {
     "text": "Есть ли данные по испытаниям трубопровода",
@@ -5749,7 +5704,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "трубопровода"
+        "normalized": "трубопровод"
       }
     ],
     "annotator": 1,
@@ -5778,7 +5733,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонне К-7"
+        "normalized": "колонна К-7"
       },
       {
         "start": 29,
@@ -5987,42 +5942,60 @@
     "lead_time": 7.719
   },
   {
-    "text": "Выдай перечень оборудования с моделью Siemens Sipart PS2",
-    "id": 1986,
+    "text": "Сравни паспортные данные на модели Rosemount 3051 и 2051",
+    "id": 1984,
     "label": [
       {
         "start": 0,
-        "end": 5,
-        "text": "Выдай",
+        "end": 6,
+        "text": "Сравни",
         "labels": [
           "action"
         ],
-        "normalized": "Выдай"
+        "normalized": "сравнить"
       },
       {
-        "start": 6,
-        "end": 14,
-        "text": "перечень",
+        "start": 7,
+        "end": 17,
+        "text": "паспортные",
         "labels": [
           "document_type"
         ],
-        "normalized": "перечень"
+        "normalized": "паспорт"
       },
       {
-        "start": 38,
-        "end": 56,
-        "text": "Siemens Sipart PS2",
+        "start": 35,
+        "end": 44,
+        "text": "Rosemount",
         "labels": [
           "vendor"
         ],
-        "normalized": "Siemens Sipart Ps2"
+        "normalized": "Rosemount"
+      },
+      {
+        "start": 45,
+        "end": 49,
+        "text": "3051",
+        "labels": [
+          "model"
+        ],
+        "normalized": "3051"
+      },
+      {
+        "start": 52,
+        "end": 56,
+        "text": "2051",
+        "labels": [
+          "model"
+        ],
+        "normalized": "2051"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1815,
-    "created_at": "2026-07-08T10:33:02.533797Z",
-    "updated_at": "2026-07-08T10:33:02.533833Z",
-    "lead_time": 12.836
+    "annotation_id": 1964,
+    "created_at": "2026-07-08T11:13:51.105546Z",
+    "updated_at": "2026-07-08T11:13:51.105578Z",
+    "lead_time": 4.635
   },
   {
     "text": "Посчитай КПД газоперекачивающего агрегата",
@@ -6053,7 +6026,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "агрегата"
+        "normalized": "насосный агрегат"
       }
     ],
     "annotator": 1,
@@ -6091,7 +6064,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонны"
+        "normalized": "колонна"
       }
     ],
     "annotator": 1,
@@ -6194,7 +6167,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосу Н-952"
+        "normalized": "насос Н-952"
       }
     ],
     "annotator": 1,
@@ -6204,60 +6177,51 @@
     "lead_time": 5.421
   },
   {
-    "text": "Суммируй расходы по двум линиям за период",
-    "id": 1570,
+    "text": "Покажи схему подключения сигнализатора уровня",
+    "id": 1615,
     "label": [
       {
         "start": 0,
-        "end": 8,
-        "text": "Суммируй",
+        "end": 6,
+        "text": "Покажи",
         "labels": [
           "action"
         ],
-        "normalized": "Суммируй"
+        "normalized": "показать"
       },
       {
-        "start": 9,
-        "end": 16,
-        "text": "расходы",
+        "start": 7,
+        "end": 12,
+        "text": "схему",
         "labels": [
-          "parameter"
+          "document_type"
         ],
-        "normalized": "расход"
-      },
-      {
-        "start": 20,
-        "end": 24,
-        "text": "двум",
-        "labels": [
-          "quantity"
-        ],
-        "normalized": "двум"
+        "normalized": "схему"
       },
       {
         "start": 25,
-        "end": 31,
-        "text": "линиям",
+        "end": 38,
+        "text": "сигнализатора",
         "labels": [
-          "unit"
+          "equipment"
         ],
-        "normalized": "линиям"
+        "normalized": "сигнализатора"
       },
       {
-        "start": 32,
-        "end": 41,
-        "text": "за период",
+        "start": 39,
+        "end": 45,
+        "text": "уровня",
         "labels": [
-          "time_range"
+          "parameter"
         ],
-        "normalized": "за период"
+        "normalized": "уровень"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1581,
-    "created_at": "2026-07-07T18:15:21.198869Z",
-    "updated_at": "2026-07-07T18:15:21.198904Z",
-    "lead_time": 8.827
+    "annotation_id": 1576,
+    "created_at": "2026-07-07T18:10:22.620134Z",
+    "updated_at": "2026-07-08T09:55:50.951117Z",
+    "lead_time": 6.896
   },
   {
     "text": "Какая модификация системы управления",
@@ -6431,7 +6395,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "агрегат Н-294"
+        "normalized": "насосный агрегат Н-294"
       },
       {
         "start": 37,
@@ -6525,7 +6489,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "теплообменнике Т-562"
+        "normalized": "теплообменник Т-562"
       },
       {
         "start": 48,
@@ -6695,7 +6659,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "блокировок"
+        "normalized": "блок"
       }
     ],
     "annotator": 1,
@@ -6724,7 +6688,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "сепаратора С-9"
+        "normalized": "сепаратор С-9"
       }
     ],
     "annotator": 1,
@@ -6744,7 +6708,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "PID-регуляторов"
+        "normalized": "PID-регулятор"
       }
     ],
     "annotator": 1,
@@ -6970,7 +6934,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-452"
+        "normalized": "насос Н-452"
       }
     ],
     "annotator": 1,
@@ -7037,7 +7001,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "теплообменника Т-245"
+        "normalized": "теплообменник Т-245"
       }
     ],
     "annotator": 1,
@@ -7075,7 +7039,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "теплообменника Т-892"
+        "normalized": "теплообменник Т-892"
       }
     ],
     "annotator": 1,
@@ -7151,7 +7115,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "реактору Р-3"
+        "normalized": "реактор Р-3"
       },
       {
         "start": 34,
@@ -7227,7 +7191,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "фильтрующего элемента"
+        "normalized": "фильтр элемента"
       }
     ],
     "annotator": 1,
@@ -7704,42 +7668,42 @@
     "lead_time": 3.24
   },
   {
-    "text": "Что за модель регулятора уровня — модель 2490 или другая",
-    "id": 1993,
+    "text": "Модель Yokogawa DPharp EJA задействована на дифференциальном давлении",
+    "id": 1992,
     "label": [
       {
-        "start": 14,
-        "end": 24,
-        "text": "регулятора",
+        "start": 7,
+        "end": 15,
+        "text": "Yokogawa",
         "labels": [
-          "equipment"
+          "vendor"
         ],
-        "normalized": "регулятора"
+        "normalized": "Yokogawa"
       },
       {
-        "start": 25,
-        "end": 31,
-        "text": "уровня",
-        "labels": [
-          "parameter"
-        ],
-        "normalized": "уровень"
-      },
-      {
-        "start": 41,
-        "end": 45,
-        "text": "2490",
+        "start": 16,
+        "end": 26,
+        "text": "DPharp EJA",
         "labels": [
           "model"
         ],
-        "normalized": "2490"
+        "normalized": "DPharp EJA"
+      },
+      {
+        "start": 44,
+        "end": 69,
+        "text": "дифференциальном давлении",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "дифференциальном давление"
       }
     ],
     "annotator": 1,
-    "annotation_id": 2007,
-    "created_at": "2026-07-08T11:19:46.634651Z",
-    "updated_at": "2026-07-08T11:19:46.634686Z",
-    "lead_time": 6.813
+    "annotation_id": 2006,
+    "created_at": "2026-07-08T11:19:35.521584Z",
+    "updated_at": "2026-07-08T11:19:35.521614Z",
+    "lead_time": 8.854
   },
   {
     "text": "Разработай памятку по эксплуатации PT-632 для персонала",
@@ -7808,7 +7772,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "фильтре Ф-7"
+        "normalized": "фильтр Ф-7"
       }
     ],
     "annotator": 1,
@@ -7951,7 +7915,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "трубопроводе"
+        "normalized": "трубопровод"
       }
     ],
     "annotator": 1,
@@ -8179,7 +8143,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "электродвигателя насоса"
+        "normalized": "электродвигателя насос"
       }
     ],
     "annotator": 1,
@@ -8208,7 +8172,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "теплообменника Т-892"
+        "normalized": "теплообменник Т-892"
       }
     ],
     "annotator": 1,
@@ -8228,7 +8192,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонну К-6"
+        "normalized": "колонна К-6"
       }
     ],
     "annotator": 1,
@@ -8257,7 +8221,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонны К-8"
+        "normalized": "колонна К-8"
       },
       {
         "start": 30,
@@ -8304,7 +8268,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "теплообменника"
+        "normalized": "теплообменник"
       }
     ],
     "annotator": 1,
@@ -8342,7 +8306,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "теплообменника Т-544"
+        "normalized": "теплообменник Т-544"
       }
     ],
     "annotator": 1,
@@ -8476,7 +8440,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосы Н-441"
+        "normalized": "насос Н-441"
       },
       {
         "start": 44,
@@ -8523,7 +8487,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-292"
+        "normalized": "насос Н-292"
       },
       {
         "start": 35,
@@ -8665,33 +8629,42 @@
     "lead_time": 3.014
   },
   {
-    "text": "Сколько процентов состовляет загрузка насоса Н-188",
-    "id": 1903,
+    "text": "Посчитай КПД установки гидроочистки",
+    "id": 1810,
     "label": [
       {
-        "start": 8,
-        "end": 17,
-        "text": "процентов",
+        "start": 0,
+        "end": 8,
+        "text": "Посчитай",
         "labels": [
-          "unit_of_measure"
+          "action"
         ],
-        "normalized": "процентов"
+        "normalized": "Посчитай"
       },
       {
-        "start": 38,
-        "end": 50,
-        "text": "насоса Н-188",
+        "start": 9,
+        "end": 12,
+        "text": "КПД",
         "labels": [
-          "equipment"
+          "parameter"
         ],
-        "normalized": "насоса Н-188"
+        "normalized": "КПД"
+      },
+      {
+        "start": 13,
+        "end": 35,
+        "text": "установки гидроочистки",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "установки гидроочистки"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1901,
-    "created_at": "2026-07-08T10:53:48.769769Z",
-    "updated_at": "2026-07-08T10:53:48.769793Z",
-    "lead_time": 3.628
+    "annotation_id": 1790,
+    "created_at": "2026-07-08T10:27:24.635842Z",
+    "updated_at": "2026-07-08T10:27:24.635874Z",
+    "lead_time": 4.122
   },
   {
     "text": "Где установлен теплообменник Т-178",
@@ -8905,7 +8878,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Теплообменник Т-484"
+        "normalized": "теплообменник Т-484"
       },
       {
         "start": 20,
@@ -9278,7 +9251,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "вентилятора градирни"
+        "normalized": "вентилятор градирни"
       }
     ],
     "annotator": 1,
@@ -9298,7 +9271,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Насос Н-347"
+        "normalized": "насос Н-347"
       },
       {
         "start": 12,
@@ -9552,51 +9525,42 @@
     "lead_time": 1.951
   },
   {
-    "text": "Сформируй регламент контроля расхода по FT-787",
-    "id": 1681,
+    "text": "Составь действия при отказе клапана-регулятора",
+    "id": 1680,
     "label": [
       {
         "start": 0,
-        "end": 9,
-        "text": "Сформируй",
+        "end": 7,
+        "text": "Составь",
         "labels": [
           "action"
         ],
-        "normalized": "Сформируй"
+        "normalized": "Составь"
       },
       {
-        "start": 10,
-        "end": 19,
-        "text": "регламент",
+        "start": 21,
+        "end": 27,
+        "text": "отказе",
         "labels": [
-          "document_type"
+          "symptom"
         ],
-        "normalized": "регламент"
+        "normalized": "отказе"
       },
       {
-        "start": 29,
-        "end": 36,
-        "text": "расхода",
-        "labels": [
-          "parameter"
-        ],
-        "normalized": "расход"
-      },
-      {
-        "start": 40,
+        "start": 28,
         "end": 46,
-        "text": "FT-787",
+        "text": "клапана-регулятора",
         "labels": [
-          "model"
+          "equipment"
         ],
-        "normalized": "FT-787"
+        "normalized": "клапана-регулятор"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1662,
-    "created_at": "2026-07-08T09:42:03.602227Z",
-    "updated_at": "2026-07-08T09:42:03.602259Z",
-    "lead_time": 19.161
+    "annotation_id": 1661,
+    "created_at": "2026-07-08T09:41:40.828104Z",
+    "updated_at": "2026-07-08T09:41:40.828136Z",
+    "lead_time": 3.922
   },
   {
     "text": "Посчитай средний расход за смену по FIC-519",
@@ -9674,7 +9638,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-594"
+        "normalized": "насос Н-594"
       }
     ],
     "annotator": 1,
@@ -9732,7 +9696,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "сепаратора С-3"
+        "normalized": "сепаратор С-3"
       },
       {
         "start": 45,
@@ -9789,33 +9753,42 @@
     "lead_time": 13.227
   },
   {
-    "text": "Какая модель газоанализатора стоит на выходе колонны К-16",
-    "id": 1995,
+    "text": "Что за модель регулятора уровня — модель 2490 или другая",
+    "id": 1993,
     "label": [
       {
-        "start": 13,
-        "end": 28,
-        "text": "газоанализатора",
-        "labels": [
-          "tag"
-        ],
-        "normalized": "газоанализатора"
-      },
-      {
-        "start": 45,
-        "end": 57,
-        "text": "колонны К-16",
+        "start": 14,
+        "end": 24,
+        "text": "регулятора",
         "labels": [
           "equipment"
         ],
-        "normalized": "колонны К-16"
+        "normalized": "регулятор"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "text": "уровня",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "уровень"
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "text": "2490",
+        "labels": [
+          "model"
+        ],
+        "normalized": "2490"
       }
     ],
     "annotator": 1,
-    "annotation_id": 2009,
-    "created_at": "2026-07-08T11:21:44.975101Z",
-    "updated_at": "2026-07-08T11:21:44.975138Z",
-    "lead_time": 101.854
+    "annotation_id": 2007,
+    "created_at": "2026-07-08T11:19:46.634651Z",
+    "updated_at": "2026-07-08T11:19:46.634686Z",
+    "lead_time": 6.813
   },
   {
     "text": "Определи объем перекачки за день по насосу Н-637",
@@ -9855,7 +9828,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосу Н-637"
+        "normalized": "насос Н-637"
       }
     ],
     "annotator": 1,
@@ -9960,7 +9933,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "теплообменника Т-985"
+        "normalized": "теплообменник Т-985"
       }
     ],
     "annotator": 1,
@@ -10219,7 +10192,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "компрессору"
+        "normalized": "компрессор"
       },
       {
         "start": 32,
@@ -10248,7 +10221,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Теплообменник Т-781"
+        "normalized": "теплообменник Т-781"
       },
       {
         "start": 20,
@@ -10533,42 +10506,42 @@
     "lead_time": 8.754
   },
   {
-    "text": "Какая модель установлена на насосе Н-247 — Rosemount 3051 или что-то другое",
-    "id": 1955,
+    "text": "Напиши алгоритм действий при скачке давления",
+    "id": 1933,
     "label": [
       {
-        "start": 28,
-        "end": 40,
-        "text": "насосе Н-247",
+        "start": 0,
+        "end": 6,
+        "text": "Напиши",
         "labels": [
-          "equipment"
+          "action"
         ],
-        "normalized": "насосе Н-247"
+        "normalized": "Напиши"
       },
       {
-        "start": 43,
-        "end": 52,
-        "text": "Rosemount",
+        "start": 7,
+        "end": 15,
+        "text": "алгоритм",
         "labels": [
-          "vendor"
+          "document_type"
         ],
-        "normalized": "Rosemount"
+        "normalized": "алгоритм"
       },
       {
-        "start": 53,
-        "end": 57,
-        "text": "3051",
+        "start": 36,
+        "end": 44,
+        "text": "давления",
         "labels": [
-          "model"
+          "parameter"
         ],
-        "normalized": "3051"
+        "normalized": "давление"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1953,
-    "created_at": "2026-07-08T11:11:00.141014Z",
-    "updated_at": "2026-07-08T11:11:00.141046Z",
-    "lead_time": 3.543
+    "annotation_id": 1913,
+    "created_at": "2026-07-08T10:57:23.543890Z",
+    "updated_at": "2026-07-08T10:57:27.350946Z",
+    "lead_time": 4.573
   },
   {
     "text": "Расход по FT-156 упал вдвое",
@@ -10838,7 +10811,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "резервнова насоса"
+        "normalized": "резервнова насос"
       },
       {
         "start": 36,
@@ -10943,7 +10916,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-377"
+        "normalized": "насос Н-377"
       }
     ],
     "annotator": 1,
@@ -10963,7 +10936,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Теплообменник Т-503"
+        "normalized": "теплообменник Т-503"
       },
       {
         "start": 20,
@@ -11296,7 +11269,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "фильтра"
+        "normalized": "фильтр"
       }
     ],
     "annotator": 1,
@@ -11343,7 +11316,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "резервуаре"
+        "normalized": "резервуар"
       }
     ],
     "annotator": 1,
@@ -11381,7 +11354,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса"
+        "normalized": "насос"
       }
     ],
     "annotator": 1,
@@ -11391,42 +11364,51 @@
     "lead_time": 11.693
   },
   {
-    "text": "Сопоставь описание пуска в двух редакциях",
-    "id": 1589,
+    "text": "Сформируй отчет по колонне К-1 за дежурство",
+    "id": 1580,
     "label": [
       {
         "start": 0,
         "end": 9,
-        "text": "Сопоставь",
+        "text": "Сформируй",
         "labels": [
           "action"
         ],
-        "normalized": "Сопоставь"
+        "normalized": "Сформируй"
       },
       {
-        "start": 27,
-        "end": 31,
-        "text": "двух",
-        "labels": [
-          "quantity"
-        ],
-        "normalized": "двух"
-      },
-      {
-        "start": 32,
-        "end": 41,
-        "text": "редакциях",
+        "start": 10,
+        "end": 15,
+        "text": "отчет",
         "labels": [
           "document_type"
         ],
-        "normalized": "редакциях"
+        "normalized": "отчет"
+      },
+      {
+        "start": 19,
+        "end": 30,
+        "text": "колонне К-1",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "колонна К-1"
+      },
+      {
+        "start": 31,
+        "end": 43,
+        "text": "за дежурство",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за дежурство"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1550,
-    "created_at": "2026-07-07T18:03:39.576981Z",
-    "updated_at": "2026-07-07T18:03:39.577006Z",
-    "lead_time": 11.97
+    "annotation_id": 1591,
+    "created_at": "2026-07-07T18:17:45.242717Z",
+    "updated_at": "2026-07-07T18:17:45.242749Z",
+    "lead_time": 4.376
   },
   {
     "text": "Рассчитай средний расход за последние 6 часов по FT-614",
@@ -11656,7 +11638,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "теплообменника Т-333"
+        "normalized": "теплообменник Т-333"
       }
     ],
     "annotator": 1,
@@ -11666,42 +11648,42 @@
     "lead_time": 13.009
   },
   {
-    "text": "Какая модель позиционера используется на клапане ЭЛОУ-АВТ-4",
-    "id": 1999,
+    "text": "Модель 3051S с тегом PT-504 требует калибровки в этом месяце",
+    "id": 1997,
     "label": [
       {
-        "start": 13,
-        "end": 24,
-        "text": "позиционера",
+        "start": 7,
+        "end": 12,
+        "text": "3051S",
+        "labels": [
+          "model"
+        ],
+        "normalized": "3051S"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "text": "PT-504",
         "labels": [
           "tag"
         ],
-        "normalized": "позиционера"
+        "normalized": "PT-504"
       },
       {
-        "start": 41,
-        "end": 48,
-        "text": "клапане",
+        "start": 47,
+        "end": 60,
+        "text": "в этом месяце",
         "labels": [
-          "equipment"
+          "time_range"
         ],
-        "normalized": "клапане"
-      },
-      {
-        "start": 49,
-        "end": 59,
-        "text": "ЭЛОУ-АВТ-4",
-        "labels": [
-          "unit"
-        ],
-        "normalized": "ЭЛОУ-АВТ-4"
+        "normalized": "в этом месяце"
       }
     ],
     "annotator": 1,
-    "annotation_id": 2013,
-    "created_at": "2026-07-08T11:23:30.211990Z",
-    "updated_at": "2026-07-08T11:23:30.212027Z",
-    "lead_time": 11.549
+    "annotation_id": 2011,
+    "created_at": "2026-07-08T11:22:06.052453Z",
+    "updated_at": "2026-07-08T11:22:06.052488Z",
+    "lead_time": 8.012
   },
   {
     "text": "Покажи паспорт",
@@ -11980,7 +11962,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосов Н-009"
+        "normalized": "насосв Н-009"
       },
       {
         "start": 53,
@@ -12248,7 +12230,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "агрегатов"
+        "normalized": "насосный агрегат"
       }
     ],
     "annotator": 1,
@@ -12476,7 +12458,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-544"
+        "normalized": "насос Н-544"
       }
     ],
     "annotator": 1,
@@ -12650,7 +12632,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-204"
+        "normalized": "насос Н-204"
       }
     ],
     "annotator": 1,
@@ -12822,7 +12804,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонне К-5"
+        "normalized": "колонна К-5"
       },
       {
         "start": 31,
@@ -12860,7 +12842,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "приемной емкости"
+        "normalized": "приемной емкость"
       },
       {
         "start": 27,
@@ -12898,7 +12880,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "трубопровода"
+        "normalized": "трубопровод"
       }
     ],
     "annotator": 1,
@@ -13013,60 +12995,42 @@
     "lead_time": 30.518
   },
   {
-    "text": "Сравни паспортные данные на модели Rosemount 3051 и 2051",
-    "id": 1984,
+    "text": "Модель FLXA21 упоминалась в протоколе поверки PT-883",
+    "id": 1982,
     "label": [
       {
-        "start": 0,
-        "end": 6,
-        "text": "Сравни",
+        "start": 7,
+        "end": 13,
+        "text": "FLXA21",
         "labels": [
-          "action"
+          "model"
         ],
-        "normalized": "сравнить"
+        "normalized": "FLXA-21"
       },
       {
-        "start": 7,
-        "end": 17,
-        "text": "паспортные",
+        "start": 28,
+        "end": 37,
+        "text": "протоколе",
         "labels": [
           "document_type"
         ],
-        "normalized": "паспорт"
+        "normalized": "протоколе"
       },
       {
-        "start": 35,
-        "end": 44,
-        "text": "Rosemount",
+        "start": 46,
+        "end": 52,
+        "text": "PT-883",
         "labels": [
-          "vendor"
+          "tag"
         ],
-        "normalized": "Rosemount"
-      },
-      {
-        "start": 45,
-        "end": 49,
-        "text": "3051",
-        "labels": [
-          "model"
-        ],
-        "normalized": "3051"
-      },
-      {
-        "start": 52,
-        "end": 56,
-        "text": "2051",
-        "labels": [
-          "model"
-        ],
-        "normalized": "2051"
+        "normalized": "PT-883"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1964,
-    "created_at": "2026-07-08T11:13:51.105546Z",
-    "updated_at": "2026-07-08T11:13:51.105578Z",
-    "lead_time": 4.635
+    "annotation_id": 1962,
+    "created_at": "2026-07-08T11:13:29.981638Z",
+    "updated_at": "2026-07-08T11:13:29.981672Z",
+    "lead_time": 2.73
   },
   {
     "text": "Напиши инструкцию по переходу на резервный агрегат",
@@ -13247,7 +13211,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "сепараторе"
+        "normalized": "сепаратор"
       }
     ],
     "annotator": 1,
@@ -13257,33 +13221,33 @@
     "lead_time": 13.176
   },
   {
-    "text": "Отличия в установках защиты по уровню",
-    "id": 1750,
+    "text": "Где установлен блок сброса давления",
+    "id": 1694,
     "label": [
       {
-        "start": 10,
-        "end": 27,
-        "text": "установках защиты",
+        "start": 15,
+        "end": 26,
+        "text": "блок сброса",
         "labels": [
-          "unit"
+          "equipment"
         ],
-        "normalized": "установках защиты"
+        "normalized": "блок сброса"
       },
       {
-        "start": 31,
-        "end": 37,
-        "text": "уровню",
+        "start": 27,
+        "end": 35,
+        "text": "давления",
         "labels": [
           "parameter"
         ],
-        "normalized": "уровень"
+        "normalized": "давление"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1731,
-    "created_at": "2026-07-08T10:09:29.700684Z",
-    "updated_at": "2026-07-08T10:09:29.700718Z",
-    "lead_time": 7.974
+    "annotation_id": 1674,
+    "created_at": "2026-07-08T09:46:14.142904Z",
+    "updated_at": "2026-07-08T09:46:14.142937Z",
+    "lead_time": 12.021
   },
   {
     "text": "Пересчитай расход из м3/ч в баррели в сутки",
@@ -13399,7 +13363,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "воздушного фильтра"
+        "normalized": "воздушного фильтр"
       }
     ],
     "annotator": 1,
@@ -13684,51 +13648,42 @@
     "lead_time": 12.436
   },
   {
-    "text": "Найди паспорт на модель FLXA21 для анализатора влажности",
-    "id": 1956,
+    "text": "Какая модель установлена на насосе Н-247 — Rosemount 3051 или что-то другое",
+    "id": 1955,
     "label": [
       {
-        "start": 0,
-        "end": 5,
-        "text": "Найди",
-        "labels": [
-          "action"
-        ],
-        "normalized": "найти"
-      },
-      {
-        "start": 6,
-        "end": 13,
-        "text": "паспорт",
-        "labels": [
-          "document_type"
-        ],
-        "normalized": "паспорт"
-      },
-      {
-        "start": 24,
-        "end": 30,
-        "text": "FLXA21",
-        "labels": [
-          "model"
-        ],
-        "normalized": "FLXA-21"
-      },
-      {
-        "start": 35,
-        "end": 56,
-        "text": "анализатора влажности",
+        "start": 28,
+        "end": 40,
+        "text": "насосе Н-247",
         "labels": [
           "equipment"
         ],
-        "normalized": "анализатора влажности"
+        "normalized": "насос Н-247"
+      },
+      {
+        "start": 43,
+        "end": 52,
+        "text": "Rosemount",
+        "labels": [
+          "vendor"
+        ],
+        "normalized": "Rosemount"
+      },
+      {
+        "start": 53,
+        "end": 57,
+        "text": "3051",
+        "labels": [
+          "model"
+        ],
+        "normalized": "3051"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1954,
-    "created_at": "2026-07-08T11:11:09.268997Z",
-    "updated_at": "2026-07-08T11:11:09.269032Z",
-    "lead_time": 5.837
+    "annotation_id": 1953,
+    "created_at": "2026-07-08T11:11:00.141014Z",
+    "updated_at": "2026-07-08T11:11:00.141046Z",
+    "lead_time": 3.543
   },
   {
     "text": "Визуализируй спектр вибрации насоса Н-536",
@@ -13750,7 +13705,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-536"
+        "normalized": "насос Н-536"
       }
     ],
     "annotator": 1,
@@ -13844,7 +13799,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "компрессоре"
+        "normalized": "компрессор"
       }
     ],
     "annotator": 1,
@@ -13930,42 +13885,42 @@
     "lead_time": 71.394
   },
   {
-    "text": "Модель Siemens Sipart PS2 установлена на резервной линии байпаса",
-    "id": 2004,
+    "text": "Что за модель контроллера подключена к FIC-987 — модель PAC8000",
+    "id": 2002,
     "label": [
       {
-        "start": 7,
-        "end": 14,
-        "text": "Siemens",
+        "start": 14,
+        "end": 25,
+        "text": "контроллера",
         "labels": [
-          "vendor"
+          "tag"
         ],
-        "normalized": "Siemens"
+        "normalized": "контроллер"
       },
       {
-        "start": 15,
-        "end": 25,
-        "text": "Sipart PS2",
+        "start": 39,
+        "end": 46,
+        "text": "FIC-987",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "FIC-987"
+      },
+      {
+        "start": 56,
+        "end": 63,
+        "text": "PAC8000",
         "labels": [
           "model"
         ],
-        "normalized": "Sipart PS-2"
-      },
-      {
-        "start": 41,
-        "end": 64,
-        "text": "резервной линии байпаса",
-        "labels": [
-          "unit"
-        ],
-        "normalized": "резервной линии байпаса"
+        "normalized": "PAC-8000"
       }
     ],
     "annotator": 1,
-    "annotation_id": 2018,
-    "created_at": "2026-07-08T11:25:06.556845Z",
-    "updated_at": "2026-07-08T11:25:06.556879Z",
-    "lead_time": 5.337
+    "annotation_id": 2016,
+    "created_at": "2026-07-08T11:24:47.284191Z",
+    "updated_at": "2026-07-08T11:24:47.284231Z",
+    "lead_time": 12.556
   },
   {
     "text": "Какие данные передает TE-774",
@@ -14152,7 +14107,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "регуляторов"
+        "normalized": "регулятор"
       },
       {
         "start": 44,
@@ -14295,7 +14250,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "реакторе"
+        "normalized": "реактор"
       }
     ],
     "annotator": 1,
@@ -14333,7 +14288,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "компрессора К-9"
+        "normalized": "компрессор К-9"
       },
       {
         "start": 36,
@@ -14409,7 +14364,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонне К-6"
+        "normalized": "колонна К-6"
       },
       {
         "start": 29,
@@ -14506,60 +14461,42 @@
     "lead_time": 3.977
   },
   {
-    "text": "Насос Н-534 укомплектован моделью Rosemount 2051 проверь документацию",
-    "id": 1959,
+    "text": "Модель Siemens Sipart PS2 задействована на клапане FIC-734 да или нет",
+    "id": 1969,
     "label": [
       {
-        "start": 0,
-        "end": 11,
-        "text": "Насос Н-534",
-        "labels": [
-          "equipment"
-        ],
-        "normalized": "Насос Н-534"
-      },
-      {
-        "start": 34,
-        "end": 43,
-        "text": "Rosemount",
+        "start": 7,
+        "end": 14,
+        "text": "Siemens",
         "labels": [
           "vendor"
         ],
-        "normalized": "Rosemount"
+        "normalized": "Siemens"
       },
       {
-        "start": 44,
-        "end": 48,
-        "text": "2051",
+        "start": 15,
+        "end": 25,
+        "text": "Sipart PS2",
         "labels": [
           "model"
         ],
-        "normalized": "2051"
+        "normalized": "Sipart PS-2"
       },
       {
-        "start": 49,
-        "end": 56,
-        "text": "проверь",
+        "start": 51,
+        "end": 58,
+        "text": "FIC-734",
         "labels": [
-          "action"
+          "tag"
         ],
-        "normalized": "проверить"
-      },
-      {
-        "start": 57,
-        "end": 69,
-        "text": "документацию",
-        "labels": [
-          "document_type"
-        ],
-        "normalized": "документацию"
+        "normalized": "FIC-734"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1922,
-    "created_at": "2026-07-08T10:59:29.664352Z",
-    "updated_at": "2026-07-08T11:06:42.895668Z",
-    "lead_time": 33.897
+    "annotation_id": 1932,
+    "created_at": "2026-07-08T11:03:55.925504Z",
+    "updated_at": "2026-07-08T11:03:55.925551Z",
+    "lead_time": 16.856
   },
   {
     "text": "Напиши инструкцию по синхронизации с сетью",
@@ -14851,7 +14788,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "компрессора КМ-203"
+        "normalized": "компрессор КМ-203"
       }
     ],
     "annotator": 1,
@@ -14927,7 +14864,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "центробежного компрессора"
+        "normalized": "центробежного компрессор"
       }
     ],
     "annotator": 1,
@@ -15118,42 +15055,42 @@
     "lead_time": 7.992
   },
   {
-    "text": "Что за модель термопреобразователя стоит на TI-573 — модель 3144P",
-    "id": 1970,
+    "text": "Что за модель вибродатчика стоит на насосе Н-871 — модель 3300",
+    "id": 1978,
     "label": [
       {
         "start": 14,
-        "end": 34,
-        "text": "термопреобразователя",
-        "labels": [
-          "equipment"
-        ],
-        "normalized": "термопреобразователя"
-      },
-      {
-        "start": 44,
-        "end": 50,
-        "text": "TI-573",
+        "end": 26,
+        "text": "вибродатчика",
         "labels": [
           "tag"
         ],
-        "normalized": "TI-573"
+        "normalized": "вибродатчик"
       },
       {
-        "start": 60,
-        "end": 65,
-        "text": "3144P",
+        "start": 36,
+        "end": 48,
+        "text": "насосе Н-871",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "насос Н-871"
+      },
+      {
+        "start": 58,
+        "end": 62,
+        "text": "3300",
         "labels": [
           "model"
         ],
-        "normalized": "3144P"
+        "normalized": "3300"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1933,
-    "created_at": "2026-07-08T11:04:19.156963Z",
-    "updated_at": "2026-07-08T11:04:19.156997Z",
-    "lead_time": 12.889
+    "annotation_id": 1958,
+    "created_at": "2026-07-08T11:12:47.797883Z",
+    "updated_at": "2026-07-08T11:12:47.797916Z",
+    "lead_time": 7.311
   },
   {
     "text": "Найди руководство по эксплуатации системы пожаротушения",
@@ -15488,7 +15425,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "компрессора К-7"
+        "normalized": "компрессор К-7"
       },
       {
         "start": 33,
@@ -15546,7 +15483,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-891"
+        "normalized": "насос Н-891"
       },
       {
         "start": 45,
@@ -15585,51 +15522,33 @@
     "lead_time": 3.843
   },
   {
-    "text": "Создай методику контроля уровня в емкости",
-    "id": 1760,
+    "text": "Какая модель регулятора установлена на линии",
+    "id": 1531,
     "label": [
       {
-        "start": 0,
-        "end": 6,
-        "text": "Создай",
-        "labels": [
-          "action"
-        ],
-        "normalized": "Создай"
-      },
-      {
-        "start": 7,
-        "end": 15,
-        "text": "методику",
-        "labels": [
-          "document_type"
-        ],
-        "normalized": "методика"
-      },
-      {
-        "start": 25,
-        "end": 31,
-        "text": "уровня",
-        "labels": [
-          "parameter"
-        ],
-        "normalized": "уровень"
-      },
-      {
-        "start": 34,
-        "end": 41,
-        "text": "емкости",
+        "start": 13,
+        "end": 23,
+        "text": "регулятора",
         "labels": [
           "equipment"
         ],
-        "normalized": "емкости"
+        "normalized": "регулятор"
+      },
+      {
+        "start": 39,
+        "end": 44,
+        "text": "линии",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "линии"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1740,
-    "created_at": "2026-07-08T10:12:08.973627Z",
-    "updated_at": "2026-07-08T10:12:08.973660Z",
-    "lead_time": 4.806
+    "annotation_id": 1499,
+    "created_at": "2026-07-07T16:27:22.066372Z",
+    "updated_at": "2026-07-08T10:17:03.167481Z",
+    "lead_time": 7.182
   },
   {
     "text": "Какая модель установлена на резервуаре Р-12",
@@ -15642,7 +15561,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "резервуаре Р-12"
+        "normalized": "резервуар Р-12"
       }
     ],
     "annotator": 1,
@@ -15662,7 +15581,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Теплообменник Т-512"
+        "normalized": "теплообменник Т-512"
       },
       {
         "start": 20,
@@ -15774,7 +15693,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонны К-7"
+        "normalized": "колонна К-7"
       }
     ],
     "annotator": 1,
@@ -15794,7 +15713,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "резервуара Р-7"
+        "normalized": "резервуар Р-7"
       }
     ],
     "annotator": 1,
@@ -16031,7 +15950,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "компрессора К-8"
+        "normalized": "компрессор К-8"
       }
     ],
     "annotator": 1,
@@ -16203,7 +16122,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "сепараторы С-4"
+        "normalized": "сепаратор С-4"
       },
       {
         "start": 40,
@@ -16440,7 +16359,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонну К-12"
+        "normalized": "колонна К-12"
       }
     ],
     "annotator": 1,
@@ -16470,24 +16389,42 @@
     "lead_time": 24.89
   },
   {
-    "text": "Сколько стоят евро сегодня",
-    "id": 2009,
+    "text": "Модель Siemens Sipart PS2 установлена на резервной линии байпаса",
+    "id": 2004,
     "label": [
       {
-        "start": 19,
-        "end": 26,
-        "text": "сегодня",
+        "start": 7,
+        "end": 14,
+        "text": "Siemens",
         "labels": [
-          "time_range"
+          "vendor"
         ],
-        "normalized": "сегодня"
+        "normalized": "Siemens"
+      },
+      {
+        "start": 15,
+        "end": 25,
+        "text": "Sipart PS2",
+        "labels": [
+          "model"
+        ],
+        "normalized": "Sipart PS-2"
+      },
+      {
+        "start": 41,
+        "end": 64,
+        "text": "резервной линии байпаса",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "резервной линии байпаса"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1968,
-    "created_at": "2026-07-08T11:14:44.714625Z",
-    "updated_at": "2026-07-08T11:14:44.714648Z",
-    "lead_time": 5.73
+    "annotation_id": 2018,
+    "created_at": "2026-07-08T11:25:06.556845Z",
+    "updated_at": "2026-07-08T11:25:06.556879Z",
+    "lead_time": 5.337
   },
   {
     "text": "Покажи электрическую схему насосного агрегата",
@@ -16518,7 +16455,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосного агрегата"
+        "normalized": "насосого агрегата"
       }
     ],
     "annotator": 1,
@@ -16557,8 +16494,8 @@
     "lead_time": 36.948
   },
   {
-    "text": "Найди описание модели Siemens Sipart PS2 для позиционера",
-    "id": 1962,
+    "text": "Найди данные по ремонту модели Rosemount 3051S с тегом PT-921",
+    "id": 1968,
     "label": [
       {
         "start": 0,
@@ -16570,38 +16507,38 @@
         "normalized": "найти"
       },
       {
-        "start": 22,
-        "end": 29,
-        "text": "Siemens",
+        "start": 31,
+        "end": 40,
+        "text": "Rosemount",
         "labels": [
           "vendor"
         ],
-        "normalized": "Siemens"
+        "normalized": "Rosemount"
       },
       {
-        "start": 30,
-        "end": 40,
-        "text": "Sipart PS2",
+        "start": 41,
+        "end": 46,
+        "text": "3051S",
         "labels": [
           "model"
         ],
-        "normalized": "Sipart PS-2"
+        "normalized": "3051S"
       },
       {
-        "start": 45,
-        "end": 56,
-        "text": "позиционера",
+        "start": 55,
+        "end": 61,
+        "text": "PT-921",
         "labels": [
           "tag"
         ],
-        "normalized": "позиционера"
+        "normalized": "PT-921"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1925,
-    "created_at": "2026-07-08T10:59:58.620943Z",
-    "updated_at": "2026-07-08T11:23:47.594857Z",
-    "lead_time": 29.343
+    "annotation_id": 1931,
+    "created_at": "2026-07-08T11:02:50.978998Z",
+    "updated_at": "2026-07-08T11:07:11.132256Z",
+    "lead_time": 12.806000000000001
   },
   {
     "text": "Визуализируй изменение PI-834 за дежурство",
@@ -16642,42 +16579,51 @@
     "lead_time": 15.596
   },
   {
-    "text": "Модель FLXA21 упоминалась в протоколе поверки PT-883",
-    "id": 1982,
+    "text": "Сравни версии прошивки для модели Rosemount 3051 на насосе Н-778",
+    "id": 2005,
     "label": [
       {
-        "start": 7,
-        "end": 13,
-        "text": "FLXA21",
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "text": "Rosemount",
+        "labels": [
+          "vendor"
+        ],
+        "normalized": "Rosemount"
+      },
+      {
+        "start": 44,
+        "end": 48,
+        "text": "3051",
         "labels": [
           "model"
         ],
-        "normalized": "FLXA-21"
+        "normalized": "3051"
       },
       {
-        "start": 28,
-        "end": 37,
-        "text": "протоколе",
+        "start": 52,
+        "end": 64,
+        "text": "насосе Н-778",
         "labels": [
-          "document_type"
+          "equipment"
         ],
-        "normalized": "протоколе"
-      },
-      {
-        "start": 46,
-        "end": 52,
-        "text": "PT-883",
-        "labels": [
-          "tag"
-        ],
-        "normalized": "PT-883"
+        "normalized": "насос Н-778"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1962,
-    "created_at": "2026-07-08T11:13:29.981638Z",
-    "updated_at": "2026-07-08T11:13:29.981672Z",
-    "lead_time": 2.73
+    "annotation_id": 2019,
+    "created_at": "2026-07-08T11:25:13.629531Z",
+    "updated_at": "2026-07-08T11:25:13.629561Z",
+    "lead_time": 4.112
   },
   {
     "text": "Где используется оборудование Mettler Toledo",
@@ -16756,8 +16702,8 @@
     "lead_time": 5.893
   },
   {
-    "text": "Сформируй отчет по реактору Р-1 за период",
-    "id": 1742,
+    "text": "Сформируй план ремонта насоса на вахте",
+    "id": 1755,
     "label": [
       {
         "start": 0,
@@ -16770,37 +16716,37 @@
       },
       {
         "start": 10,
-        "end": 15,
-        "text": "отчет",
+        "end": 14,
+        "text": "план",
         "labels": [
           "document_type"
         ],
-        "normalized": "отчет"
+        "normalized": "план"
       },
       {
-        "start": 19,
-        "end": 31,
-        "text": "реактору Р-1",
+        "start": 23,
+        "end": 29,
+        "text": "насоса",
         "labels": [
           "equipment"
         ],
-        "normalized": "реактору Р-1"
+        "normalized": "насос"
       },
       {
-        "start": 32,
-        "end": 41,
-        "text": "за период",
+        "start": 30,
+        "end": 38,
+        "text": "на вахте",
         "labels": [
           "time_range"
         ],
-        "normalized": "за период"
+        "normalized": "на вахте"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1724,
-    "created_at": "2026-07-08T10:07:38.267546Z",
-    "updated_at": "2026-07-08T10:07:38.267579Z",
-    "lead_time": 8.899
+    "annotation_id": 1736,
+    "created_at": "2026-07-08T10:11:28.413538Z",
+    "updated_at": "2026-07-08T10:11:28.413573Z",
+    "lead_time": 7.291
   },
   {
     "text": "Посчитай средний расход за смену по FIC-523",
@@ -17043,7 +16989,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "резервнова насоса"
+        "normalized": "резервнова насос"
       },
       {
         "start": 41,
@@ -17101,7 +17047,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса"
+        "normalized": "насос"
       }
     ],
     "annotator": 1,
@@ -17149,42 +17095,42 @@
     "lead_time": 7.691
   },
   {
-    "text": "Модель TDLS200 эксплуатируется на блоке осушки газа с 2022 года",
-    "id": 2000,
+    "text": "Какая модель позиционера используется на клапане ЭЛОУ-АВТ-4",
+    "id": 1999,
     "label": [
       {
-        "start": 7,
-        "end": 14,
-        "text": "TDLS200",
+        "start": 13,
+        "end": 24,
+        "text": "позиционера",
         "labels": [
-          "model"
+          "tag"
         ],
-        "normalized": "TDLS-200"
+        "normalized": "позиционера"
       },
       {
-        "start": 34,
-        "end": 51,
-        "text": "блоке осушки газа",
+        "start": 41,
+        "end": 48,
+        "text": "клапане",
         "labels": [
           "equipment"
         ],
-        "normalized": "блоке осушки газа"
+        "normalized": "клапане"
       },
       {
-        "start": 52,
-        "end": 63,
-        "text": "с 2022 года",
+        "start": 49,
+        "end": 59,
+        "text": "ЭЛОУ-АВТ-4",
         "labels": [
-          "time_range"
+          "unit"
         ],
-        "normalized": "с 2022 года"
+        "normalized": "ЭЛОУ-АВТ-4"
       }
     ],
     "annotator": 1,
-    "annotation_id": 2014,
-    "created_at": "2026-07-08T11:24:15.774002Z",
-    "updated_at": "2026-07-08T11:24:15.774034Z",
-    "lead_time": 19.597
+    "annotation_id": 2013,
+    "created_at": "2026-07-08T11:23:30.211990Z",
+    "updated_at": "2026-07-08T11:23:30.212027Z",
+    "lead_time": 11.549
   },
   {
     "text": "Не переключается автоматический клапан",
@@ -17291,7 +17237,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "компрессора К-6"
+        "normalized": "компрессор К-6"
       }
     ],
     "annotator": 1,
@@ -17511,42 +17457,51 @@
     "lead_time": 126.89099999999999
   },
   {
-    "text": "Модель 3051S с тегом PT-504 требует калибровки в этом месяце",
-    "id": 1997,
+    "text": "Найди руководство по монтажу модели FLXA21 на установке",
+    "id": 1996,
     "label": [
       {
-        "start": 7,
-        "end": 12,
-        "text": "3051S",
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 6,
+        "end": 17,
+        "text": "руководство",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "руководство"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "text": "FLXA21",
         "labels": [
           "model"
         ],
-        "normalized": "3051S"
+        "normalized": "FLXA-21"
       },
       {
-        "start": 21,
-        "end": 27,
-        "text": "PT-504",
+        "start": 46,
+        "end": 55,
+        "text": "установке",
         "labels": [
-          "tag"
+          "unit"
         ],
-        "normalized": "PT-504"
-      },
-      {
-        "start": 47,
-        "end": 60,
-        "text": "в этом месяце",
-        "labels": [
-          "time_range"
-        ],
-        "normalized": "в этом месяце"
+        "normalized": "установке"
       }
     ],
     "annotator": 1,
-    "annotation_id": 2011,
-    "created_at": "2026-07-08T11:22:06.052453Z",
-    "updated_at": "2026-07-08T11:22:06.052488Z",
-    "lead_time": 8.012
+    "annotation_id": 2010,
+    "created_at": "2026-07-08T11:21:54.516018Z",
+    "updated_at": "2026-07-08T11:21:54.516051Z",
+    "lead_time": 4.782
   },
   {
     "text": "Сравни периодичность обслуживания для двух установок",
@@ -17662,7 +17617,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "емкости Е-9"
+        "normalized": "емкость Е-9"
       }
     ],
     "annotator": 1,
@@ -17710,21 +17665,21 @@
     "lead_time": 2.907
   },
   {
-    "text": "Где размещен регулятор давления на линии отбора",
-    "id": 1451,
+    "text": "Какая модель преобразователя давления установлена на линии УПН-5",
+    "id": 1967,
     "label": [
       {
         "start": 13,
-        "end": 22,
-        "text": "регулятор",
+        "end": 28,
+        "text": "преобразователя",
         "labels": [
           "equipment"
         ],
-        "normalized": "регулятор"
+        "normalized": "преобразователя"
       },
       {
-        "start": 23,
-        "end": 31,
+        "start": 29,
+        "end": 37,
         "text": "давления",
         "labels": [
           "parameter"
@@ -17732,20 +17687,20 @@
         "normalized": "давление"
       },
       {
-        "start": 35,
-        "end": 47,
-        "text": "линии отбора",
+        "start": 59,
+        "end": 64,
+        "text": "УПН-5",
         "labels": [
           "unit"
         ],
-        "normalized": "линии отбора"
+        "normalized": "УПН-5"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1320,
-    "created_at": "2026-07-07T12:48:46.616786Z",
-    "updated_at": "2026-07-08T10:16:57.901900Z",
-    "lead_time": 33.794999999999995
+    "annotation_id": 1930,
+    "created_at": "2026-07-08T11:02:38.194754Z",
+    "updated_at": "2026-07-08T11:02:38.194794Z",
+    "lead_time": 10.605
   },
   {
     "text": "Сгенерируй маршрут обхода компрессорной",
@@ -17787,7 +17742,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-208"
+        "normalized": "насос Н-208"
       }
     ],
     "annotator": 1,
@@ -17881,7 +17836,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосу Н-193"
+        "normalized": "насос Н-193"
       }
     ],
     "annotator": 1,
@@ -18063,42 +18018,51 @@
     "lead_time": 4.909
   },
   {
-    "text": "Есть ли в паспорте на FLXA21 данные по вибрацыи",
-    "id": 1862,
+    "text": "Найди в документации пределы срабатывания FIC-914",
+    "id": 1861,
     "label": [
       {
-        "start": 10,
-        "end": 18,
-        "text": "паспорте",
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 8,
+        "end": 20,
+        "text": "документации",
         "labels": [
           "document_type"
         ],
-        "normalized": "паспорт"
+        "normalized": "документации"
       },
       {
-        "start": 22,
-        "end": 28,
-        "text": "FLXA21",
+        "start": 21,
+        "end": 41,
+        "text": "пределы срабатывания",
         "labels": [
-          "model"
+          "limit"
         ],
-        "normalized": "FLXA-21"
+        "normalized": "предел срабатывания"
       },
       {
-        "start": 39,
-        "end": 47,
-        "text": "вибрацыи",
+        "start": 42,
+        "end": 49,
+        "text": "FIC-914",
         "labels": [
-          "parameter"
+          "tag"
         ],
-        "normalized": "вибрацыи"
+        "normalized": "FIC-914"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1842,
-    "created_at": "2026-07-08T10:41:16.510078Z",
-    "updated_at": "2026-07-08T10:41:16.510124Z",
-    "lead_time": 6.389
+    "annotation_id": 1841,
+    "created_at": "2026-07-08T10:39:27.481628Z",
+    "updated_at": "2026-07-08T10:39:27.481660Z",
+    "lead_time": 17.238
   },
   {
     "text": "Сравни процедуры тестирования автоматики",
@@ -18121,51 +18085,42 @@
     "lead_time": 13.12
   },
   {
-    "text": "Модель Rosemount 3051S используется для измерения расхода на FIC-561",
-    "id": 1988,
+    "text": "Выдай перечень оборудования с моделью Siemens Sipart PS2",
+    "id": 1986,
     "label": [
       {
-        "start": 7,
-        "end": 16,
-        "text": "Rosemount",
+        "start": 0,
+        "end": 5,
+        "text": "Выдай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Выдай"
+      },
+      {
+        "start": 6,
+        "end": 14,
+        "text": "перечень",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "перечень"
+      },
+      {
+        "start": 38,
+        "end": 56,
+        "text": "Siemens Sipart PS2",
         "labels": [
           "vendor"
         ],
-        "normalized": "Rosemount"
-      },
-      {
-        "start": 17,
-        "end": 22,
-        "text": "3051S",
-        "labels": [
-          "model"
-        ],
-        "normalized": "3051S"
-      },
-      {
-        "start": 50,
-        "end": 57,
-        "text": "расхода",
-        "labels": [
-          "parameter"
-        ],
-        "normalized": "расход"
-      },
-      {
-        "start": 61,
-        "end": 68,
-        "text": "FIC-561",
-        "labels": [
-          "tag"
-        ],
-        "normalized": "FIC-561"
+        "normalized": "Siemens Sipart Ps2"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1966,
-    "created_at": "2026-07-08T11:14:21.857626Z",
-    "updated_at": "2026-07-08T11:14:21.857700Z",
-    "lead_time": 5.475
+    "annotation_id": 1815,
+    "created_at": "2026-07-08T10:33:02.533797Z",
+    "updated_at": "2026-07-08T10:33:02.533833Z",
+    "lead_time": 12.836
   },
   {
     "text": "Создай инструкцию по ремонту запорной арматуры",
@@ -18275,42 +18230,51 @@
     "lead_time": 8.031
   },
   {
-    "text": "Сформируй подборку данных по печи №4 за смену",
-    "id": 1499,
+    "text": "Сравни частоту замены фильтров по двум установкам",
+    "id": 1425,
     "label": [
       {
         "start": 0,
-        "end": 9,
-        "text": "Сформируй",
+        "end": 6,
+        "text": "Сравни",
         "labels": [
           "action"
         ],
-        "normalized": "Сформируй"
+        "normalized": "сравнить"
       },
       {
-        "start": 29,
-        "end": 36,
-        "text": "печи №4",
+        "start": 22,
+        "end": 30,
+        "text": "фильтров",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "фильтр"
+      },
+      {
+        "start": 34,
+        "end": 38,
+        "text": "двум",
+        "labels": [
+          "quantity"
+        ],
+        "normalized": "двум"
+      },
+      {
+        "start": 39,
+        "end": 49,
+        "text": "установкам",
         "labels": [
           "unit"
         ],
-        "normalized": "печи №4"
-      },
-      {
-        "start": 37,
-        "end": 45,
-        "text": "за смену",
-        "labels": [
-          "time_range"
-        ],
-        "normalized": "за смену"
+        "normalized": "установкам"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1340,
-    "created_at": "2026-07-07T12:54:50.301280Z",
-    "updated_at": "2026-07-07T15:58:13.064129Z",
-    "lead_time": 26.134999999999998
+    "annotation_id": 1294,
+    "created_at": "2026-07-07T12:40:41.860097Z",
+    "updated_at": "2026-07-07T15:50:46.809826Z",
+    "lead_time": 36.67400000000001
   },
   {
     "text": "На PT-836 было 6.4 МПа а стало 5.9 почему",
@@ -18576,7 +18540,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса"
+        "normalized": "насос"
       }
     ],
     "annotator": 1,
@@ -18728,7 +18692,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосу Н-004"
+        "normalized": "насос Н-004"
       }
     ],
     "annotator": 1,
@@ -18831,7 +18795,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса"
+        "normalized": "насос"
       }
     ],
     "annotator": 1,
@@ -18869,7 +18833,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "фильтре Ф-1"
+        "normalized": "фильтр Ф-1"
       },
       {
         "start": 38,
@@ -18965,7 +18929,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "сепараторе С-6"
+        "normalized": "сепаратор С-6"
       },
       {
         "start": 26,
@@ -19252,42 +19216,51 @@
     "lead_time": 7.236
   },
   {
-    "text": "Модель Yokogawa DPharp EJA задействована на дифференциальном давлении",
-    "id": 1992,
+    "text": "Найди модель измерительного блока в схеме подключения PT-372",
+    "id": 1989,
     "label": [
       {
-        "start": 7,
-        "end": 15,
-        "text": "Yokogawa",
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
         "labels": [
-          "vendor"
+          "action"
         ],
-        "normalized": "Yokogawa"
+        "normalized": "найти"
       },
       {
-        "start": 16,
-        "end": 26,
-        "text": "DPharp EJA",
+        "start": 13,
+        "end": 33,
+        "text": "измерительного блока",
         "labels": [
-          "model"
+          "equipment"
         ],
-        "normalized": "DPharp EJA"
+        "normalized": "измерительного блок"
       },
       {
-        "start": 44,
-        "end": 69,
-        "text": "дифференциальном давлении",
+        "start": 36,
+        "end": 41,
+        "text": "схеме",
         "labels": [
-          "parameter"
+          "document_type"
         ],
-        "normalized": "дифференциальном давление"
+        "normalized": "схеме"
+      },
+      {
+        "start": 54,
+        "end": 60,
+        "text": "PT-372",
+        "labels": [
+          "tag"
+        ],
+        "normalized": "PT-372"
       }
     ],
     "annotator": 1,
-    "annotation_id": 2006,
-    "created_at": "2026-07-08T11:19:35.521584Z",
-    "updated_at": "2026-07-08T11:19:35.521614Z",
-    "lead_time": 8.854
+    "annotation_id": 1967,
+    "created_at": "2026-07-08T11:14:34.697231Z",
+    "updated_at": "2026-07-08T11:14:34.697264Z",
+    "lead_time": 8.626
   },
   {
     "text": "Что определяет резервный измеритель температуры",
@@ -19561,7 +19534,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "теплообменнике Т-673"
+        "normalized": "теплообменник Т-673"
       },
       {
         "start": 47,
@@ -19580,60 +19553,42 @@
     "lead_time": 5.221
   },
   {
-    "text": "Найди в документации модель Rosemount 3051 для перепада давления",
-    "id": 1974,
+    "text": "Что за модель термопреобразователя стоит на TI-573 — модель 3144P",
+    "id": 1970,
     "label": [
       {
-        "start": 0,
-        "end": 5,
-        "text": "Найди",
+        "start": 14,
+        "end": 34,
+        "text": "термопреобразователя",
         "labels": [
-          "action"
+          "equipment"
         ],
-        "normalized": "найти"
+        "normalized": "термопреобразователя"
       },
       {
-        "start": 8,
-        "end": 20,
-        "text": "документации",
+        "start": 44,
+        "end": 50,
+        "text": "TI-573",
         "labels": [
-          "document_type"
+          "tag"
         ],
-        "normalized": "документации"
+        "normalized": "TI-573"
       },
       {
-        "start": 28,
-        "end": 37,
-        "text": "Rosemount",
-        "labels": [
-          "vendor"
-        ],
-        "normalized": "Rosemount"
-      },
-      {
-        "start": 38,
-        "end": 42,
-        "text": "3051",
+        "start": 60,
+        "end": 65,
+        "text": "3144P",
         "labels": [
           "model"
         ],
-        "normalized": "3051"
-      },
-      {
-        "start": 56,
-        "end": 64,
-        "text": "давления",
-        "labels": [
-          "parameter"
-        ],
-        "normalized": "давление"
+        "normalized": "3144P"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1937,
-    "created_at": "2026-07-08T11:06:12.365003Z",
-    "updated_at": "2026-07-08T11:07:18.090629Z",
-    "lead_time": 40.824000000000005
+    "annotation_id": 1933,
+    "created_at": "2026-07-08T11:04:19.156963Z",
+    "updated_at": "2026-07-08T11:04:19.156997Z",
+    "lead_time": 12.889
   },
   {
     "text": "Что сейчас демонстрирует TI-391",
@@ -19817,42 +19772,42 @@
     "lead_time": 34.074
   },
   {
-    "text": "Напиши алгоритм действий при скачке давления",
-    "id": 1933,
+    "text": "Сопоставь графики ТО для двух установок",
+    "id": 1922,
     "label": [
       {
         "start": 0,
-        "end": 6,
-        "text": "Напиши",
+        "end": 9,
+        "text": "Сопоставь",
         "labels": [
           "action"
         ],
-        "normalized": "Напиши"
+        "normalized": "Сопоставь"
       },
       {
-        "start": 7,
-        "end": 15,
-        "text": "алгоритм",
+        "start": 25,
+        "end": 29,
+        "text": "двух",
         "labels": [
-          "document_type"
+          "quantity"
         ],
-        "normalized": "алгоритм"
+        "normalized": "двух"
       },
       {
-        "start": 36,
-        "end": 44,
-        "text": "давления",
+        "start": 30,
+        "end": 39,
+        "text": "установок",
         "labels": [
-          "parameter"
+          "unit"
         ],
-        "normalized": "давление"
+        "normalized": "установок"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1913,
-    "created_at": "2026-07-08T10:57:23.543890Z",
-    "updated_at": "2026-07-08T10:57:27.350946Z",
-    "lead_time": 4.573
+    "annotation_id": 1886,
+    "created_at": "2026-07-08T10:49:12.203696Z",
+    "updated_at": "2026-07-08T10:49:12.203728Z",
+    "lead_time": 6.638
   },
   {
     "text": "Сколько часов отработал насос Н-564 за двое суток около 42",
@@ -19930,7 +19885,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "емкости Е-22"
+        "normalized": "емкость Е-22"
       },
       {
         "start": 37,
@@ -19977,7 +19932,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "компрессора"
+        "normalized": "компрессор"
       }
     ],
     "annotator": 1,
@@ -20044,7 +19999,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Насос Н-212"
+        "normalized": "насос Н-212"
       },
       {
         "start": 12,
@@ -20072,42 +20027,60 @@
     "lead_time": 26.33
   },
   {
-    "text": "Есть ли сертификат на модель TDLS200 для газоанализатора",
-    "id": 1965,
+    "text": "Найди инструкцию по настройке модели Rosemount 8705 для расходомера",
+    "id": 2001,
     "label": [
       {
-        "start": 8,
-        "end": 18,
-        "text": "сертификат",
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
+        "labels": [
+          "action"
+        ],
+        "normalized": "найти"
+      },
+      {
+        "start": 6,
+        "end": 16,
+        "text": "инструкцию",
         "labels": [
           "document_type"
         ],
-        "normalized": "сертификат"
+        "normalized": "инструкция"
       },
       {
-        "start": 29,
-        "end": 36,
-        "text": "TDLS200",
+        "start": 37,
+        "end": 46,
+        "text": "Rosemount",
+        "labels": [
+          "vendor"
+        ],
+        "normalized": "Rosemount"
+      },
+      {
+        "start": 47,
+        "end": 51,
+        "text": "8705",
         "labels": [
           "model"
         ],
-        "normalized": "TDLS-200"
+        "normalized": "8705"
       },
       {
-        "start": 41,
-        "end": 56,
-        "text": "газоанализатора",
+        "start": 56,
+        "end": 67,
+        "text": "расходомера",
         "labels": [
-          "equipment"
+          "tag"
         ],
-        "normalized": "газоанализатора"
+        "normalized": "расходомер"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1928,
-    "created_at": "2026-07-08T11:02:13.163045Z",
-    "updated_at": "2026-07-08T11:02:13.163074Z",
-    "lead_time": 5.672
+    "annotation_id": 2015,
+    "created_at": "2026-07-08T11:24:31.386696Z",
+    "updated_at": "2026-07-08T11:24:31.386729Z",
+    "lead_time": 11.297
   },
   {
     "text": "Какая процедура запуска дожимной насосной",
@@ -20120,7 +20093,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "дожимной насосной"
+        "normalized": "дожимной насосой"
       }
     ],
     "annotator": 1,
@@ -20341,7 +20314,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "магистрального насоса"
+        "normalized": "магистрального насос"
       }
     ],
     "annotator": 1,
@@ -20475,7 +20448,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "емкости"
+        "normalized": "емкость"
       }
     ],
     "annotator": 1,
@@ -20504,7 +20477,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "емкости Е-15"
+        "normalized": "емкость Е-15"
       },
       {
         "start": 23,
@@ -20590,42 +20563,33 @@
     "lead_time": 3.317
   },
   {
-    "text": "Посчитай КПД установки гидроочистки",
-    "id": 1810,
+    "text": "Отличия в установках защиты по уровню",
+    "id": 1750,
     "label": [
       {
-        "start": 0,
-        "end": 8,
-        "text": "Посчитай",
-        "labels": [
-          "action"
-        ],
-        "normalized": "Посчитай"
-      },
-      {
-        "start": 9,
-        "end": 12,
-        "text": "КПД",
-        "labels": [
-          "parameter"
-        ],
-        "normalized": "КПД"
-      },
-      {
-        "start": 13,
-        "end": 35,
-        "text": "установки гидроочистки",
+        "start": 10,
+        "end": 27,
+        "text": "установках защиты",
         "labels": [
           "unit"
         ],
-        "normalized": "установки гидроочистки"
+        "normalized": "установках защиты"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "text": "уровню",
+        "labels": [
+          "parameter"
+        ],
+        "normalized": "уровень"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1790,
-    "created_at": "2026-07-08T10:27:24.635842Z",
-    "updated_at": "2026-07-08T10:27:24.635874Z",
-    "lead_time": 4.122
+    "annotation_id": 1731,
+    "created_at": "2026-07-08T10:09:29.700684Z",
+    "updated_at": "2026-07-08T10:09:29.700718Z",
+    "lead_time": 7.974
   },
   {
     "text": "Насос Н-125 стучит и перегревается",
@@ -20638,7 +20602,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Насос Н-125"
+        "normalized": "насос Н-125"
       },
       {
         "start": 12,
@@ -20807,51 +20771,33 @@
     "lead_time": 7.898
   },
   {
-    "text": "Найди в документации пределы срабатывания FIC-914",
-    "id": 1861,
+    "text": "Какова загрузка сепаратора С-2 в процентах",
+    "id": 1813,
     "label": [
       {
-        "start": 0,
-        "end": 5,
-        "text": "Найди",
+        "start": 16,
+        "end": 30,
+        "text": "сепаратора С-2",
         "labels": [
-          "action"
+          "equipment"
         ],
-        "normalized": "найти"
+        "normalized": "сепаратор С-2"
       },
       {
-        "start": 8,
-        "end": 20,
-        "text": "документации",
+        "start": 33,
+        "end": 42,
+        "text": "процентах",
         "labels": [
-          "document_type"
+          "unit_of_measure"
         ],
-        "normalized": "документации"
-      },
-      {
-        "start": 21,
-        "end": 41,
-        "text": "пределы срабатывания",
-        "labels": [
-          "limit"
-        ],
-        "normalized": "предел срабатывания"
-      },
-      {
-        "start": 42,
-        "end": 49,
-        "text": "FIC-914",
-        "labels": [
-          "tag"
-        ],
-        "normalized": "FIC-914"
+        "normalized": "процентах"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1841,
-    "created_at": "2026-07-08T10:39:27.481628Z",
-    "updated_at": "2026-07-08T10:39:27.481660Z",
-    "lead_time": 17.238
+    "annotation_id": 1793,
+    "created_at": "2026-07-08T10:27:48.306385Z",
+    "updated_at": "2026-07-08T10:27:48.306418Z",
+    "lead_time": 6.639
   },
   {
     "text": "Проанализируй теги",
@@ -20931,7 +20877,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "емкости Е-7"
+        "normalized": "емкость Е-7"
       }
     ],
     "annotator": 1,
@@ -20969,7 +20915,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-717"
+        "normalized": "насос Н-717"
       },
       {
         "start": 41,
@@ -21036,7 +20982,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Теплообменник Т-123"
+        "normalized": "теплообменник Т-123"
       },
       {
         "start": 20,
@@ -21084,33 +21030,60 @@
     "lead_time": 10.395
   },
   {
-    "text": "Где используется модель FLXA21 на установке осушки газа",
-    "id": 1960,
+    "text": "Насос Н-534 укомплектован моделью Rosemount 2051 проверь документацию",
+    "id": 1959,
     "label": [
       {
-        "start": 24,
-        "end": 30,
-        "text": "FLXA21",
+        "start": 0,
+        "end": 11,
+        "text": "Насос Н-534",
         "labels": [
-          "model"
+          "equipment"
         ],
-        "normalized": "FLXA-21"
+        "normalized": "насос Н-534"
       },
       {
         "start": 34,
-        "end": 50,
-        "text": "установке осушки",
+        "end": 43,
+        "text": "Rosemount",
         "labels": [
-          "unit"
+          "vendor"
         ],
-        "normalized": "установке осушки"
+        "normalized": "Rosemount"
+      },
+      {
+        "start": 44,
+        "end": 48,
+        "text": "2051",
+        "labels": [
+          "model"
+        ],
+        "normalized": "2051"
+      },
+      {
+        "start": 49,
+        "end": 56,
+        "text": "проверь",
+        "labels": [
+          "action"
+        ],
+        "normalized": "проверить"
+      },
+      {
+        "start": 57,
+        "end": 69,
+        "text": "документацию",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "документацию"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1923,
-    "created_at": "2026-07-08T10:59:39.905493Z",
-    "updated_at": "2026-07-08T10:59:39.905515Z",
-    "lead_time": 3.722
+    "annotation_id": 1922,
+    "created_at": "2026-07-08T10:59:29.664352Z",
+    "updated_at": "2026-07-08T11:06:42.895668Z",
+    "lead_time": 33.897
   },
   {
     "text": "Вычисли средний расход за последние 8 часов по FT-332",
@@ -21313,7 +21286,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-132"
+        "normalized": "насос Н-132"
       }
     ],
     "annotator": 1,
@@ -21800,7 +21773,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "фильтре Ф-6"
+        "normalized": "фильтр Ф-6"
       },
       {
         "start": 36,
@@ -21857,42 +21830,33 @@
     "lead_time": 76.44
   },
   {
-    "text": "Составь действия при отказе клапана-регулятора",
-    "id": 1680,
+    "text": "Отличия в уставках аварийной защиты",
+    "id": 1669,
     "label": [
       {
-        "start": 0,
-        "end": 7,
-        "text": "Составь",
+        "start": 10,
+        "end": 18,
+        "text": "уставках",
         "labels": [
-          "action"
+          "limit"
         ],
-        "normalized": "Составь"
+        "normalized": "уставках"
       },
       {
-        "start": 21,
-        "end": 27,
-        "text": "отказе",
+        "start": 19,
+        "end": 35,
+        "text": "аварийной защиты",
         "labels": [
-          "symptom"
+          "unit"
         ],
-        "normalized": "отказе"
-      },
-      {
-        "start": 28,
-        "end": 46,
-        "text": "клапана-регулятора",
-        "labels": [
-          "equipment"
-        ],
-        "normalized": "клапана-регулятора"
+        "normalized": "аварийной защиты"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1661,
-    "created_at": "2026-07-08T09:41:40.828104Z",
-    "updated_at": "2026-07-08T09:41:40.828136Z",
-    "lead_time": 3.922
+    "annotation_id": 1650,
+    "created_at": "2026-07-08T09:33:59.204208Z",
+    "updated_at": "2026-07-08T09:33:59.204243Z",
+    "lead_time": 9.38
   },
   {
     "text": "Что известно про систему осушки природного газа",
@@ -21963,7 +21927,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "агрегат Н-559"
+        "normalized": "насосный агрегат Н-559"
       },
       {
         "start": 37,
@@ -22124,7 +22088,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосов Н-034"
+        "normalized": "насосв Н-034"
       },
       {
         "start": 48,
@@ -22218,7 +22182,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-922"
+        "normalized": "насос Н-922"
       },
       {
         "start": 35,
@@ -22265,7 +22229,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-373"
+        "normalized": "насос Н-373"
       }
     ],
     "annotator": 1,
@@ -22437,7 +22401,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Насос Н-016"
+        "normalized": "насос Н-016"
       },
       {
         "start": 12,
@@ -22598,7 +22562,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "резервуара Р-3"
+        "normalized": "резервуар Р-3"
       }
     ],
     "annotator": 1,
@@ -23074,7 +23038,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "фильтре Ф-5"
+        "normalized": "фильтр Ф-5"
       },
       {
         "start": 32,
@@ -23169,8 +23133,8 @@
     "lead_time": 31.389
   },
   {
-    "text": "Сравни модели FLXA21 и Rosemount 3051 по точности измерений",
-    "id": 1966,
+    "text": "Сравни точность моделей Rosemount 3051 и Siemens Sipart PS2",
+    "id": 1994,
     "label": [
       {
         "start": 0,
@@ -23182,17 +23146,8 @@
         "normalized": "сравнить"
       },
       {
-        "start": 14,
-        "end": 20,
-        "text": "FLXA21",
-        "labels": [
-          "model"
-        ],
-        "normalized": "FLXA-21"
-      },
-      {
-        "start": 23,
-        "end": 32,
+        "start": 24,
+        "end": 33,
         "text": "Rosemount",
         "labels": [
           "vendor"
@@ -23200,20 +23155,38 @@
         "normalized": "Rosemount"
       },
       {
-        "start": 33,
-        "end": 37,
+        "start": 34,
+        "end": 38,
         "text": "3051",
         "labels": [
           "model"
         ],
         "normalized": "3051"
+      },
+      {
+        "start": 41,
+        "end": 48,
+        "text": "Siemens",
+        "labels": [
+          "vendor"
+        ],
+        "normalized": "Siemens"
+      },
+      {
+        "start": 49,
+        "end": 59,
+        "text": "Sipart PS2",
+        "labels": [
+          "model"
+        ],
+        "normalized": "Sipart PS-2"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1929,
-    "created_at": "2026-07-08T11:02:24.029139Z",
-    "updated_at": "2026-07-08T11:07:02.200196Z",
-    "lead_time": 12.6
+    "annotation_id": 2008,
+    "created_at": "2026-07-08T11:19:58.581093Z",
+    "updated_at": "2026-07-08T11:19:58.581125Z",
+    "lead_time": 9.007
   },
   {
     "text": "Сколько в среднем выдает PT-776 за последние 3 часа",
@@ -23385,7 +23358,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "турбины"
+        "normalized": "турбина"
       }
     ],
     "annotator": 1,
@@ -23595,7 +23568,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-962"
+        "normalized": "насос Н-962"
       }
     ],
     "annotator": 1,
@@ -23740,7 +23713,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "компрессора"
+        "normalized": "компрессор"
       }
     ],
     "annotator": 1,
@@ -23997,7 +23970,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "резервуарного парка"
+        "normalized": "резервуар парка"
       }
     ],
     "annotator": 1,
@@ -24007,51 +23980,42 @@
     "lead_time": 27.797
   },
   {
-    "text": "Сравни показатели за две смены 310 против 280",
-    "id": 1604,
+    "text": "Составь действия при зашкаливании давления",
+    "id": 1599,
     "label": [
       {
         "start": 0,
-        "end": 6,
-        "text": "Сравни",
+        "end": 7,
+        "text": "Составь",
         "labels": [
           "action"
         ],
-        "normalized": "сравнить"
+        "normalized": "Составь"
       },
       {
         "start": 21,
-        "end": 24,
-        "text": "две",
+        "end": 33,
+        "text": "зашкаливании",
         "labels": [
-          "quantity"
+          "symptom"
         ],
-        "normalized": "две"
+        "normalized": "зашкаливании"
       },
       {
-        "start": 31,
-        "end": 34,
-        "text": "310",
+        "start": 34,
+        "end": 42,
+        "text": "давления",
         "labels": [
-          "quantity"
+          "parameter"
         ],
-        "normalized": "310"
-      },
-      {
-        "start": 42,
-        "end": 45,
-        "text": "280",
-        "labels": [
-          "quantity"
-        ],
-        "normalized": "280"
+        "normalized": "давление"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1565,
-    "created_at": "2026-07-07T18:07:53.417583Z",
-    "updated_at": "2026-07-07T18:08:04.339359Z",
-    "lead_time": 9.888
+    "annotation_id": 1560,
+    "created_at": "2026-07-07T18:06:41.646302Z",
+    "updated_at": "2026-07-07T18:06:41.646326Z",
+    "lead_time": 12.072
   },
   {
     "text": "Переведи расход из литров в минуту в кубы в час",
@@ -24167,7 +24131,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосу Н-220"
+        "normalized": "насос Н-220"
       }
     ],
     "annotator": 1,
@@ -24272,7 +24236,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "электродвигателей"
+        "normalized": "электродвигатель"
       }
     ],
     "annotator": 1,
@@ -24853,7 +24817,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-006"
+        "normalized": "насос Н-006"
       }
     ],
     "annotator": 1,
@@ -24950,42 +24914,51 @@
     "lead_time": 9.867
   },
   {
-    "text": "Сопоставь графики ТО для двух установок",
-    "id": 1922,
+    "text": "Температура на TI-719 растет после включения насоса",
+    "id": 1887,
     "label": [
       {
         "start": 0,
-        "end": 9,
-        "text": "Сопоставь",
+        "end": 11,
+        "text": "Температура",
         "labels": [
-          "action"
+          "parameter"
         ],
-        "normalized": "Сопоставь"
+        "normalized": "температура"
       },
       {
-        "start": 25,
-        "end": 29,
-        "text": "двух",
+        "start": 15,
+        "end": 21,
+        "text": "TI-719",
         "labels": [
-          "quantity"
+          "tag"
         ],
-        "normalized": "двух"
+        "normalized": "TI-719"
       },
       {
-        "start": 30,
-        "end": 39,
-        "text": "установок",
+        "start": 22,
+        "end": 28,
+        "text": "растет",
         "labels": [
-          "unit"
+          "symptom"
         ],
-        "normalized": "установок"
+        "normalized": "растет"
+      },
+      {
+        "start": 45,
+        "end": 51,
+        "text": "насоса",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "насос"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1886,
-    "created_at": "2026-07-08T10:49:12.203696Z",
-    "updated_at": "2026-07-08T10:49:12.203728Z",
-    "lead_time": 6.638
+    "annotation_id": 1867,
+    "created_at": "2026-07-08T10:45:40.833675Z",
+    "updated_at": "2026-07-08T10:45:40.833721Z",
+    "lead_time": 6.665
   },
   {
     "text": "Теплообменник Т-879 не выходит на режим",
@@ -24998,7 +24971,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Теплообменник Т-879"
+        "normalized": "теплообменник Т-879"
       },
       {
         "start": 20,
@@ -25083,7 +25056,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-674"
+        "normalized": "насос Н-674"
       }
     ],
     "annotator": 1,
@@ -25188,7 +25161,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "электродвигателя"
+        "normalized": "электродвигатель"
       },
       {
         "start": 35,
@@ -25226,7 +25199,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонны"
+        "normalized": "колонна"
       },
       {
         "start": 27,
@@ -25454,7 +25427,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосом Н-923"
+        "normalized": "насосм Н-923"
       }
     ],
     "annotator": 1,
@@ -25693,7 +25666,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонны К-4"
+        "normalized": "колонна К-4"
       },
       {
         "start": 38,
@@ -25722,7 +25695,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Теплообменник Т-643"
+        "normalized": "теплообменник Т-643"
       },
       {
         "start": 20,
@@ -25818,7 +25791,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Насос Н-017"
+        "normalized": "насос Н-017"
       },
       {
         "start": 12,
@@ -26106,7 +26079,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонны К-4"
+        "normalized": "колонна К-4"
       },
       {
         "start": 41,
@@ -26182,7 +26155,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "компрессоре"
+        "normalized": "компрессор"
       }
     ],
     "annotator": 1,
@@ -26231,7 +26204,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Насос Н-811"
+        "normalized": "насос Н-811"
       },
       {
         "start": 12,
@@ -26278,7 +26251,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "резервного оборудования"
+        "normalized": "резервный оборудования"
       }
     ],
     "annotator": 1,
@@ -26477,7 +26450,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "фильтру Ф-9"
+        "normalized": "фильтр Ф-9"
       }
     ],
     "annotator": 1,
@@ -26574,42 +26547,51 @@
     "lead_time": 29.208
   },
   {
-    "text": "Что за модель вибродатчика стоит на насосе Н-871 — модель 3300",
-    "id": 1978,
+    "text": "Сравни модели FLXA21 и Rosemount 3051 по точности измерений",
+    "id": 1966,
     "label": [
       {
+        "start": 0,
+        "end": 6,
+        "text": "Сравни",
+        "labels": [
+          "action"
+        ],
+        "normalized": "сравнить"
+      },
+      {
         "start": 14,
-        "end": 26,
-        "text": "вибродатчика",
-        "labels": [
-          "tag"
-        ],
-        "normalized": "вибродатчик"
-      },
-      {
-        "start": 36,
-        "end": 48,
-        "text": "насосе Н-871",
-        "labels": [
-          "equipment"
-        ],
-        "normalized": "насосе Н-871"
-      },
-      {
-        "start": 58,
-        "end": 62,
-        "text": "3300",
+        "end": 20,
+        "text": "FLXA21",
         "labels": [
           "model"
         ],
-        "normalized": "3300"
+        "normalized": "FLXA-21"
+      },
+      {
+        "start": 23,
+        "end": 32,
+        "text": "Rosemount",
+        "labels": [
+          "vendor"
+        ],
+        "normalized": "Rosemount"
+      },
+      {
+        "start": 33,
+        "end": 37,
+        "text": "3051",
+        "labels": [
+          "model"
+        ],
+        "normalized": "3051"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1958,
-    "created_at": "2026-07-08T11:12:47.797883Z",
-    "updated_at": "2026-07-08T11:12:47.797916Z",
-    "lead_time": 7.311
+    "annotation_id": 1929,
+    "created_at": "2026-07-08T11:02:24.029139Z",
+    "updated_at": "2026-07-08T11:07:02.200196Z",
+    "lead_time": 12.6
   },
   {
     "text": "Не срабатывает отсечной клапан при команде",
@@ -26709,7 +26691,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "испарителе"
+        "normalized": "испаритель"
       },
       {
         "start": 21,
@@ -26795,42 +26777,42 @@
     "lead_time": 203.268
   },
   {
-    "text": "Составь действия при зашкаливании давления",
-    "id": 1599,
+    "text": "Сопоставь описание пуска в двух редакциях",
+    "id": 1589,
     "label": [
       {
         "start": 0,
-        "end": 7,
-        "text": "Составь",
+        "end": 9,
+        "text": "Сопоставь",
         "labels": [
           "action"
         ],
-        "normalized": "Составь"
+        "normalized": "Сопоставь"
       },
       {
-        "start": 21,
-        "end": 33,
-        "text": "зашкаливании",
+        "start": 27,
+        "end": 31,
+        "text": "двух",
         "labels": [
-          "symptom"
+          "quantity"
         ],
-        "normalized": "зашкаливании"
+        "normalized": "двух"
       },
       {
-        "start": 34,
-        "end": 42,
-        "text": "давления",
+        "start": 32,
+        "end": 41,
+        "text": "редакциях",
         "labels": [
-          "parameter"
+          "document_type"
         ],
-        "normalized": "давление"
+        "normalized": "редакциях"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1560,
-    "created_at": "2026-07-07T18:06:41.646302Z",
-    "updated_at": "2026-07-07T18:06:41.646326Z",
-    "lead_time": 12.072
+    "annotation_id": 1550,
+    "created_at": "2026-07-07T18:03:39.576981Z",
+    "updated_at": "2026-07-07T18:03:39.577006Z",
+    "lead_time": 11.97
   },
   {
     "text": "Найди когда расход падал ниже 25 м³ч больше чем на час",
@@ -27002,7 +26984,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "регулятора"
+        "normalized": "регулятор"
       },
       {
         "start": 41,
@@ -27109,7 +27091,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "компрессора"
+        "normalized": "компрессор"
       },
       {
         "start": 30,
@@ -27310,7 +27292,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонне К-3"
+        "normalized": "колонна К-3"
       },
       {
         "start": 37,
@@ -27720,51 +27702,33 @@
     "lead_time": 52.812
   },
   {
-    "text": "Покажи схему подключения модели FLXA21 к системе автоматизации",
-    "id": 2003,
+    "text": "Какая модель газоанализатора стоит на выходе колонны К-16",
+    "id": 1995,
     "label": [
       {
-        "start": 0,
-        "end": 6,
-        "text": "Покажи",
+        "start": 13,
+        "end": 28,
+        "text": "газоанализатора",
         "labels": [
-          "action"
+          "tag"
         ],
-        "normalized": "показать"
+        "normalized": "газоанализатора"
       },
       {
-        "start": 7,
-        "end": 12,
-        "text": "схему",
+        "start": 45,
+        "end": 57,
+        "text": "колонны К-16",
         "labels": [
-          "document_type"
+          "equipment"
         ],
-        "normalized": "схему"
-      },
-      {
-        "start": 32,
-        "end": 38,
-        "text": "FLXA21",
-        "labels": [
-          "model"
-        ],
-        "normalized": "FLXA-21"
-      },
-      {
-        "start": 41,
-        "end": 62,
-        "text": "системе автоматизации",
-        "labels": [
-          "unit"
-        ],
-        "normalized": "системе автоматизации"
+        "normalized": "колонна К-16"
       }
     ],
     "annotator": 1,
-    "annotation_id": 2017,
-    "created_at": "2026-07-08T11:24:57.238193Z",
-    "updated_at": "2026-07-08T11:24:57.238217Z",
-    "lead_time": 6.939
+    "annotation_id": 2009,
+    "created_at": "2026-07-08T11:21:44.975101Z",
+    "updated_at": "2026-07-08T11:21:44.975138Z",
+    "lead_time": 101.854
   },
   {
     "text": "Сравни графики технического диагностирования",
@@ -27920,7 +27884,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-658"
+        "normalized": "насос Н-658"
       }
     ],
     "annotator": 1,
@@ -28158,71 +28122,98 @@
     "lead_time": 46.833
   },
   {
-    "text": "Отличия в уставках аварийной защиты",
-    "id": 1669,
+    "text": "Проинтегрируй показания трех каналов за период",
+    "id": 1651,
     "label": [
       {
-        "start": 10,
-        "end": 18,
-        "text": "уставках",
+        "start": 0,
+        "end": 13,
+        "text": "Проинтегрируй",
         "labels": [
-          "limit"
+          "action"
         ],
-        "normalized": "уставках"
+        "normalized": "Проинтегрируй"
       },
       {
-        "start": 19,
-        "end": 35,
-        "text": "аварийной защиты",
+        "start": 24,
+        "end": 28,
+        "text": "трех",
         "labels": [
-          "unit"
+          "quantity"
         ],
-        "normalized": "аварийной защиты"
+        "normalized": "трех"
+      },
+      {
+        "start": 29,
+        "end": 36,
+        "text": "каналов",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "каналов"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "text": "за период",
+        "labels": [
+          "time_range"
+        ],
+        "normalized": "за период"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1650,
-    "created_at": "2026-07-08T09:33:59.204208Z",
-    "updated_at": "2026-07-08T09:33:59.204243Z",
-    "lead_time": 9.38
+    "annotation_id": 1632,
+    "created_at": "2026-07-08T09:19:51.572637Z",
+    "updated_at": "2026-07-08T09:19:51.572662Z",
+    "lead_time": 19.625
   },
   {
-    "text": "Что за модель стоит на TI-892 — Yokogawa DPharp EJA или другая",
-    "id": 1957,
+    "text": "Найди паспорт на модель FLXA21 для анализатора влажности",
+    "id": 1956,
     "label": [
       {
-        "start": 23,
-        "end": 29,
-        "text": "TI-892",
+        "start": 0,
+        "end": 5,
+        "text": "Найди",
         "labels": [
-          "tag"
+          "action"
         ],
-        "normalized": "TI-892"
+        "normalized": "найти"
       },
       {
-        "start": 32,
-        "end": 40,
-        "text": "Yokogawa",
+        "start": 6,
+        "end": 13,
+        "text": "паспорт",
         "labels": [
-          "vendor"
+          "document_type"
         ],
-        "normalized": "Yokogawa"
+        "normalized": "паспорт"
       },
       {
-        "start": 41,
-        "end": 51,
-        "text": "DPharp EJA",
+        "start": 24,
+        "end": 30,
+        "text": "FLXA21",
         "labels": [
           "model"
         ],
-        "normalized": "DPharp EJA"
+        "normalized": "FLXA-21"
+      },
+      {
+        "start": 35,
+        "end": 56,
+        "text": "анализатора влажности",
+        "labels": [
+          "equipment"
+        ],
+        "normalized": "анализатора влажности"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1920,
-    "created_at": "2026-07-08T10:59:06.216188Z",
-    "updated_at": "2026-07-08T11:01:06.669913Z",
-    "lead_time": 17.091
+    "annotation_id": 1954,
+    "created_at": "2026-07-08T11:11:09.268997Z",
+    "updated_at": "2026-07-08T11:11:09.269032Z",
+    "lead_time": 5.837
   },
   {
     "text": "Составь последовательность",
@@ -28425,7 +28416,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "емкости"
+        "normalized": "емкость"
       }
     ],
     "annotator": 1,
@@ -28711,7 +28702,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса"
+        "normalized": "насос"
       }
     ],
     "annotator": 1,
@@ -28796,7 +28787,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "компрессора"
+        "normalized": "компрессор"
       }
     ],
     "annotator": 1,
@@ -28901,7 +28892,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонны К-3"
+        "normalized": "колонна К-3"
       }
     ],
     "annotator": 1,
@@ -29120,7 +29111,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "теплообменника Т-626"
+        "normalized": "теплообменник Т-626"
       }
     ],
     "annotator": 1,
@@ -29505,7 +29496,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "резервному насосу"
+        "normalized": "резервному насос"
       },
       {
         "start": 38,
@@ -29650,7 +29641,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "колонне К-2"
+        "normalized": "колонна К-2"
       },
       {
         "start": 26,
@@ -29688,7 +29679,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насоса Н-804"
+        "normalized": "насос Н-804"
       },
       {
         "start": 35,
@@ -29764,7 +29755,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Теплообменник Т-248"
+        "normalized": "теплообменник Т-248"
       },
       {
         "start": 20,
@@ -29945,7 +29936,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "трубопроводе"
+        "normalized": "трубопровод"
       }
     ],
     "annotator": 1,
@@ -30002,69 +29993,60 @@
     "lead_time": 8.323
   },
   {
-    "text": "Сравни модели Siemens Sipart PS2 и Fisher DVC6200 на клапанах",
-    "id": 1977,
+    "text": "Найди в документации модель Rosemount 3051 для перепада давления",
+    "id": 1974,
     "label": [
       {
         "start": 0,
-        "end": 6,
-        "text": "Сравни",
+        "end": 5,
+        "text": "Найди",
         "labels": [
           "action"
         ],
-        "normalized": "сравнить"
+        "normalized": "найти"
       },
       {
-        "start": 14,
-        "end": 21,
-        "text": "Siemens",
+        "start": 8,
+        "end": 20,
+        "text": "документации",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "документации"
+      },
+      {
+        "start": 28,
+        "end": 37,
+        "text": "Rosemount",
         "labels": [
           "vendor"
         ],
-        "normalized": "Siemens"
+        "normalized": "Rosemount"
       },
       {
-        "start": 22,
-        "end": 32,
-        "text": "Sipart PS2",
+        "start": 38,
+        "end": 42,
+        "text": "3051",
         "labels": [
           "model"
         ],
-        "normalized": "Sipart PS-2"
+        "normalized": "3051"
       },
       {
-        "start": 35,
-        "end": 41,
-        "text": "Fisher",
+        "start": 56,
+        "end": 64,
+        "text": "давления",
         "labels": [
-          "vendor"
+          "parameter"
         ],
-        "normalized": "Fisher"
-      },
-      {
-        "start": 42,
-        "end": 49,
-        "text": "DVC6200",
-        "labels": [
-          "model"
-        ],
-        "normalized": "DVC-6200"
-      },
-      {
-        "start": 53,
-        "end": 61,
-        "text": "клапанах",
-        "labels": [
-          "equipment"
-        ],
-        "normalized": "клапанах"
+        "normalized": "давление"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1957,
-    "created_at": "2026-07-08T11:12:36.895072Z",
-    "updated_at": "2026-07-08T11:12:36.895106Z",
-    "lead_time": 60.074
+    "annotation_id": 1937,
+    "created_at": "2026-07-08T11:06:12.365003Z",
+    "updated_at": "2026-07-08T11:07:18.090629Z",
+    "lead_time": 40.824000000000005
   },
   {
     "text": "Сколько лет планете Земля",
@@ -30142,7 +30124,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "Теплообменник Т-878"
+        "normalized": "теплообменник Т-878"
       },
       {
         "start": 20,
@@ -30161,51 +30143,60 @@
     "lead_time": 5.18
   },
   {
-    "text": "Сформируй план ремонта насоса на вахте",
-    "id": 1755,
+    "text": "Суммируй расходы по двум линиям за период",
+    "id": 1570,
     "label": [
       {
         "start": 0,
-        "end": 9,
-        "text": "Сформируй",
+        "end": 8,
+        "text": "Суммируй",
         "labels": [
           "action"
         ],
-        "normalized": "Сформируй"
+        "normalized": "Суммируй"
       },
       {
-        "start": 10,
-        "end": 14,
-        "text": "план",
+        "start": 9,
+        "end": 16,
+        "text": "расходы",
         "labels": [
-          "document_type"
+          "parameter"
         ],
-        "normalized": "план"
+        "normalized": "расход"
       },
       {
-        "start": 23,
-        "end": 29,
-        "text": "насоса",
+        "start": 20,
+        "end": 24,
+        "text": "двум",
         "labels": [
-          "equipment"
+          "quantity"
         ],
-        "normalized": "насоса"
+        "normalized": "двум"
       },
       {
-        "start": 30,
-        "end": 38,
-        "text": "на вахте",
+        "start": 25,
+        "end": 31,
+        "text": "линиям",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "линиям"
+      },
+      {
+        "start": 32,
+        "end": 41,
+        "text": "за период",
         "labels": [
           "time_range"
         ],
-        "normalized": "на вахте"
+        "normalized": "за период"
       }
     ],
     "annotator": 1,
-    "annotation_id": 1736,
-    "created_at": "2026-07-08T10:11:28.413538Z",
-    "updated_at": "2026-07-08T10:11:28.413573Z",
-    "lead_time": 7.291
+    "annotation_id": 1581,
+    "created_at": "2026-07-07T18:15:21.198869Z",
+    "updated_at": "2026-07-07T18:15:21.198904Z",
+    "lead_time": 8.827
   },
   {
     "text": "Что за механизм стоит на приемной линии",
@@ -30226,5 +30217,43 @@
     "created_at": "2026-07-08T09:48:42.844362Z",
     "updated_at": "2026-07-08T09:48:42.844397Z",
     "lead_time": 37.175
+  },
+  {
+    "text": "Выдай регламент работы печи №6",
+    "id": 1859,
+    "label": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Выдай",
+        "labels": [
+          "action"
+        ],
+        "normalized": "Выдай"
+      },
+      {
+        "start": 6,
+        "end": 15,
+        "text": "регламент",
+        "labels": [
+          "document_type"
+        ],
+        "normalized": "регламент"
+      },
+      {
+        "start": 23,
+        "end": 30,
+        "text": "печи №6",
+        "labels": [
+          "unit"
+        ],
+        "normalized": "печи №6"
+      }
+    ],
+    "annotator": 1,
+    "annotation_id": 1839,
+    "created_at": "2026-07-08T10:38:54.442796Z",
+    "updated_at": "2026-07-08T10:38:54.442827Z",
+    "lead_time": 4.041
   }
 ]
