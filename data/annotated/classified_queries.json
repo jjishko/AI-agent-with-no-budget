@@ -1,0 +1,5252 @@
+[
+  {
+    "query": "Найди инструкцыю по эксплуатации теплообменника Т-626",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что написано в регламенте про пуск ГПЗ-2",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Покажи паспорт на насос Н-382",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Где найти описание метадики поверки PT-721",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Выдай регламент работы печи №4",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Какая последовательность операцый по инструкции ЭЛОУ-АВТ-3",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди в документации пределы срабатывания FIC-817",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Есть ли в паспорте на FLXA21 данные по вибрацыи",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Покажи раздел про аварийные остановы в ПМИ-2",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди инструкцию по резервному насосу дренажной системы",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что известно про колонну К-9",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какая мадель стоит на TI-523",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Где установлен теплообменник Т-178",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Покажи характиристики насоса Н-204",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Что за оборудование стоит позади печи №7",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Найди информацыю по УПН-4",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какой вендор паставил колонну К-2",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Есть ли данные по ремонту насоса Н-055",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Что из себя предстовляет ГПЗ-5",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Где используется оборудование Siemens",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Где используется тег PT-849",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что паказывает TI-872 сейчас",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Найди тег FIC-334 на схеме",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Покажи текущее значение по PT-156",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Где задействован датчик с индексом TI-109",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что за тег 512 рядом с PT-736 упоминался",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Выдай историю по FIC-922",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Какие параметры снимает PT-403",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Покажи распаложение TI-671 на установке",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что показывает резервный датчик давления",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Почему скачет расход па FIC-223",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Давление в колонне К-7 упало ниже нормы",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Температура на TI-481 растет после включения насоса",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Не открываетца задвижка на линии ЭЛОУ-АВТ-2",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Падает уровень в УПН-6 после смены режима",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Насос Н-212 гудит и греется выше обычнова",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Почему PT-637 показывает дельта давления больше предельной",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Теплообменник Т-879 не выходит на режим",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Скачет температура на входе в печь №3",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Упала производительность ГПЗ-8 что делать",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Посчитай средний расход за смену по FIC-519",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Рассчитай перепад давления на теплоабменнике Т-451",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Вычисли обьем перекачки за сутки по насосу Н-763",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Сколько в среднем выдает PT-283 за последние 2 часа",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Переведи расход из м³ч в тч для УПН-9",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Посчитай эфективность работы колонны К-4 за смену",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Какое среднее значение TI-755 за последние сутки",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Рассчитай уставку для аварийново останова по давлению",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Сколько процентов состовляет загрузка насоса Н-544",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Вычисли сумму расходов по трем тегам за смену",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Построй тренд давления па PT-698 за сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Покажи график температуры TI-227 за последнюю смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй поведение FIC-481 за последние 2 часа",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выведи историю уровня па УПН-7 за вчера",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Построй график перепада на теплообменнике Т-562 за неделю",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сравни тренды PT-376 и TI-833 за смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Покажи отклонения расхода па FIC-945 за сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Визуализируй работу насоса Н-891 па вибрации за день",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй цикличность скачков на PT-644",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сделай выборку данных па колонне К-3 за последние сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сравни две версии регламента па ЭЛОУ-АВТ-4",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди отличия в инструкциях для УПН-2 от 2021 и 2024",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь паспортные данные на насос Н-117 и Н-338",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни описание пуска в двух ПМИ па ГПЗ-6",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Какая разница между регламентом и инструкцией для теплообменника Т-892",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни метадики поверки PT-711 старой и новой версии",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди расхождения в разделах па безопасности",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь графики ТО для двух установок",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Отличия в уставках FIC-283 между версиями документа",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни описание резервнова насоса в двух инструкциях",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Составь чек-лист запуска насоса Н-452",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй инструкцыю по останову колонны К-8",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай план замены теплообменника Т-333",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши памятку па работе с PT-182 для операторов",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь последовательность пуска ГПЗ-3 после ремонта",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сгенерируй чек-лист обхода оборудования ЭЛОУ-АВТ",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай инструкцыю по переключению на резервный насос",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь регламент калибровки TI-554",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши алгоритм действий при скачке давления",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй план ежесменнова контроля по FIC-687",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сколько кубов перекачал насос Н-929 за смену уже 320 было",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Покажи расход за последние 2 часа там цифры около 120-180 скачут",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "На PT-871 было 8.7 МПа а стало 7.9 пачему",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Сравни объёмы за вчера и сегодня 410 против 360 м³",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выдай все значения TI-392 за сутки особенно те что выше 75 градусав",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько раз за смену FIC-568 выходил за 55 процентов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Рассчитай разницу между 18.2 и 19.7 па давлению на ГПЗ",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди когда расход падал ниже 25 м³ч больше чем на час",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Построй график но только для значений ат 45 до 80 по PT-293",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько часов работал насос Н-678 за последние трое суток примерно 54",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди инструкцыю по эксплуатации компрессора КМ-101",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что указано в паспорте на теплообменник Т-777",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Покажи регламент по ремонту насоса Н-455",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Где хранится методика поверки FIC-903",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Выдай описание работы сепаратора С-1",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Какая процедура запуска дожимной насосной",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди в документации параметры срабатывания защиты",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Есть ли в инструкции данные по шуму оборудования",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Покажи раздел про техническое обслуживание в ПМИ",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди руководство по эксплуатации системы пожаротушения",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что известно про центробежный насос Н-819",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какая модель установлена на резервуаре Р-12",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Где смонтирован теплообменник Т-640",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Покажи технические характеристики фильтра Ф-4",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Что за агрегат стоит рядом с печью №5",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Найди информацию по установке осушки газа",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какой производитель поставил компрессор К-2",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Есть ли журнал ремонтов насоса Н-208",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Что собой представляет блок регенерации",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Где применяется оборудование Metso",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Где используется тег LIC-452",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что показывает LIT-781 в данный момент",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Найди тег PI-334 на монтажной схеме",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Покажи мгновенное значение по LIC-567",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Где размещен датчик с маркировкой TI-889",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что за тег 794 упоминался рядом с PT-312",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Выдай архив по FIC-471",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Какие величины контролирует PT-956",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Покажи позицию TI-344 на генплане",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что измеряет резервный манометр",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Почему колеблется уровень на LIC-832",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Температура в реакторе Р-5 резко выросла",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Давление на выходе компрессора упало ниже допустимого",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Не срабатывает обратный клапан на линии нагнетания",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Снизилась эффективность сепаратора С-9",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Насос Н-347 вибрирует и нагревается",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Почему FT-703 показывает расход выше максимального",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Теплообменник Т-512 не держит температуру",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Скачет уровень в емкости Е-11 после переключения",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Упала мощность электродвигателя насоса",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Что делать при загазованности на площадке",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Вычисли средний часовой расход за вахту по FT-281",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Рассчитай потери давления на фильтре Ф-7",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Определи объем перекачки за дежурство по насосу Н-193",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Сколько усредненно выдает LIT-456 за последние 4 часа",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Пересчитай производительность из м3/мин в м3/час",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Посчитай КПД насосного агрегата Н-884 за смену",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Какое медианное значение TI-215 за минувшие сутки",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Вычисли уставку предупредительной сигнализации по уровню",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Какой процент загрузки у компрессора К-6",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Суммируй расходы по трем измерительным линиям",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Построй график уровня в емкости Е-22 за 12 часов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Визуализируй изменение давления на PT-119 за смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй динамику FIC-287 за последний час",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Отобрази историю температуры TI-907 за вчерашний день",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сделай график перепада на фильтре Ф-3 за неделю",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сопоставь тренды PI-845 и TI-623 за вахту",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Отобрази отклонения уровня по LIC-551 за сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Построй график вибрации насоса Н-772 за день",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй периодичность импульсов на PT-438",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сформируй выборку по колонне К-9 за последние 6 часов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сравни две редакции инструкции по ЭЛОУ-АВТ-5",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди различия в регламентах для ГПЗ-7 от 2020 и 2023",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни технические данные на насосы Н-441 и Н-562",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь описание пуска в двух версиях ПМИ для УПН",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Какая разница между методами поверки FT-623 старой и новой",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди расхождения в разделах по электробезопасности",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни графики профилактики для двух агрегатов",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Отличия в уставках LIC-432 между версиями",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь описание резервного оборудования в инструкциях",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни процедуры аварийного останова в документах",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Разработай чек-лист подготовки к пуску компрессора К-8",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай инструкцию по выводу в ремонт колонны К-3",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй план очистки теплообменника Т-985",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши памятку оператору по работе с LIT-222",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь алгоритм запуска установки осушки газа",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сгенерируй маршрутный лист обхода оборудования",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши инструкцию по переходу на резервный агрегат",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай методику проверки TI-765",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь действия при аварийном сбросе давления",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй регламент ежесменного контроля по PT-814",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Какой объем перекачал насос Н-656 за смену было 400",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Дай расход за последние 3 часа там значения 200-230 плавают",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "На PT-532 было 15.1 МПа а стало 13.8 почему",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Сопоставь суточные объемы 470 против 420 кубов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Покажи все показания TI-488 за день особенно выше 85 градусов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько эпизодов выхода FIC-342 за 50 процентов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Посчитай отличие между 12.7 и 13.5 по давлению на выходе",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Определи моменты падения расхода ниже 20 м3/ч дольше часа",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сделай график только для интервала 60-90 по PT-211",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько проработал насос Н-920 за трое суток около 62 часов",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди паспортные данные на теплообменник Т-304",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что за модель стоит на насосе Н-785",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Где закреплен датчик FT-666",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Выдай информацию по компрессору ГПЗ-4",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Покажи характеристики запорной арматуры",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди описание системы автоматики УПН-8",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что известно про редукционный клапан",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Есть ли сертификат на сосуд высокого давления",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Где применяется оборудование Honeywell",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Что за агрегат установлен на площадке №3",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какой тег отвечает за уровень в емкости Е-7",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что сейчас демонстрирует TI-391",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Найди позицию FT-812 на чертеже",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Выведи актуальное значение по PT-058",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Где смонтирован датчик с кодом TI-746",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что за номер 632 рядом с PT-487 фигурировал",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Покажи историю изменения LIC-223",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Какие параметры регистрирует TE-519",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Укажи расположение TI-462 на схеме",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что показывает дублирующий манометр",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Почему PI-913 показывает завышенное давление",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Температура в колонне К-2 поднимается неконтролируемо",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Расход по FT-428 резко обвалился",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Не закрывается регулирующий клапан на линии сброса",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Уровень в буферной емкости падает при штатном режиме",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Насос Н-125 стучит и перегревается",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Почему TE-614 фиксирует температуру выше предела",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Теплообменник Т-781 не выходит на расчетную мощность",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Колеблется давление на входе в печь №6",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Снизилась частота вращения турбины",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Что предпринять при подсосе воздуха в систему",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Рассчитай усредненный расход за ночную смену по FT-553",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Вычисли гидравлическое сопротивление теплообменника Т-892",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Определи суточную производительность насоса Н-373",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Сколько в среднем выдает PT-776 за последние 3 часа",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Переведи подачу из л/с в м3/час для насосной",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Посчитай эффективность работы сепаратора С-3 за дежурство",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди среднюю температуру TI-581 за сутки",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Рассчитай параметры настройки регулятора уровня",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Какова загрузка электродвигателя в процентах",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Проинтегрируй расходы по трем потокам за период",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Отобрази тренд давления на PT-667 за двенадцать часов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сделай график изменения TI-339 за вахту",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Изучи поведение FIC-224 за последний час",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выведи историю уровня по LIC-779 за предыдущий день",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Визуализируй перепад на фильтре Ф-6 за семидневку",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сравни графики PT-441 и FT-218 за смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Отобрази броски давления по PI-992 за сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Визуализируй колебания вибрации насоса Н-006",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй повторяемость выбросов на TE-865",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сформируй датасет по реактору Р-3 за 24 часа",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Найди отличия в редакциях регламента для ГПЗ-9",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни описания пуска в инструкциях для УПН-5 2021 и 2024",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь паспортные значения для компрессоров К-1 и К-4",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни методики калибровки FT-837 старого и нового образца",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "В чем отличие между эксплуатационной и ремонтной документацией",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди расхождения в требованиях по охране труда",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни периодичность осмотров для двух установок",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Отличия в границах срабатывания LIC-654 между версиями",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь описание резервного питания в инструкциях",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни процедуры тестирования автоматики",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Составь контрольный лист пуска центробежного насоса",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай инструкцию по экстренному стопу печи №8",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй план технического обслуживания теплообменника Т-245",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Разработай памятку по эксплуатации PT-632 для персонала",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь последовательность ввода в работу установки осушки",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сгенерируй маршрут обхода технологических площадок",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши инструкцию по переходу на основной насос",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай методику поверки TI-456",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь алгоритм локализации утечки",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй план сменного контроля по LIC-332",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сколько кубометров перекачал агрегат Н-581 за вахту было 280",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Покажи расход за последние 4 часа там цифры плавают 170-210",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "На PT-694 было 9.3 МПа а стало 8.1 в чем причина",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Сравни показатели за вчера и позавчера 380 против 330 м³",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выдай все замеры TI-284 за день особенно выше 95 градусов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько раз за смену FIC-789 выходил за 60 процентов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Вычисли разность между 14.1 и 15.2 по давлению на линии",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди моменты когда расход опускался ниже 18 м3/ч более часа",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сделай график но только для значений 55-85 по PT-874",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько часов отработал насос Н-335 за последние двое суток около 45",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Что написано в паспорте на емкость Е-5",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Какая модификация установлена на насосе Н-659",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Где размещен датчик давления PT-783",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Выдай техническую документацию по фильтру Ф-9",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Покажи описание системы пожаротушения",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди регламент по эксплуатации факельной системы",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что известно про гидроциклонный сепаратор",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Есть ли данные по испытаниям трубопровода",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Где используется оборудование Endress+Hauser",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Что за механизм стоит возле резервуара Р-3",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какой тег контролирует температуру в печи",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что в данный момент транслирует TI-883",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Найди PI-512 на технологической схеме",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Дай текущие показания по PT-745",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Где смонтирован датчик с шифром TI-572",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что за номер 314 рядом с PT-819 встречался",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Покажи изменения по LIC-998",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Какие данные передает TE-774",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Определи позицию TI-631 на установке",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что регистрирует дополнительный датчик уровня",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Почему FT-392 завышает расход",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Температура на выходе печи №2 нестабильна",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Давление в ректификационной колонне снизилось",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Не откликается задвижка на дистанционное управление",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Уровень в дренажном баке быстро растет",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Насос Н-016 перегрелся и остановился",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Почему TE-529 показывает аномалию",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Теплообменник Т-123 не обеспечивает нагрев",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Скачут показания уровня в емкости Е-9",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Упала производительность воздуходувки",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Что делать при помпаже компрессора",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Посчитай среднесуточный расход за вахту по FT-886",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Рассчитай потери напора в трубопроводе",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Вычисли объем перекаченной жидкости за день по насосу Н-220",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Сколько выдает усредненно PT-387 за последние 5 часов",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Переведи расход из литров в минуту в кубы в час",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Посчитай коэффициент полезного действия насоса Н-765",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Каково среднее значение TI-484 за смену",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Рассчитай уставки защитной блокировки по температуре",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди загрузку компрессора К-7 в процентах",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Суммируй расходы по четырем измерительным каналам",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Визуализируй тренд уровня LIC-111 за полдня",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Построй график изменения TI-889 за последнюю смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй поведение FT-907 за минувшие 3 часа",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выдай историю давления по PT-513 за вчерашний день",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сделай график перепада на теплообменнике Т-673 за неделю",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сравни линии тренда PT-742 и TI-305 за смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Покажи отклонения уровня по LIC-465 за сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Визуализируй вибрацию насоса Н-804 за последние сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Изучи цикличность пульсаций на PT-299",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сформируй отчет по колонне К-5 за 8 часов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Найди разночтения в двух редакциях инструкции для УПН-1",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни описание режимов в регламентах ГПЗ-10 2019 и 2023",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь технические параметры насосов Н-034 и Н-881",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни последовательности пуска в двух ПМИ на ЭЛОУ-АВТ",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "В чем отличие методик поверки для FT-772 новой и прежней",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди расхождения в графиках ремонтов",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь требования к освещению в разных версиях",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Отличия в порогах срабатывания LIC-208 между документами",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни описание резервного агрегата в двух инструкциях",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь процедуры ежедневного контроля",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Разработай чек-лист ввода в эксплуатацию сепаратора",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай инструкцию по консервации оборудования",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй план ремонта запорной арматуры",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши памятку оператору по PT-532",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь алгоритм запуска факельной системы",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сгенерируй список обхода технологического оборудования",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши инструкцию по подключению резервной линии",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай методику проверки TI-819",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь действия при потере связи с датчиками",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй программу контроля по FT-901",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сколько тонн перекачал насос Н-553 за вахту было 125",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Покажи расход за последние 2 часа там около 90-110 колеблется",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "На PT-836 было 6.4 МПа а стало 5.9 почему",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Сравни показатели за сегодня и вчера 520 против 480 м³",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выдай все измерения TI-712 за сутки выше 70 градусов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько выходов за 40% у FIC-473 за смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Рассчитай разницу между 22.1 и 21.3 по давлению на сепараторе",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди интервалы когда расход был ниже 40 м3/ч дольше 40 минут",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сделай график для диапазона 30-65 по PT-335",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько часов функционировал насос Н-198 за двое суток около 39",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди в документации порядок проверки предохранительных клапанов",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что написано про смазку подшипников в паспорте насоса",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Где найти схему расположения контрольно-измерительных приборов",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Выдай регламент на проведение гидравлических испытаний",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Покажи описание работы автоматической системы пожаротушения",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди руководство по эксплуатации дизельного генератора",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что известно про систему регенерации газа",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Есть ли паспорт на блок подготовки воздуха",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Где используют оборудование Schneider Electric",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Что за механизм стоит на площадке компрессорной",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какой тег управляет расходом на линии подачи реагента",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что показывает TI-991 прямо сейчас",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Найди PIC-234 на схеме автоматизации",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Покажи текущее давление по PT-663",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Где монтирован датчик с обозначением TI-827",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что за шифр 285 рядом с PT-631 упоминался",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Выведи историю по LIC-158",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Какие сигналы подает TE-296",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Укажи местонахождение TI-703 на чертеже",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что определяет резервный измеритель температуры",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Почему PI-283 не соответствует ожидаемому",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Уровень в аппарате А-12 катастрофически падает",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Расход по FT-551 упал до нуля",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Не управляется клапан-регулятор на продуктопроводе",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Давление в сепараторе С-6 превысило допустимое",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Насос Н-904 сильно шумит и вибрирует",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Почему TE-441 фиксирует перегрев",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Теплообменник Т-351 не может выйти на параметры",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Колеблется уровень в рефлюксной емкости",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Снизился напор магистрального насоса",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Что предпринять при отказе автоматики",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Рассчитай усредненное значение за дежурство по FT-638",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Вычисли гидродинамическое сопротивление аппарата",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Определи производительность насоса Н-717 за рабочую смену",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Сколько выдает PT-842 в среднем за последний час",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Пересчитай расход из м3/час в литры в секунду",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди эффективность компрессора К-9 за период",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Вычисли медиану TI-281 за прошедшие сутки",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Рассчитай параметры настройки для ПИД-регулятора",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Какова степень загрузки колонны К-4 в процентах",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Проинтегрируй показания трех расходомеров за смену",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Отобрази тренд уровня LIC-756 за последние 6 часов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сделай график изменения давления PT-258 за дежурство",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй работу FI-663 за предыдущие 4 часа",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Покажи историю температуры TE-859 за вчера",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Визуализируй перепад на клапане КР-2 за неделю",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сопоставь графики PT-111 и FT-234 за смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Отобрази скачки уровня LIC-493 за сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Визуализируй спектр вибрации насоса Н-377",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй частоту импульсов на PI-625",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сформируй отчет по установке ЭЛОУ-АВТ-2 за сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Найди отличия в регламентах по эксплуатации для ГПЗ-1",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни два паспорта на теплообменники Т-112 и Т-984",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь инструкции по пуску УПН-6 2022 и 2025",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни методики проверки для FI-892 новой и старой",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "В чем разница между ремонтной и эксплуатационной документацией",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди расхождения в разделах по экологии",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни частоту замены фильтров по двум установкам",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Отличия в настройках LIC-552 между документами",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь описания работы резервного оборудования",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни процедуры опробования защит",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Составь контрольный лист подготовки реактора к пуску",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай инструкцию по отключению теплообменника на ремонт",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй план очистки трубного пространства",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши памятку оператору по работе с LIT-785",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь алгоритм запуска системы осушки",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сгенерируй маршрут осмотра резервуарного парка",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши инструкцию по переключению на резервный источник",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Разработай методику поверки TE-467",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь последовательность при останове вентиляции",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй регламент контроля по FT-612",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сколько кубов прокачал агрегат Н-294 за дежурство было 350",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Покажи расход за последние 5 часов там скачки 130-170",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "На PT-785 было 11.8 МПа а стало 10.9 пачему",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Сравни суточные объемы за вторник и среду 610 против 570",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выдай все данные по TI-809 за день свыше 62 градусов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько выходов за 65% у FIC-562 за смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Посчитай разницу между 19.8 и 18.4 по давлению на выходе",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди периоды с расходом ниже 15 м3/ч более получаса",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сделай график для интервала 40-70 по PT-792",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько часов проработал насос Н-671 за последние сутки около 22",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Что сказано в паспорте на установку осушки газа",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Какая версия ПО у контроллера на станции",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Где размещен регулятор давления на линии отбора",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Выдай описание принципа действия абсорбера",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Покажи схему трубной обвязки насосной станции",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди регламент по обращению с сероводородом",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что известно о системе маслоснабжения компрессора",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Есть ли отчет по вибродиагностике турбины",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Где эксплуатируется оборудование Danfoss",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Что за узел смонтирован перед сепаратором",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какой тег показывает уровень в промежуточной емкости",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Какое значение на TI-064 сейчас",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Найди FT-773 на технологической схеме",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Дай мгновенные показания PT-437",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Где расположен датчик с меткой TI-621",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что за код 487 около PT-224 фигурировал",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Покажи изменения по LIC-883",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Какие данные измеряет TE-391",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Найди на схеме позицию TI-253",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что измеряет дополнительный расходомер",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Почему FT-105 нестабильно измеряет",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Температура в ребойлере ушла за пределы",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Давление в колонне К-6 стало аномально высоким",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Не срабатывает отсечной клапан при команде",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Уровень в аккумуляторе быстро снижается",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Насос Н-283 сильно нагрелся и остановлен",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Почему TE-188 показывает неверную температуру",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Теплообменник Т-426 не может нагреть поток",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Скачки давления на приеме сырьевого насоса",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Упала эффективность работы циклонного сепаратора",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Что делать при обледенении трубопровода",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Посчитай усредненный расход за дежурство по FT-045",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Вычисли гидравлические потери в линии всасывания",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Определи суточный объем перекачки по насосу Н-490",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Сколько выдает PT-537 в среднем за 6 часов",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Пересчитай расход из кубометров в час в галлоны",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Рассчитай КПД насосного агрегата Н-881 за день",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди среднюю температуру TI-307 за смену",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Вычисли параметры защиты по высокому давлению",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Какую загрузку имеет компрессор К-3 в процентах",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Проинтегрируй значения расходов за вахту",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Сделай график уровня LIC-229 за полсуток",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Визуализируй изменение PI-834 за дежурство",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Изучи динамику FIC-071 за прошедшие 5 часов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Покажи историю давления PT-654 за вчерашнюю смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Отобрази тренд перепада на фильтре Ф-8 за неделю",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сравни линии PT-157 и TI-442 за дежурство",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Покажи выбросы уровня LIC-666 за сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Визуализируй вибрацию насоса Н-922 за суточный период",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй пульсации на PI-871",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сформируй подборку данных по печи №4 за смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сравни описания в двух версиях регламента для ГПЗ-5",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди несоответствия в паспортных данных на насосы Н-118 и Н-803",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь инструкции по эксплуатации теплообменников Т-551 и Т-777",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни методики поверки расходомеров FT-399 старого и нового образца",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "В чем отличие в требованиях к персоналу между документами",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди расхождения в перечне запасных частей",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни сроки службы оборудования по разным источникам",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Отличия в уставках LIC-777 между версиями",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь описания работы газовой защиты",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни графики поверок приборов",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Разработай чек-лист подготовки к запуску воздуходувки",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай инструкцию по замене уплотнений насоса",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй план технического перевооружения",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши оперативную памятку по PT-449",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь алгоритм пуска насосной станции",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сгенерируй список обхода дренажной системы",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши инструкцию по переходу на аварийное питание",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай методику калибровки TI-128",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь действия при превышении загазованности",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй план мониторинга вибрации",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сколько кубов прокачал агрегат Н-559 за вахту было 210",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Дай расход за последние 3 часа там значения 75-95 скачут",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "На PT-367 было 3.2 МПа а стало 2.8 почему",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Сравни объёмы за понедельник и вторник 440 против 390",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выдай все TI-573 за сутки выше 60 градусов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько эпизодов выхода FIC-883 за 35 процентов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Посчитай разницу между 16.3 и 15.1 по давлению на компрессоре",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди когда расход падал ниже 55 м3/ч больше чем на 2 часа",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Построй график только для значений 50-80 по PT-658",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько часов работал насос Н-446 за последние сутки примерно 23",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Что известно про систему осушки природного газа",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какая модель регулятора установлена на линии",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Где находится блок управления задвижкой",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Выдай паспорт на емкость хранения конденсата",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Покажи принцип работы деэтанизатора",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди регламент по замеру уровня в резервуаре",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Есть ли данные по коррозионному мониторингу",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Где используется оборудование Rockwell Automation",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Что за механизм установлен на выкидной линии",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какой датчик отвечает за давление на приеме",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что показывает LIC-551 прямо сейчас",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Найди TE-783 на схеме соединений",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Дай текущие значения по PT-264",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Где смонтирован измеритель с индексом TI-178",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что за номер 836 упоминался рядом с PT-557",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Покажи журнал по FIC-392",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Какие параметры снимает TE-018",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Укажи расположение TI-946 на установке",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что показывает резервный термометр",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Почему PT-832 завышает показания",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Давление в адсорбере резко пошло вниз",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Температура в кубе колонны растет неконтролируемо",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Расход по FT-284 упал до минимального",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Не переключается трехходовой кран",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Уровень в сборнике конденсата выше критического",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Насос Н-729 сильно нагрелся и отключился",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Почему TE-498 дает сбой в измерениях",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Теплообменник Т-878 не отдает тепло",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Скачет давление на линии возврата флегмы",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Упала производительность компрессора",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Что делать при утечке в теплообменнике",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Вычисли средний часовой расход за дежурство по FT-903",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Рассчитай сопротивление воздушного фильтра",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Определи объем перекачки за ночь по насосу Н-004",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Сколько дает PT-621 в среднем за 4 часа",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Переведи производительность из т/ч в кг/сек",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Посчитай КПД вентилятора градирни",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди медиану TI-743 за прошедшие сутки",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Рассчитай уставку по минимальному уровню",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Какова загрузка колонны К-8 в процентах",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Суммируй расходы по двум линиям за период",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Визуализируй уровень LIC-392 за последние 8 часов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Построй график давления PT-528 за смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй поведение FIC-607 за 6 часов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выдай историю температуры TE-259 за вчера",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сделай график перепада на фильтре Ф-1 за неделю",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сравни тренды PI-482 и TI-211 за смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Отобрази броски уровня LIC-884 за сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Визуализируй спектр вибрации насоса Н-536",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй повторяемость сигналов на PT-229",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сформируй отчет по колонне К-1 за дежурство",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Найди расхождения в инструкциях по запуску ГПЗ-2",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни два паспорта на сепараторы С-4 и С-9",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь регламенты на работу УПН-7 2021 и 2024",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни методики проверки TI-943 старой и новой версии",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "В чем отличие между схемой и монтажным чертежом",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди несоответствия в перечне контрольно-измерительных точек",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни периодичность обслуживания для двух установок",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Отличия в настройках регуляторов по версиям документа",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь описание пуска в двух редакциях",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни графики текущего ремонта",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Составь чек-лист ежедневного контроля насоса",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай инструкцию по переводу колонны на циркуляцию",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй план замены катализатора в реакторе",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши памятку оператору по PT-817",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь алгоритм аварийной остановки печи",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сгенерируй маршрут обхода компрессорной",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши инструкцию по включению второго насоса",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай методику контроля вибрации для TI-334",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь действия при зашкаливании давления",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй регламент ежесменной проверки по FT-124",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сколько тонн перекачал агрегат Н-312 за смену было 85",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Покажи расход за последние 2 часа там около 40-60 скачут",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "На PT-058 было 5.3 МПа а стало 4.7 почему",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Сравни показатели за две смены 310 против 280",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выдай все TI-453 за сутки выше 50 градусов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько выходов FIC-224 за 45 процентов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Рассчитай разность между 9.6 и 8.8 по давлению в сепараторе",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди интервалы падения расхода ниже 25 м3/ч более часа",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Построй график только для значений 35-65 по PT-187",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько часов отработал насос Н-842 за последние двое суток около 41",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Что сказано в руководстве по эксплуатации осушителя",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Какая прошивка у измерительного контроллера",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Где расположен узел дозирования реагента",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Выдай техническую документацию на теплообменник Т-555",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Покажи схему подключения сигнализатора уровня",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди инструкцию по смене масла в компрессоре",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что известно про систему противокоррозионной защиты",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Есть ли данные по обвязке резервуара Р-7",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Где используется оборудование Mettler Toledo",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Что за агрегат стоит в машинном зале",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какой тег измеряет давление в абсорбере",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что показывает PI-735 сейчас",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Найди LIC-412 на схеме автоматизации",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Дай показания по PT-811",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Где закреплен датчик с маркировкой TI-525",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что за шифр 649 рядом с PT-242 упоминался",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Выдай историю по LIC-269",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Какие данные отправляет TE-712",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Покажи расположение TI-407 на технологической схеме",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что регистрирует запасной измеритель",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Почему FT-466 показывает отрицательный расход",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Температура в парогенераторе упала до опасной",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Давление в системе орошения подскочило",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Не открывается клапан на линии отдувки",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Уровень в емкости Е-15 постоянно растет",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Насос Н-197 греется и издаёт посторонние звуки",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Почему TE-331 выдает ошибку",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Теплообменник Т-643 не достигает заданной температуры",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Скачут обороты турбины",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Снизилась пропускная способность фильтра",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Что делать при вибрации трубопровода",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Рассчитай среднеарифметическое за смену по FT-803",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Вычисли гидравлический уклон на участке",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Определи объем перекачки за день по насосу Н-637",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Сколько в среднем дает PT-428 за последние 3 часа",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Пересчитай расход из кг/ч в т/сутки",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Посчитай КПД газоперекачивающего агрегата",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди среднюю температуру TI-219 за смену",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Вычисли параметры настройки по уровню",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Какова загрузка двигателя в процентах",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Проинтегрируй показания трех каналов за период",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Отобрази тренд давления PT-128 за 12 часов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Визуализируй изменение TI-618 за дежурство",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй поведение FIC-509 за последние 3 часа",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выдай историю уровня LIC-784 за вчерашний день",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сделай график перепада на клапане К-7 за неделю",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сравни тренды PT-702 и TI-385 за смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Отобрази всплески уровня LIC-947 за сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Визуализируй колебания насоса Н-594",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй периодичность срабатываний на PT-402",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сформируй отчет по блоку подготовки газа",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Найди несоответствия в двух версиях инструкции ЭЛОУ-АВТ-4",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни описание режимов в регламенте УПН-1 2020 и 2024",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь технические характеристики насосов Н-009 и Н-877",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни процедуры пуска в двух документах на ГПЗ-9",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "В чем отличие между старым и новым регламентом",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди расхождения в таблицах предельных значений",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни требования к персоналу в разных версиях",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Отличия в уставках аварийной защиты",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь описания резервного оборудования",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни графики технического диагностирования",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Разработай чек-лист пуска насоса на переменном токе",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай инструкцию по выводу из работы колонны К-7",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй план восстановления теплообменника",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши памятку оператору по работе с PT-550",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь алгоритм запуска системы стабилизации",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сгенерируй список обхода электродвигателей",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши инструкцию по переходу на автономный режим",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай методику градуировки емкости",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь действия при отказе клапана-регулятора",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй регламент контроля расхода по FT-787",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сколько кубов прокачал насос Н-510 за смену было 180",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Дай расход за последние 2 часа там цифры 95-115",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "На PT-446 было 14.5 МПа а стало 13.2 пачему",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Сравни суточные объемы за среду и четверг 570 против 530",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выдай все показания TI-102 за сутки выше 74 градусов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько нарушений FIC-678 за 50% за дежурство",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Посчитай разницу между 27.3 и 26.1 по давлению на компрессоре",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди моменты когда расход был менее 12 м3/ч дольше 45 минут",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Построй график только для интервала 45-70 по PT-869",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько часов отработал насос Н-723 за двое суток около 37",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Что известно про систему рекуперации тепла",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какая версия драйвера на частотном преобразователе",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Где установлен блок сброса давления",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Выдай описание работы воздухоохладителя",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Покажи электрическую схему насосного агрегата",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди инструкцию по продувке трубопроводов",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что в документации сказано про защиту от перенапряжения",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Есть ли данные о ремонте задвижки З-8",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Где используется оборудование Vega",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Что за механизм стоит на приемной линии",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какой тег контролирует температуру в кипятильнике",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что показывает TI-332 в реальном времени",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Найди PI-982 на общей схеме",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Покажи текущий уровень по LIC-543",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Где смонтирован прибор с шифром TI-667",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что за код 714 рядом с PT-382 встречался",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Выдай историю по PT-251",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Какие сигналы передает TE-245",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Укажи позицию TI-770 на планировке",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что фиксирует дублирующий датчик давления",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Почему LIC-323 показывает занижение",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Уровень в испарителе быстро падает",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Расход по FT-156 упал вдвое",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Клапан на байпасной линии не герметичен",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Давление в системе азота превысило норму",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Насос Н-811 стучит и дымится",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Почему TE-602 отображает аномалию",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Теплообменник Т-248 не выходит на стабильный режим",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Скачки давления в коллекторе",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Упала эффективность холодильной установки",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Что делать при гидроударе в трубопроводе",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Вычисли средний расход за последние 8 часов по FT-332",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Рассчитай потери на трение в трубопроводе",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Определи производительность насоса Н-778 за вахту",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Сколько выдает PT-529 в среднем за 2 часа",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Пересчитай производительность из м3/сутки в м3/час",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Посчитай коэффициент использования оборудования",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди среднюю температуру TI-333 за дежурство",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Рассчитай уставки по высокому уровню",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Какова загрузка компрессора в процентах",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Суммируй значения по четырем измерительным приборам",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Визуализируй уровень LIC-412 за 12 часов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сделай график давления PT-198 за последнюю смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй работу FIC-765 за 4 часа",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выдай историю температуры TE-551 за вчера",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Отобрази перепад на фильтре Ф-5 за семидневку",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сравни линии PT-887 и TI-117 за вахту",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Покажи отклонения уровня LIC-883 за сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Визуализируй вибрацию насоса Н-292 за день",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй ритм импульсов на PT-735",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сформируй отчет по реактору Р-1 за период",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сравни инструкции по обслуживанию ГПЗ-4 за 2021 и 2024",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди различия в паспортных данных компрессоров К-5 и К-9",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь методики проверки FT-453 новой и предыдущей версии",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни описание остановки в двух регламентах для УПН-2",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "В чем отличие между техкартой и регламентом",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди расхождения в перечне контролируемых параметров",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни сроки калибровки приборов",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Отличия в установках защиты по уровню",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь описания работы блокировок",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни процедуры опрессовки оборудования",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Разработай чек-лист подготовки к работе компрессора",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай инструкцию по консервации теплообменника",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй план ремонта насоса на вахте",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши памятку оператору по работе с PT-660",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь алгоритм запуска центробежного компрессора",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сгенерируй маршрут обхода систем КИП",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши инструкцию по синхронизации с сетью",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай методику контроля уровня в емкости",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь действия при срабатывании аварийной сигнализации",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй регламент проверки по FT-339",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сколько тонн перекачал насос Н-215 за смену было 145",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Покажи расход за последние 2 часа там 55-70 плавает",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "На PT-823 было 8.2 МПа а стало 7.4 почему",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Сравни показатели за вчера и сегодня 490 против 450",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выдай все TI-619 за сутки выше 82 градусов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько раз FIC-983 выходил за 55% за дежурство",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Посчитай разность между 13.6 и 12.2 по давлению на линии",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди интервалы с расходом ниже 30 м3/ч более часа",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Построй график для значений 25-55 по PT-732",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько часов отработал насос Н-564 за двое суток около 42",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Что написано в паспорте на адсорбер А-1",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Какая модификация системы управления",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Где расположен пост управления задвижкой",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Выдай руководство по эксплуатации факела",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Покажи структурную схему АСУ ТП",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди инструкцию по проверке герметичности",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что известно о системе осушки сжатого воздуха",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Есть ли журнал регистрации параметров",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Где используется оборудование Phoenix Contact",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Что за механизм стоит на напорной линии",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какой тег измеряет расход орошения",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что показывает TI-275 сейчас",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Найди LIC-875 на технологической схеме",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Дай текущие данные по PT-102",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Где закреплен датчик с обозначением TI-459",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что за номер 195 рядом с PT-772 встречался",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Покажи лог по LIC-392",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Какие данные собирает TE-155",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Найди местоположение TI-538 на установке",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что показывает дополнительный манометр",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Почему PT-372 показывает низкое значение",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Давление в десорбере упало до минимума",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Температура в реакторе Р-2 растет лавинообразно",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Расход по FT-782 упал до нуля",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Не переключается автоматический клапан",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Уровень в приемной емкости зашкаливает",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Насос Н-017 сильно нагрелся и встал",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Почему TE-771 дает сбой в сигнале",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Теплообменник Т-503 не прогревает поток",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Скачки температуры в змеевике печи",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Снизилась мощность электродвигателя",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Что делать при завоздушивании системы",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Рассчитай средний расход за последние 6 часов по FT-614",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Вычисли потерю напора в штуцере",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Определи объем перекачки за дежурство насосом Н-923",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Сколько в среднем выдает PT-376 за последний час",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Пересчитай расход из м3/ч в баррели в сутки",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Посчитай КПД установки гидроочистки",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди медиану TI-865 за смену",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Рассчитай параметры регулятора по давлению",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Какова загрузка сепаратора С-2 в процентах",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Суммируй значения расходов за смену",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Визуализируй тренд уровня LIC-253 за последние 4 часа",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Построй график изменения давления PT-411 за вахту",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй динамику FIC-321 за прошедшие 2 часа",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Покажи историю температуры TE-937 за вчера",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Отобрази перепад на задвижке З-4 за неделю",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сравни тренды PT-521 и TI-009 за смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Покажи броски уровня LIC-226 за сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Визуализируй спектр вибрации насоса Н-658",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй периодичность пульсаций на PT-813",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сформируй отчет по установке осушки за сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сравни два регламента по эксплуатации ГПЗ-6",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди отличия в паспортах на насосы Н-220 и Н-881",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь инструкции для УПН-8 2022 и 2025 года",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни методики поверки для LIC-480 старой и новой",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "В чем отличие между графиком и планом ремонта",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди расхождения в разделах по сигнализации",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни требования к освещенности в документах",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Отличия в настройках PID-регуляторов",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь описания работы суточных отчетов",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни перечень проверок при сдаче смены",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Разработай чек-лист запуска центробежного компрессора",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай инструкцию по ремонту запорной арматуры",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй план замены фильтрующего элемента",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши памятку по PT-738 для оператора",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь алгоритм пуска системы регенерации",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сгенерируй обходной лист резервуарного парка",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши инструкцию по переходу на байпасную линию",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай методику настройки TI-632",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь порядок действий при повышении температуры",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй план контроля параметров по FT-565",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сколько кубов перекачал агрегат Н-892 за дежурство было 260",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Покажи расход за последние 3 часа там 145-175 колеблется",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "На PT-523 было 17.3 МПа а стало 16.4 почему",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Сравни суточные объемы за четверг и пятницу 520 против 480",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выдай все данные TI-334 за сутки выше 55 градусов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько эпизодов FIC-432 за 70% за смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Посчитай разницу между 21.5 и 20.3 по давлению на выходе",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди периоды с расходом менее 40 м3/ч больше 50 минут",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Построй график только для диапазона 60-85 по PT-618",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько часов проработал насос Н-307 за последние сутки около 21",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди инструкцыю по эксплуатации теплообменника Т-752",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что написано в регламенте про пуск ГПЗ-9",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Покажи паспорт на насос Н-468",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Где найти описание метадики поверки PT-883",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Выдай регламент работы печи №6",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Какая последовательность операцый по инструкции ЭЛОУ-АВТ-2",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди в документации пределы срабатывания FIC-914",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Есть ли в паспорте на FLXA21 данные по вибрацыи",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Покажи раздел про аварийные остановы в ПМИ-3",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди инструкцию по резервному насосу дренажной системы",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что известно про колонну К-12",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какая мадель стоит на TI-644",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Где установлен теплообменник Т-291",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Покажи характиристики насоса Н-707",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Что за оборудование стоит позади печи №9",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Найди информацыю по УПН-11",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какой вендор паставил колонну К-6",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Есть ли данные по ремонту насоса Н-333",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Что из себя предстовляет ГПЗ-7",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Где используется оборудование Yokogawa",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Где используется тег PT-556",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что паказывает TI-932 сейчас",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Найди тег FIC-778 на схеме",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Покажи текущее значение по PT-441",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Где задействован датчик с индексом TI-285",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что за тег 619 рядом с PT-503 упоминался",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Выдай историю по FIC-362",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Какие параметры снимает PT-194",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Покажи распаложение TI-838 на установке",
+    "intent": "tag_lookup",
+    "route": "tag_search"
+  },
+  {
+    "query": "Что показывает резервный датчик давления",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Почему скачет расход па FIC-607",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Давление в колонне К-15 упало ниже нормы",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Температура на TI-719 растет после включения насоса",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Не открываетца задвижка на линии ЭЛОУ-АВТ-5",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Падает уровень в УПН-14 после смены режима",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Насос Н-826 гудит и греется выше обычнова",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Почему PT-795 показывает дельта давления больше предельной",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Теплообменник Т-484 не выходит на режим",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Скачет температура на входе в печь №8",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Упала производительность ГПЗ-12 что делать",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Посчитай средний расход за смену по FIC-523",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Рассчитай перепад давления на теплоабменнике Т-366",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Вычисли обьем перекачки за сутки по насосу Н-952",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Сколько в среднем выдает PT-874 за последние 2 часа",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Переведи расход из м³ч в тч для УПН-6",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Посчитай эфективность работы колонны К-11 за смену",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Какое среднее значение TI-513 за последние сутки",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Рассчитай уставку для аварийново останова по давлению",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Сколько процентов состовляет загрузка насоса Н-188",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Вычисли сумму расходов по трем тегам за смену",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Построй тренд давления па PT-619 за сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Покажи график температуры TI-446 за последнюю смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй поведение FIC-881 за последние 2 часа",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выведи историю уровня па УПН-9 за вчера",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Построй график перепада на теплообменнике Т-778 за неделю",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сравни тренды PT-255 и TI-934 за смену",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Покажи отклонения расхода па FIC-314 за сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Визуализируй работу насоса Н-545 па вибрации за день",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Проанализируй цикличность скачков на PT-672",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сделай выборку данных па колонне К-5 за последние сутки",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сравни две версии регламента па ЭЛОУ-АВТ-6",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди отличия в инструкциях для УПН-4 от 2022 и 2025",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь паспортные данные на насос Н-229 и Н-777",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни описание пуска в двух ПМИ па ГПЗ-10",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Какая разница между регламентом и инструкцией для теплообменника Т-544",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни метадики поверки PT-601 старой и новой версии",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Найди расхождения в разделах па безопасности",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сопоставь графики ТО для двух установок",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Отличия в уставках FIC-223 между версиями документа",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Сравни описание резервнова насоса в двух инструкциях",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Составь чек-лист запуска насоса Н-674",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй инструкцыю по останову колонны К-13",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай план замены теплообменника Т-882",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши памятку па работе с PT-341 для операторов",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь последовательность пуска ГПЗ-8 после ремонта",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сгенерируй чек-лист обхода оборудования ЭЛОУ-АВТ-3",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Создай инструкцыю по переключению на резервный насос",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Составь регламент калибровки TI-725",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Напиши алгоритм действий при скачке давления",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сформируй план ежесменнова контроля по FIC-449",
+    "intent": "instruction_generation",
+    "route": "generation_agent"
+  },
+  {
+    "query": "Сколько кубов перекачал насос Н-386 за смену уже 280 было",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Покажи расход за последние 2 часа там цифры около 110-140 скачут",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "На PT-652 было 16.8 МПа а стало 15.3 пачему",
+    "intent": "troubleshooting",
+    "route": "diagnostic_agent"
+  },
+  {
+    "query": "Сравни объёмы за вчера и сегодня 450 против 410 м³",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Выдай все значения TI-291 за сутки особенно те что выше 68 градусав",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько раз за смену FIC-887 выходил за 48 процентов",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Рассчитай разницу между 19.3 и 20.7 па давлению на УПН",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди когда расход падал ниже 35 м³ч больше чем на час",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Построй график но только для значений ат 55 до 90 по PT-501",
+    "intent": "data_analysis",
+    "route": "timeseries_agent"
+  },
+  {
+    "query": "Сколько часов работал насос Н-739 за последние трое суток примерно 59",
+    "intent": "calculation",
+    "route": "tool_agent"
+  },
+  {
+    "query": "Найди инструкцыю по эксплуатации компрессора КМ-203",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что указано в паспорте на теплообменник Т-118",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Покажи регламент по ремонту насоса Н-962",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Где хранится методика поверки FIC-581",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Выдай описание работы сепаратора С-14",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Какая процедура запуска дожимной насосной",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди в документации параметры срабатывания защиты",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Есть ли в инструкции данные по шуму оборудования",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Покажи раздел про техническое обслуживание в ПМИ-4",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди руководство по эксплуатации системы пожаротушения",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Какая модель установлена на насосе Н-247 — Rosemount 3051 или что-то другое",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Найди паспорт на модель FLXA21 для анализатора влажности",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что за модель стоит на TI-892 — Yokogawa DPharp EJA или другая",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Покажи характеристики модели TDLS200 для непрерывного мониторинга",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Насос Н-534 укомплектован моделью Rosemount 2051 проверь документацию",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Где используется модель FLXA21 на установке осушки газа",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какая модель контроллера подключена к тегу PT-786",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Найди описание модели Siemens Sipart PS2 для позиционера",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что за модель стоит на резервном насосе Н-103 — модель 3051S",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Покажи инструкцию по калибровке модели Rosemount 8705 для расходомера",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Есть ли сертификат на модель TDLS200 для газоанализатора",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Сравни модели FLXA21 и Rosemount 3051 по точности измерений",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Какая модель преобразователя давления установлена на линии УПН-5",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Найди данные по ремонту модели Rosemount 3051S с тегом PT-921",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Модель Siemens Sipart PS2 задействована на клапане FIC-734 да или нет",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Что за модель термопреобразователя стоит на TI-573 — модель 3144P",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Покажи паспорт на модель FLXA21 с серийным номером из журнала",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Где применяется модель TDLS200 для измерения сероводорода",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какая модель электропривода смонтирована на задвижке ЭЛОУ-АВТ-7",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Найди в документации модель Rosemount 3051 для перепада давления",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Модель Yokogawa DPharp EJA установлена на PT-622 уточни версию",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Выдай техническое описание модели FLXA21 для операторов",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Сравни модели Siemens Sipart PS2 и Fisher DVC6200 на клапанах",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Что за модель вибродатчика стоит на насосе Н-871 — модель 3300",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Покажи калибровочные данные для модели Rosemount 8705",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Найди модель 3051S в регламенте по настройке и проверке",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Какая модель уровнемера используется в емкости Е-9 — модель 5300",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Модель FLXA21 упоминалась в протоколе поверки PT-883",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Где установлена модель TDLS200 на газоперекачивающем агрегате",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Сравни паспортные данные на модели Rosemount 3051 и 2051",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Что за модель цифрового манометра установлена на TI-448",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Выдай перечень оборудования с моделью Siemens Sipart PS2",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Какая модель преобразователя частоты стоит на насосе Н-659",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Модель Rosemount 3051S используется для измерения расхода на FIC-561",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Найди модель измерительного блока в схеме подключения PT-372",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Покажи характеристики модели FLXA21 для многопараметрического анализа",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Есть ли запасные части для модели TDLS200 на складе",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Модель Yokogawa DPharp EJA задействована на дифференциальном давлении",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Что за модель регулятора уровня — модель 2490 или другая",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Сравни точность моделей Rosemount 3051 и Siemens Sipart PS2",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Какая модель газоанализатора стоит на выходе колонны К-16",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Найди руководство по монтажу модели FLXA21 на установке",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Модель 3051S с тегом PT-504 требует калибровки в этом месяце",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Выдай сравнительную таблицу моделей для замены насоса Н-132",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Какая модель позиционера используется на клапане ЭЛОУ-АВТ-4",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Модель TDLS200 эксплуатируется на блоке осушки газа с 2022 года",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Найди инструкцию по настройке модели Rosemount 8705 для расходомера",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Что за модель контроллера подключена к FIC-987 — модель PAC8000",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Покажи схему подключения модели FLXA21 к системе автоматизации",
+    "intent": "doc_qa",
+    "route": "rag_search"
+  },
+  {
+    "query": "Модель Siemens Sipart PS2 установлена на резервной линии байпаса",
+    "intent": "equipment_lookup",
+    "route": "registry_search"
+  },
+  {
+    "query": "Сравни версии прошивки для модели Rosemount 3051 на насосе Н-778",
+    "intent": "document_compare",
+    "route": "doc_compare_agent"
+  },
+  {
+    "query": "Напиши стих пра нефтяную качку",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Расскажи байку про вахтовиков",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Какая завтра погода в Усинске",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Сколько стоят евро сегодня",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Нужен рецепт борща для столовой",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Переведи на английский слово давление",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Что такое дружба с точки зрения оператора",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Какой фильм посмотреть после вахты",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Зачем котам вибриссы",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Поздравь с днём нефтяника в стихах",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Спой песню про трубу",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Кто президент США",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Где купить сапоги для болот",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Как приготовить кофе в полевых условиях",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Напиши тост за нефтяников",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Какая разница между газом и бензином",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Сколько лет планете Земля",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Почему небо голубое",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Что подарить начальнику на юбилей",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Расскажи анекдот про ремонтника",
+    "intent": "out_of_scope",
+    "route": "fallback"
+  },
+  {
+    "query": "Построй график",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Найди инструкцию",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Покажи оборудование",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Рассчитай расход",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Сравни документы",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Что за параметр",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Проанализируй теги",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Составь чек-лист",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Где используется тег",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Почему падает",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Выдай историю",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Посчитай среднее",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Отобрази тренд",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Сформируй отчет",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Создай инструкцию",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Сравни две версии",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Найди отличия",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Покажи паспорт",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Что показывает",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Какая модель",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Где установлен",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Есть ли данные",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Выполни расчет",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Построй зависимость",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Проверь состояние",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Уточни параметр",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Нужен график",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Дай текущее значение",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Сделай выборку",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Покажи изменения",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Найди описание",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Требуется анализ",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Сформируй план",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Разработай методику",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Составь последовательность",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Вычисли КПД",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Определи загрузку",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Сравни показатели",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Отобрази отклонения",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Визуализируй работу",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Проанализируй поведение",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Найди расхождения",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Сопоставь данные",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Сделай сводку",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Покажи динамику",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Рассчитай эффективность",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Уточни временной интервал",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Нет данных по объекту",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  },
+  {
+    "query": "Покажи динаху",
+    "intent": "clarification_needed",
+    "route": "clarification_flow"
+  }
+]
