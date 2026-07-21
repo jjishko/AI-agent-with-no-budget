@@ -218,7 +218,7 @@ class RuleBasedNER:
         return normalized[0]['entities'] if normalized else []
 
 
-    def extract_entities(self, text: str) -> dict[str, str | list[Any]]:
+    def predict(self, text: str) -> dict[str, str | list[Any]]:
         """Предсказывает NER разметку"""
         entities = self._use_rules(text)
 
@@ -248,7 +248,6 @@ class RuleBasedNER:
                 'start': start,
                 'end': end,
                 'value': value,
-                'text': text,
                 'labels': entity_types,
                 'normalized': normalized_value
             })

@@ -28,7 +28,7 @@ def make_ner_metrics(model, test_data: List[Dict]) -> Dict[str, float]:
         else:
             gold_entities = item['label']
 
-        pred_result = model.extract_entities(text)
+        pred_result = model.predict([item])
         pred_entities = pred_result['label']
 
         gold_by_type = defaultdict(set)

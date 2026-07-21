@@ -27,7 +27,6 @@ share/python-wheels/
 .venv/
 .idea/
 .obsidian/
-models/
 MANIFEST
 
 # PyInstaller

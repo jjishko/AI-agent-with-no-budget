@@ -4,7 +4,7 @@ from collections import defaultdict
 from src.entity_extraction.rule_based import RuleBasedNER
 from pathlib import Path
 from src.common.misc import load_data
-
+from src.entity_extraction.rubert import RuBERT
 
 def analyze_errors(model, test_data):
     """Анализирует ошибки модели и возвращает примеры FP и FN"""
@@ -23,7 +23,7 @@ def analyze_errors(model, test_data):
         else:
             gold_entities = item['label']
 
-        pred_result = model.extract_entities(text)
+        pred_result = model.predict([item])
         pred_entities = pred_result['label']
 
         gold_set = set()
@@ -226,11 +226,17 @@ if not test_path.exists():
 test = load_data(test_path)
 
 # Инициализация модели
-model = RuleBasedNER()
+rb = RuleBasedNER()
+bert = RuBERT()
+bert.load_model('../../models/NER/best_rubert')
 
 # Анализ ошибок
-error_analysis = analyze_errors(model, test)
+#rb_stats = analyze_errors(rb, test)
+bert_stats = analyze_errors(bert, test)
 
 # Вывод результатов
-print_error_summary(error_analysis)
-print_error_examples(error_analysis, num_examples=15)
+# print_error_summary(rb_stats)
+# print_error_examples(rb_stats, num_examples=15)
+
+print_error_summary(bert_stats)
+print_error_examples(bert_stats, num_examples=15)

@@ -1864,7 +1864,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосный агрегат Н-892"
+        "normalized": "агрегат Н-892"
       },
       {
         "start": 38,
@@ -3508,7 +3508,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосный агрегат Н-581"
+        "normalized": "агрегат Н-581"
       },
       {
         "start": 43,
@@ -3593,7 +3593,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосный агрегат"
+        "normalized": "агрегат"
       }
     ],
     "annotator": 1,
@@ -6026,7 +6026,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосный агрегат"
+        "normalized": "агрегат"
       }
     ],
     "annotator": 1,
@@ -6395,7 +6395,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосный агрегат Н-294"
+        "normalized": "агрегат Н-294"
       },
       {
         "start": 37,
@@ -7696,7 +7696,7 @@
         "labels": [
           "parameter"
         ],
-        "normalized": "дифференциальном давление"
+        "normalized": "дифференциальном давлении"
       }
     ],
     "annotator": 1,
@@ -7944,7 +7944,7 @@
         "labels": [
           "parameter"
         ],
-        "normalized": "перепад давление"
+        "normalized": "перепад давления"
       },
       {
         "start": 30,
@@ -12230,7 +12230,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосный агрегат"
+        "normalized": "агрегат"
       }
     ],
     "annotator": 1,
@@ -17438,7 +17438,7 @@
         "labels": [
           "parameter"
         ],
-        "normalized": "перепад давление"
+        "normalized": "перепад давления"
       },
       {
         "start": 30,
@@ -21552,7 +21552,7 @@
         "labels": [
           "parameter"
         ],
-        "normalized": "дельта давление"
+        "normalized": "дельта давления"
       },
       {
         "start": 41,
@@ -21927,7 +21927,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосный агрегат Н-559"
+        "normalized": "агрегат Н-559"
       },
       {
         "start": 37,
@@ -27397,7 +27397,7 @@
         "labels": [
           "parameter"
         ],
-        "normalized": "дельта давление"
+        "normalized": "дельта давления"
       },
       {
         "start": 41,

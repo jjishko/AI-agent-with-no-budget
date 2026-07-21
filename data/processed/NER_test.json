@@ -2209,7 +2209,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "газоперекачивающем насосный агрегат"
+        "normalized": "газоперекачивающем агрегат"
       }
     ],
     "annotator": 1,
@@ -3043,7 +3043,7 @@
         "labels": [
           "parameter"
         ],
-        "normalized": "потери напор"
+        "normalized": "потери напора"
       },
       {
         "start": 26,
@@ -4261,7 +4261,7 @@
         "labels": [
           "equipment"
         ],
-        "normalized": "насосный агрегат Н-312"
+        "normalized": "агрегат Н-312"
       },
       {
         "start": 37,
